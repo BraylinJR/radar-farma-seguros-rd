@@ -1,0 +1,543 @@
+# Reglas de clasificación por palabras clave.
+#
+# Cómo se comparan las palabras:
+#   - Sin distinguir mayúsculas ni acentos (p. ej. "farmacéutica" = "FARMACEUTICA").
+#   - Se buscan palabras completas: "ARS" no coincide con "ARSENAL".
+#   - Un asterisco al final admite cualquier terminación: "farmac*" coincide con
+#     "farmacia", "farmacias", "farmacéutico", "farmacéutica".
+#   - Una frase con espacios se busca como frase: "registro sanitario".
+#
+# Sobre qué texto se aplican las reglas:
+#   - Título de la noticia y las etiquetas o categorías que trae la fuente.
+#   - En el momento de la captura, el resumen que trae el feed sirve de apoyo para
+#     decidir el sector, pero solo si contiene dos o más palabras clave distintas del
+#     mismo sector. El resumen no se guarda.
+#
+# Las noticias de MEDIOS se guardan solo si coinciden con al menos un sector.
+# Las publicaciones de ORGANISMOS se guardan siempre con el sector "Regulación y gobierno"
+# (y además cualquier otro sector que se detecte).
+
+sectores:
+
+  Farmacia:
+    palabras:
+      - farmacia
+      - farmacias
+      - farmac*
+      - botica*
+      - "Farmacias del Pueblo"
+      - "cadena de farmacias"
+      - "venta de medicamentos"
+      - dispensaci*
+      - "medicamentos sin receta"
+      - "Promese"
+      - "PROMESE/CAL"
+
+  Laboratorios:
+    palabras:
+      - "laboratorio farmacéutico"
+      - "laboratorios farmacéuticos"
+      - "industria farmacéutica"
+      - "empresa farmacéutica"
+      - "sector farmacéutico"
+      - "productos farmacéuticos"
+      - medicamento*
+      - fármaco*
+      - "genéricos"
+      - vacuna*
+      - "registro sanitario"
+      - "registros sanitarios"
+      - antibiótico*
+      - insulina
+      - "ensayo clínico"
+      - "ensayos clínicos"
+      - "materia prima farmacéutica"
+      - INFADOMI
+      - ARAPF
+
+  Seguros de salud (ARS):
+    palabras:
+      - ARS
+      - SeNaSa
+      - SISALRIL
+      - "seguro familiar de salud"
+      - "Seguro Familiar de Salud"
+      - SFS
+      - "plan básico de salud"
+      - "Plan de Servicios de Salud"
+      - PDSS
+      - "plan de salud"
+      - "planes de salud"
+      - "seguro de salud"
+      - "seguros de salud"
+      - "seguro médico"
+      - "cobertura médica"
+      - "cobertura de salud"
+      - "medicamentos de alto costo"
+      - "enfermedades de alto costo"
+      - "catálogo de prestaciones"
+      - "per cápita"
+      - "cápita"
+      - "afiliados al seguro"
+      - "régimen subsidiado"
+      - "régimen contributivo"
+      - "riesgos laborales"
+      - copago*
+      - "prestadoras de servicios de salud"
+      - PSS
+      - ADARS
+
+  Seguros generales:
+    palabras:
+      - aseguradora*
+      - "seguros"
+      - "Seguros"
+      - póliza*
+      - reaseguro*
+      - "Superintendencia de Seguros"
+      - "seguro de vehículo*"
+      - "seguro de vida"
+      - "seguro de incendio"
+      - "seguro agrícola"
+      - "seguro catastrófico"
+      - "seguro obligatorio"
+      - "siniestralidad"
+      - "primas"
+      - CADOAR
+      - "corredor* de seguros"
+      - "intermediari* de seguros"
+      - "ley 146-02"
+      - "Ley 146-02"
+
+  Regulación y gobierno:
+    palabras:
+      - DIGEMAPS
+      - Digemaps
+      - SISALRIL
+      - Sisalril
+      - CNSS
+      - "Consejo Nacional de Seguridad Social"
+      - "Superintendencia de Seguros"
+      - "Pro Consumidor"
+      - "ProConsumidor"
+      - "Promese"
+      - "PROMESE/CAL"
+      - DIDA
+      - SIPEN
+      - "Tesorería de la Seguridad Social"
+      - TSS
+      - "registro sanitario"
+      - "regulación farmacéutica"
+      - "ley de medicamentos"
+
+# Temas. Se evalúan en este orden y se asigna el primero que coincida.
+# Si ninguno coincide, se asigna "Otros".
+temas:
+
+  - nombre: Alertas sanitarias
+    palabras:
+      - "alerta sanitaria"
+      - "alertas sanitarias"
+      - alerta*
+      - "retiro del mercado"
+      - "retira del mercado"
+      - "retira lote*"
+      - "retiro de lote*"
+      - "retiro de producto*"
+      - falsificad*
+      - falsificaci*
+      - adulterad*
+      - contaminad*
+      - "lote*"
+      - decomis*
+      - incaut*
+      - "medicamentos vencidos"
+      - "productos vencidos"
+      - "farmacovigilancia"
+      - "efectos adversos"
+      - "reacciones adversas"
+      - clausur*
+
+  - nombre: Fusiones y adquisiciones
+    palabras:
+      - fusión
+      - fusiones
+      - fusiona*
+      - "adquisición de la"
+      - "adquisición del"
+      - adquiere
+      - adquirió
+      - "compra de la"
+      - "compra del"
+      - "compró la"
+      - "venta de la empresa"
+      - "venta de la aseguradora"
+      - "toma de control"
+      - "alianza estratégica"
+      - "joint venture"
+      - absorci*
+      - "traspaso de cartera"
+      - "cierre definitivo"
+      - liquidaci*
+
+  - nombre: Resultados financieros
+    palabras:
+      - "resultados financieros"
+      - "resultados del año"
+      - "resultados del trimestre"
+      - "resultados del semestre"
+      - ganancia*
+      - utilidad*
+      - "beneficios netos"
+      - "primas netas"
+      - "primas cobradas"
+      - facturaci*
+      - "ingresos por primas"
+      - "cierre fiscal"
+      - "estados financieros"
+      - "calificación de riesgo"
+      - "siniestralidad"
+      - "rentabilidad"
+      - "ventas crecieron"
+      - "crecimiento en ventas"
+
+  - nombre: Precios
+    palabras:
+      - precio*
+      - "costo de los medicamentos"
+      - "costo de medicamentos"
+      - encarec*
+      - "más caro*"
+      - "más barat*"
+      - abarat*
+      - tarifa*
+      - "inflación"
+      - "canasta"
+      - "monitoreo de precios"
+      - "sondeo de precios"
+      - "especulación"
+      - "aumento de precio*"
+      - "alza de precio*"
+      - "rebaja*"
+      - "descuento*"
+
+  - nombre: Regulación
+    palabras:
+      - resolución
+      - resoluciones
+      - circular
+      - circulares
+      - "ley"
+      - "proyecto de ley"
+      - reglamento*
+      - norma*
+      - normativa*
+      - regula*
+      - sanci*
+      - multa*
+      - licencia*
+      - "registro sanitario"
+      - "registros sanitarios"
+      - habilitaci*
+      - "certificación"
+      - fiscaliza*
+      - supervisi*
+      - "decreto"
+      - "comunicado"
+      - "aviso"
+      - "disposición"
+      - "Congreso"
+      - "Senado"
+      - "Cámara de Diputados"
+      - "inspección"
+      - "inspecciones"
+      - "operativo"
+      - "operativos"
+      - aprueba*
+      - "aprobación"
+      - autoriza*
+      - "establece"
+      - prohíb*
+      - exhorta*
+      - "llama a"
+      - obligatori*
+      - "cumplimiento"
+      - "sujetos obligados"
+      - impuesto*
+      - "carta de derechos"
+      - "cuadro de enfermedades"
+      - "catálogo de prestaciones"
+      - "cobertura al 100"
+      - "cobertura del 100"
+
+  - nombre: Lanzamientos
+    palabras:
+      - lanza
+      - lanzan
+      - lanzamiento*
+      - "pone en marcha"
+      - "ponen en marcha"
+      - "nuevo producto"
+      - "nuevos productos"
+      - "nueva sucursal"
+      - "nuevas sucursales"
+      - "nueva planta"
+      - "nueva farmacia"
+      - inaugura*
+      - "apertura de"
+      - "abre nueva"
+      - "nuevo plan"
+      - "nuevo seguro"
+      - "nueva póliza"
+      - "nueva app"
+      - "aplicación móvil"
+      - "nuevo servicio"
+
+# Empresas y organismos. Cada entrada tiene el nombre que se muestra, el sector
+# al que pertenece (para las estadísticas) y las palabras con las que se detecta.
+# Usa frases completas para nombres ambiguos ("ARS Humano" y no solo "Humano").
+# Detectar una empresa añade su sector a la noticia, salvo que la entrada tenga
+# "implica_sector: false" (útil para organismos que también aparecen en noticias
+# ajenas al sector, como el Ministerio de Salud en noticias de dengue).
+empresas:
+
+  # Farmacias y distribución
+  - nombre: Farmacia Carol
+    sector: Farmacia
+    palabras: ["Farmacia Carol", "Farmacias Carol"]
+  - nombre: Farmacias GBC
+    sector: Farmacia
+    palabras: ["Farmacias GBC", "Farmacia GBC", "GBC Farmacias"]
+  - nombre: Farmacia Los Hidalgos
+    sector: Farmacia
+    palabras: ["Los Hidalgos"]
+  - nombre: Farmacias Medcar
+    sector: Farmacia
+    palabras: ["Medcar"]
+  - nombre: Farmax
+    sector: Farmacia
+    palabras: ["Farmax"]
+  - nombre: Farmacias del Pueblo
+    sector: Farmacia
+    palabras: ["Farmacias del Pueblo", "Farmacia del Pueblo"]
+  - nombre: Promese/Cal
+    sector: Regulación y gobierno
+    palabras: ["Promese", "PROMESE/CAL", "Promese/Cal", "PromeseCal"]
+  - nombre: Farmaconal
+    sector: Farmacia
+    palabras: ["Farmaconal"]
+
+  # Laboratorios y gremios farmacéuticos
+  - nombre: Laboratorios Rowe
+    sector: Laboratorios
+    palabras: ["Rowe"]
+  - nombre: Ethical Pharmaceutical
+    sector: Laboratorios
+    palabras: ["Ethical Pharmaceutical", "Laboratorios Ethical", "Ethical"]
+  - nombre: Laboratorios Mallén
+    sector: Laboratorios
+    palabras: ["Mallén", "Laboratorios Mallen"]
+  - nombre: Laboratorio Dr. Collado
+    sector: Laboratorios
+    palabras: ["Dr. Collado", "Laboratorio Collado"]
+  - nombre: Laboratorios Unidos
+    sector: Laboratorios
+    palabras: ["Laboratorios Unidos", "UNISA"]
+  - nombre: Sued & Fargesa
+    sector: Laboratorios
+    palabras: ["Sued & Fargesa", "Sued y Fargesa", "Fargesa"]
+  - nombre: Lam
+    sector: Laboratorios
+    palabras: ["Laboratorios Lam", "Lam Laboratorios"]
+  - nombre: INFADOMI
+    sector: Laboratorios
+    palabras: ["INFADOMI", "Infadomi", "Industria Farmacéutica Dominicana"]
+  - nombre: ARAPF
+    sector: Laboratorios
+    palabras: ["ARAPF", "Asociación de Representantes, Agentes y Productores Farmacéuticos"]
+  - nombre: Pfizer
+    sector: Laboratorios
+    palabras: ["Pfizer"]
+  - nombre: Bayer
+    sector: Laboratorios
+    palabras: ["Bayer"]
+  - nombre: Roche
+    sector: Laboratorios
+    palabras: ["Roche"]
+  - nombre: Novartis
+    sector: Laboratorios
+    palabras: ["Novartis", "Sandoz"]
+  - nombre: Sanofi
+    sector: Laboratorios
+    palabras: ["Sanofi"]
+  - nombre: GSK
+    sector: Laboratorios
+    palabras: ["GSK", "GlaxoSmithKline"]
+  - nombre: AstraZeneca
+    sector: Laboratorios
+    palabras: ["AstraZeneca"]
+  - nombre: Merck
+    sector: Laboratorios
+    palabras: ["Merck", "MSD"]
+  - nombre: Abbott
+    sector: Laboratorios
+    palabras: ["Abbott"]
+  - nombre: Johnson & Johnson
+    sector: Laboratorios
+    palabras: ["Johnson & Johnson", "Johnson y Johnson", "Janssen"]
+  - nombre: Eli Lilly
+    sector: Laboratorios
+    palabras: ["Eli Lilly", "Lilly"]
+  - nombre: Novo Nordisk
+    sector: Laboratorios
+    palabras: ["Novo Nordisk", "Ozempic", "Wegovy"]
+  - nombre: Boehringer Ingelheim
+    sector: Laboratorios
+    palabras: ["Boehringer"]
+  - nombre: Teva
+    sector: Laboratorios
+    palabras: ["Teva"]
+
+  # ARS
+  - nombre: SeNaSa
+    sector: Seguros de salud (ARS)
+    palabras: ["SeNaSa", "Senasa", "Seguro Nacional de Salud"]
+  - nombre: ARS Humano
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Humano", "Humano Seguros", "Seguros Humano", "Grupo Humano", "Humano ARS"]
+  - nombre: ARS Universal
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Universal", "Universal Salud"]
+  - nombre: ARS Palic
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Palic", "Palic Salud", "Palic"]
+  - nombre: ARS Futuro
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Futuro"]
+  - nombre: ARS Simag
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Simag", "Simag"]
+  - nombre: ARS Monumental
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Monumental"]
+  - nombre: ARS Semma
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Semma", "Semma", "SEMMA"]
+  - nombre: ARS Reservas
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Reservas", "ARS Banreservas"]
+  - nombre: ARS APS
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS APS"]
+  - nombre: ARS Primera
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Primera", "Primera ARS"]
+  - nombre: ARS Yunén
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Yunén", "ARS Yunen", "Yunén"]
+  - nombre: ARS Renacer
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS Renacer"]
+  - nombre: ARS GMA
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS GMA"]
+  - nombre: ARS Meta Salud
+    sector: Seguros de salud (ARS)
+    palabras: ["Meta Salud", "ARS Meta"]
+  - nombre: ARS CMD
+    sector: Seguros de salud (ARS)
+    palabras: ["ARS CMD"]
+  - nombre: ARS Salud Segura
+    sector: Seguros de salud (ARS)
+    palabras: ["Salud Segura"]
+  - nombre: ADARS
+    sector: Seguros de salud (ARS)
+    palabras: ["ADARS", "Asociación Dominicana de ARS", "Asociación Dominicana de Administradoras de Riesgos de Salud"]
+
+  # Seguros generales
+  - nombre: Seguros Universal
+    sector: Seguros generales
+    palabras: ["Seguros Universal", "Grupo Universal"]
+  - nombre: Seguros Reservas
+    sector: Seguros generales
+    palabras: ["Seguros Reservas", "Seguros Banreservas"]
+  - nombre: Mapfre BHD
+    sector: Seguros generales
+    palabras: ["Mapfre", "MAPFRE"]
+  - nombre: Seguros Sura
+    sector: Seguros generales
+    palabras: ["Seguros Sura", "Sura"]
+  - nombre: La Colonial
+    sector: Seguros generales
+    palabras: ["La Colonial"]
+  - nombre: Seguros Pepín
+    sector: Seguros generales
+    palabras: ["Seguros Pepín", "Seguros Pepin"]
+  - nombre: Seguros Patria
+    sector: Seguros generales
+    palabras: ["Seguros Patria"]
+  - nombre: Angloamericana de Seguros
+    sector: Seguros generales
+    palabras: ["Angloamericana"]
+  - nombre: La Monumental de Seguros
+    sector: Seguros generales
+    palabras: ["La Monumental", "Monumental de Seguros"]
+  - nombre: Atlántica Seguros
+    sector: Seguros generales
+    palabras: ["Atlántica Seguros", "Atlantica Seguros"]
+  - nombre: Seguros Crecer
+    sector: Seguros generales
+    palabras: ["Seguros Crecer"]
+  - nombre: General de Seguros
+    sector: Seguros generales
+    palabras: ["General de Seguros"]
+  - nombre: Scotia Seguros
+    sector: Seguros generales
+    palabras: ["Scotia Seguros", "Scotiabank Seguros"]
+  - nombre: Seguros Worldwide
+    sector: Seguros generales
+    palabras: ["Worldwide Seguros", "Seguros Worldwide"]
+  - nombre: Seguros Cibao
+    sector: Seguros generales
+    palabras: ["Seguros Cibao"]
+  - nombre: CADOAR
+    sector: Seguros generales
+    palabras: ["CADOAR", "Cámara Dominicana de Aseguradores y Reaseguradores"]
+
+  # Organismos
+  - nombre: SISALRIL
+    sector: Regulación y gobierno
+    palabras: ["SISALRIL", "Sisalril", "Superintendencia de Salud y Riesgos Laborales"]
+  - nombre: DIGEMAPS
+    sector: Regulación y gobierno
+    palabras: ["DIGEMAPS", "Digemaps", "Dirección General de Medicamentos, Alimentos y Productos Sanitarios"]
+  - nombre: Superintendencia de Seguros
+    sector: Regulación y gobierno
+    palabras: ["Superintendencia de Seguros", "SIS"]
+  - nombre: CNSS
+    sector: Regulación y gobierno
+    palabras: ["CNSS", "Consejo Nacional de Seguridad Social", "Consejo Nacional de la Seguridad Social"]
+  - nombre: Pro Consumidor
+    sector: Regulación y gobierno
+    palabras: ["Pro Consumidor", "ProConsumidor", "Proconsumidor"]
+  - nombre: Ministerio de Salud Pública
+    sector: Regulación y gobierno
+    implica_sector: false
+    palabras: ["Ministerio de Salud", "Salud Pública", "MISPAS", "MSP"]
+  - nombre: DIDA
+    sector: Regulación y gobierno
+    palabras: ["DIDA", "Dirección General de Información y Defensa de los Afiliados"]
+  - nombre: SIPEN
+    sector: Regulación y gobierno
+    palabras: ["SIPEN", "Sipen", "Superintendencia de Pensiones"]
+  - nombre: TSS
+    sector: Regulación y gobierno
+    palabras: ["TSS", "Tesorería de la Seguridad Social"]
+  - nombre: Servicio Nacional de Salud
+    sector: Regulación y gobierno
+    implica_sector: false
+    palabras: ["Servicio Nacional de Salud", "SNS"]
+  - nombre: Colegio Médico Dominicano
+    sector: Regulación y gobierno
+    implica_sector: false
+    palabras: ["Colegio Médico", "CMD"]

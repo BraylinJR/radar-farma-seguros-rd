@@ -1,0 +1,208 @@
+# Fuentes del Radar Farma & Seguros RD.
+#
+# Cada fuente tiene:
+#   id:        identificador corto y único (sin espacios). Se usa en los datos y en el panel de estado.
+#   nombre:    nombre del medio u organismo tal como se muestra en la página.
+#   tipo:      rss | sitemap_noticias | html_documentos
+#              - rss:               feed RSS o Atom.
+#              - sitemap_noticias:  sitemap de Google News (trae título, fecha y enlace).
+#              - html_documentos:   página HTML con enlaces a documentos (PDF). Se guarda
+#                                   el título del enlace y el enlace; la fecha es la de detección.
+#   url:       dirección a leer.
+#   categoria: medio | organismo
+#              - medio:      solo se guardan las noticias que coinciden con las palabras clave
+#                            de algún sector (ver clasificacion.yaml).
+#              - organismo:  se guarda todo lo que publica, con el sector "Regulación y gobierno".
+#   activa:    true | false. Para desactivar una fuente sin borrarla.
+#
+# Opcionales:
+#   tema_fijo:     tema que se asigna a todo lo que venga de esta fuente (si no se detecta otro).
+#   patron_enlace: (html_documentos) expresión regular que deben cumplir los enlaces.
+#   patron_titulo: (html_documentos) expresión regular que debe cumplir el título (opcional).
+#   nota:          comentario libre.
+#
+# Verificación del 23 de octubre de 2026: robots.txt y términos revisados para cada sitio.
+# Google Noticias quedó fuera porque su robots.txt no permite la ruta /rss a procesos automáticos.
+# El Ministerio de Salud (msp.gob.do) no respondía; se puede volver a intentar más adelante.
+
+fuentes:
+
+  # ---------------- Medios ----------------
+
+  - id: diariolibre_portada
+    nombre: Diario Libre
+    tipo: rss
+    url: https://www.diariolibre.com/rss/portada.xml
+    categoria: medio
+    activa: true
+
+  - id: diariolibre_economia
+    nombre: Diario Libre
+    tipo: rss
+    url: https://www.diariolibre.com/rss/economia.xml
+    categoria: medio
+    activa: true
+
+  - id: diariolibre_actualidad
+    nombre: Diario Libre
+    tipo: rss
+    url: https://www.diariolibre.com/rss/actualidad.xml
+    categoria: medio
+    activa: true
+
+  - id: diariolibre_sitemap
+    nombre: Diario Libre
+    tipo: sitemap_noticias
+    url: https://www.diariolibre.com/sitemapnews
+    categoria: medio
+    activa: true
+    nota: Complemento del RSS; cubre todas las secciones de las últimas 48 horas.
+
+  - id: listin_economia
+    nombre: Listín Diario
+    tipo: rss
+    url: https://listindiario.com/rss/economia.xml
+    categoria: medio
+    activa: true
+
+  - id: listin_la_republica
+    nombre: Listín Diario
+    tipo: rss
+    url: https://listindiario.com/rss/la-republica.xml
+    categoria: medio
+    activa: true
+
+  - id: listin_sitemap
+    nombre: Listín Diario
+    tipo: sitemap_noticias
+    url: https://listindiario.com/sitemap-google-news.xml
+    categoria: medio
+    activa: true
+    nota: Los RSS de portada y salud cierran la conexión; el sitemap cubre todas las secciones.
+
+  - id: eldinero
+    nombre: elDinero
+    tipo: rss
+    url: https://eldinero.com.do/feed/
+    categoria: medio
+    activa: true
+
+  - id: eldia
+    nombre: El Día
+    tipo: rss
+    url: https://eldia.com.do/feed/
+    categoria: medio
+    activa: true
+
+  - id: hoy_portada
+    nombre: Hoy
+    tipo: rss
+    url: https://hoy.com.do/rss/home.xml
+    categoria: medio
+    activa: true
+
+  - id: hoy_economia
+    nombre: Hoy
+    tipo: rss
+    url: https://hoy.com.do/rss/economia.xml
+    categoria: medio
+    activa: true
+
+  - id: ndigital
+    nombre: N Digital
+    tipo: rss
+    url: https://n.com.do/feed/
+    categoria: medio
+    activa: true
+
+  - id: acento_sitemap
+    nombre: Acento
+    tipo: sitemap_noticias
+    url: https://acento.com.do/sitemaps/sitemaps-googlenews.xml
+    categoria: medio
+    activa: true
+    nota: Acento no publica RSS; el sitemap de noticias está declarado en su robots.txt.
+
+  # ---------------- Organismos ----------------
+
+  - id: sisalril_noticias
+    nombre: SISALRIL
+    tipo: rss
+    url: https://www.sisalril.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  - id: digemaps_noticias
+    nombre: DIGEMAPS
+    tipo: rss
+    url: https://digemaps.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  - id: digemaps_alertas
+    nombre: DIGEMAPS
+    tipo: html_documentos
+    url: https://digemaps.gob.do/alerta-sanitaria-de-seguridad/
+    categoria: organismo
+    activa: true
+    tema_fijo: Alertas sanitarias
+    patron_enlace: 'digemaps\.gob\.do/descargas/.*\.pdf$'
+
+  - id: sis_noticias
+    nombre: Superintendencia de Seguros
+    tipo: rss
+    url: https://sis.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  - id: sis_documentos
+    nombre: Superintendencia de Seguros
+    tipo: html_documentos
+    url: https://sis.gob.do/
+    categoria: organismo
+    activa: true
+    tema_fijo: Regulación
+    patron_enlace: 'sis\.gob\.do/wp-content/uploads/.*\.pdf$'
+    patron_titulo: '(?i)circular|resoluci|comunicad|norma|aviso'
+    nota: Circulares y resoluciones enlazadas en la portada. No traen fecha; se usa la fecha de detección.
+
+  - id: cnss_noticias
+    nombre: CNSS
+    tipo: rss
+    url: https://www.cnss.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  - id: cnss_normativas
+    nombre: CNSS
+    tipo: html_documentos
+    url: https://cnss.gob.do/documentos/legal/normativas/
+    categoria: organismo
+    activa: true
+    tema_fijo: Regulación
+    patron_enlace: 'cnss\.gob\.do/wp-content/uploads/.*\.pdf$'
+    nota: Normativas vigentes. Cambia poco; las resoluciones por sesión están en una aplicación que no se puede leer sin navegador.
+
+  - id: proconsumidor_noticias
+    nombre: Pro Consumidor
+    tipo: rss
+    url: https://proconsumidor.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  - id: promesecal_noticias
+    nombre: Promese/Cal
+    tipo: rss
+    url: https://www.promesecal.gob.do/feed/
+    categoria: organismo
+    activa: true
+
+  # ---------------- Desactivadas ----------------
+
+  - id: msp_noticias
+    nombre: Ministerio de Salud Pública
+    tipo: rss
+    url: https://msp.gob.do/web/feed/
+    categoria: organismo
+    activa: false
+    nota: El sitio no respondía el 23 de octubre de 2026. Activar cuando vuelva a funcionar.

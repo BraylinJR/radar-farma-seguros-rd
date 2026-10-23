@@ -1,0 +1,23 @@
+# Correcciones manuales de clasificación.
+#
+# Se aplican en cada corrida, después de la clasificación automática, así que
+# una corrección nunca se pierde aunque cambien las palabras clave.
+#
+# Cada corrección identifica la noticia por su "id" (ver datos/noticias.jsonl)
+# o por su "enlace" exacto, y puede cambiar:
+#   sectores: [lista]      sustituye los sectores detectados
+#   tema: "Nombre"         sustituye el tema
+#   empresas: [lista]      sustituye las empresas detectadas
+#   excluir: true          saca la noticia del sitio (queda en el historial marcada como excluida)
+#   nota: "texto"          comentario libre
+#
+# Ejemplos (borrar o editar):
+#
+# correcciones:
+#   - id: 3f2a9c1e7b
+#     tema: Precios
+#     nota: La automática la marcó como Regulación.
+#   - enlace: https://www.ejemplo.com.do/noticia-que-no-es-del-sector
+#     excluir: true
+
+correcciones: []

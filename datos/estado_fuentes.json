@@ -1,0 +1,398 @@
+{
+  "acento_sitemap": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 44,
+      "leidos": 44,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Acento",
+    "tipo": "sitemap_noticias",
+    "ultima_lectura": "2026-10-23T09:11:36-04:00",
+    "ultimo_exito": "2026-10-23T09:11:36-04:00",
+    "url": "https://acento.com.do/sitemaps/sitemaps-googlenews.xml"
+  },
+  "cnss_normativas": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 16,
+      "nuevos": 15,
+      "repetidos": 1
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "CNSS",
+    "tipo": "html_documentos",
+    "ultima_lectura": "2026-10-23T09:11:24-04:00",
+    "ultimo_exito": "2026-10-23T09:11:24-04:00",
+    "url": "https://cnss.gob.do/documentos/legal/normativas/"
+  },
+  "cnss_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "CNSS",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:23-04:00",
+    "ultimo_exito": "2026-10-23T09:11:23-04:00",
+    "url": "https://www.cnss.gob.do/feed/"
+  },
+  "diariolibre_actualidad": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 30,
+      "leidos": 30,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Diario Libre",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:29-04:00",
+    "ultimo_exito": "2026-10-23T09:11:29-04:00",
+    "url": "https://www.diariolibre.com/rss/actualidad.xml"
+  },
+  "diariolibre_economia": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 30,
+      "leidos": 30,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Diario Libre",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:28-04:00",
+    "ultimo_exito": "2026-10-23T09:11:28-04:00",
+    "url": "https://www.diariolibre.com/rss/economia.xml"
+  },
+  "diariolibre_portada": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 43,
+      "leidos": 43,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Diario Libre",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:27-04:00",
+    "ultimo_exito": "2026-10-23T09:11:27-04:00",
+    "url": "https://www.diariolibre.com/rss/portada.xml"
+  },
+  "diariolibre_sitemap": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 505,
+      "leidos": 509,
+      "nuevos": 4,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Diario Libre",
+    "tipo": "sitemap_noticias",
+    "ultima_lectura": "2026-10-23T09:11:29-04:00",
+    "ultimo_exito": "2026-10-23T09:11:29-04:00",
+    "url": "https://www.diariolibre.com/sitemapnews"
+  },
+  "digemaps_alertas": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 5,
+      "nuevos": 5,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "DIGEMAPS",
+    "tipo": "html_documentos",
+    "ultima_lectura": "2026-10-23T09:11:21-04:00",
+    "ultimo_exito": "2026-10-23T09:11:21-04:00",
+    "url": "https://digemaps.gob.do/alerta-sanitaria-de-seguridad/"
+  },
+  "digemaps_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "DIGEMAPS",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:18-04:00",
+    "ultimo_exito": "2026-10-23T09:11:18-04:00",
+    "url": "https://digemaps.gob.do/feed/"
+  },
+  "eldia": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 15,
+      "leidos": 15,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "El Día",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:33-04:00",
+    "ultimo_exito": "2026-10-23T09:11:33-04:00",
+    "url": "https://eldia.com.do/feed/"
+  },
+  "eldinero": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 20,
+      "leidos": 20,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "elDinero",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:33-04:00",
+    "ultimo_exito": "2026-10-23T09:11:33-04:00",
+    "url": "https://eldinero.com.do/feed/"
+  },
+  "hoy_economia": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 20,
+      "leidos": 20,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Hoy",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:34-04:00",
+    "ultimo_exito": "2026-10-23T09:11:34-04:00",
+    "url": "https://hoy.com.do/rss/economia.xml"
+  },
+  "hoy_portada": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 73,
+      "leidos": 73,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Hoy",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:34-04:00",
+    "ultimo_exito": "2026-10-23T09:11:34-04:00",
+    "url": "https://hoy.com.do/rss/home.xml"
+  },
+  "listin_economia": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 97,
+      "leidos": 100,
+      "nuevos": 2,
+      "repetidos": 1
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Listín Diario",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:30-04:00",
+    "ultimo_exito": "2026-10-23T09:11:30-04:00",
+    "url": "https://listindiario.com/rss/economia.xml"
+  },
+  "listin_la_republica": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 99,
+      "leidos": 100,
+      "nuevos": 1,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Listín Diario",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:31-04:00",
+    "ultimo_exito": "2026-10-23T09:11:31-04:00",
+    "url": "https://listindiario.com/rss/la-republica.xml"
+  },
+  "listin_sitemap": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 272,
+      "leidos": 273,
+      "nuevos": 0,
+      "repetidos": 1
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Listín Diario",
+    "tipo": "sitemap_noticias",
+    "ultima_lectura": "2026-10-23T09:11:32-04:00",
+    "ultimo_exito": "2026-10-23T09:11:32-04:00",
+    "url": "https://listindiario.com/sitemap-google-news.xml"
+  },
+  "ndigital": {
+    "activa": true,
+    "categoria": "medio",
+    "conteo_ultima_lectura": {
+      "descartados": 14,
+      "leidos": 14,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "N Digital",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:35-04:00",
+    "ultimo_exito": "2026-10-23T09:11:35-04:00",
+    "url": "https://n.com.do/feed/"
+  },
+  "proconsumidor_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 5,
+      "nuevos": 5,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Pro Consumidor",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:25-04:00",
+    "ultimo_exito": "2026-10-23T09:11:25-04:00",
+    "url": "https://proconsumidor.gob.do/feed/"
+  },
+  "promesecal_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Promese/Cal",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:26-04:00",
+    "ultimo_exito": "2026-10-23T09:11:26-04:00",
+    "url": "https://www.promesecal.gob.do/feed/"
+  },
+  "sis_documentos": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 20,
+      "nuevos": 20,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Superintendencia de Seguros",
+    "tipo": "html_documentos",
+    "ultima_lectura": "2026-10-23T09:11:22-04:00",
+    "ultimo_exito": "2026-10-23T09:11:22-04:00",
+    "url": "https://sis.gob.do/"
+  },
+  "sis_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "Superintendencia de Seguros",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:22-04:00",
+    "ultimo_exito": "2026-10-23T09:11:22-04:00",
+    "url": "https://sis.gob.do/feed/"
+  },
+  "sisalril_noticias": {
+    "activa": true,
+    "categoria": "organismo",
+    "conteo_ultima_lectura": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "estado": "ok",
+    "fallos_consecutivos": 0,
+    "mensaje_error": null,
+    "nombre": "SISALRIL",
+    "tipo": "rss",
+    "ultima_lectura": "2026-10-23T09:11:17-04:00",
+    "ultimo_exito": "2026-10-23T09:11:17-04:00",
+    "url": "https://www.sisalril.gob.do/feed/"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "corregidas": 0,
+  "descartadas": 1262,
+  "errores": 0,
+  "fin": "2026-10-23T09:11:36-04:00",
+  "fuentes": {
+    "acento_sitemap": {
+      "descartados": 44,
+      "leidos": 44,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "cnss_normativas": {
+      "descartados": 0,
+      "leidos": 16,
+      "nuevos": 15,
+      "repetidos": 1
+    },
+    "cnss_noticias": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "diariolibre_actualidad": {
+      "descartados": 30,
+      "leidos": 30,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "diariolibre_economia": {
+      "descartados": 30,
+      "leidos": 30,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "diariolibre_portada": {
+      "descartados": 43,
+      "leidos": 43,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "diariolibre_sitemap": {
+      "descartados": 505,
+      "leidos": 509,
+      "nuevos": 4,
+      "repetidos": 0
+    },
+    "digemaps_alertas": {
+      "descartados": 0,
+      "leidos": 5,
+      "nuevos": 5,
+      "repetidos": 0
+    },
+    "digemaps_noticias": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "eldia": {
+      "descartados": 15,
+      "leidos": 15,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "eldinero": {
+      "descartados": 20,
+      "leidos": 20,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "hoy_economia": {
+      "descartados": 20,
+      "leidos": 20,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "hoy_portada": {
+      "descartados": 73,
+      "leidos": 73,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "listin_economia": {
+      "descartados": 97,
+      "leidos": 100,
+      "nuevos": 2,
+      "repetidos": 1
+    },
+    "listin_la_republica": {
+      "descartados": 99,
+      "leidos": 100,
+      "nuevos": 1,
+      "repetidos": 0
+    },
+    "listin_sitemap": {
+      "descartados": 272,
+      "leidos": 273,
+      "nuevos": 0,
+      "repetidos": 1
+    },
+    "ndigital": {
+      "descartados": 14,
+      "leidos": 14,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "proconsumidor_noticias": {
+      "descartados": 0,
+      "leidos": 5,
+      "nuevos": 5,
+      "repetidos": 0
+    },
+    "promesecal_noticias": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "sis_documentos": {
+      "descartados": 0,
+      "leidos": 20,
+      "nuevos": 20,
+      "repetidos": 0
+    },
+    "sis_noticias": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    },
+    "sisalril_noticias": {
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 10,
+      "repetidos": 0
+    }
+  },
+  "inicio": "2026-10-23T09:11:17-04:00",
+  "nuevas": 102,
+  "repetidas": 3,
+  "total_historial": 102
+}
