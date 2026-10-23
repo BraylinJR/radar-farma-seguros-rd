@@ -1,0 +1,5 @@
+# Finales de línea LF en todo el repositorio (evita diferencias falsas entre Windows y GitHub Actions).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
