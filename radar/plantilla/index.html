@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Farma &amp; Seguros RD</title>
+<meta name="description" content="Titulares y documentos regulatorios de República Dominicana sobre farmacias, laboratorios, medicamentos y seguros, reunidos automáticamente. Proyecto personal e independiente.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232a78d6'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fcfcfb' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fcfcfb'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <p class="sobretitulo">República Dominicana</p>
+    <h1>Radar Farma &amp; Seguros RD</h1>
+    <p class="lema">Titulares y documentos regulatorios sobre farmacias, laboratorios, medicamentos y seguros, reunidos automáticamente desde fuentes públicas.</p>
+    <p class="actualizacion">Última actualización: <time datetime="{{GENERADO_ISO}}">{{GENERADO_TEXTO}}</time></p>
+    <div class="kpis" id="kpis" aria-label="Cifras de la semana"></div>
+  </div>
+</header>
+
+<main class="contenedor">
+
+  <section id="regulacion" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Regulación</h2>
+      <p class="subtitulo">Lo último publicado por los organismos: resoluciones, circulares, alertas y comunicados.</p>
+    </div>
+    <ul class="tarjetas" id="lista-regulacion"></ul>
+    <p class="acciones"><button type="button" class="boton-secundario" id="ver-regulacion">Ver todo lo regulatorio en la lista</button></p>
+  </section>
+
+  <section id="noticias" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Noticias</h2>
+      <p class="subtitulo">Filtra por sector, tema, empresa u organismo y fechas. Cada título enlaza al medio original.</p>
+    </div>
+    <form id="filtros" class="filtros" autocomplete="off">
+      <label class="campo campo-buscar">
+        <span>Buscar</span>
+        <input type="search" id="f-texto" placeholder="Título, medio o empresa">
+      </label>
+      <label class="campo">
+        <span>Sector</span>
+        <select id="f-sector"><option value="">Todos</option></select>
+      </label>
+      <label class="campo">
+        <span>Tema</span>
+        <select id="f-tema"><option value="">Todos</option></select>
+      </label>
+      <label class="campo">
+        <span>Empresa u organismo</span>
+        <select id="f-empresa"><option value="">Todas</option></select>
+      </label>
+      <label class="campo">
+        <span>Desde</span>
+        <input type="date" id="f-desde">
+      </label>
+      <label class="campo">
+        <span>Hasta</span>
+        <input type="date" id="f-hasta">
+      </label>
+      <div class="campo campo-boton">
+        <button type="reset" class="boton-secundario" id="f-limpiar">Limpiar filtros</button>
+      </div>
+    </form>
+    <p class="conteo" id="conteo" aria-live="polite"></p>
+    <ol class="lista" id="lista-noticias"></ol>
+    <p class="acciones"><button type="button" class="boton-secundario" id="mostrar-mas" hidden>Mostrar más</button></p>
+  </section>
+
+  <section id="grafico" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Noticias por semana y tema</h2>
+      <p class="subtitulo">Últimas 12 semanas. Sigue los filtros de sector, tema, empresa y texto de la lista (no los de fecha).</p>
+    </div>
+    <div class="tarjeta-grafico">
+      <div class="leyenda" id="leyenda-grafico" aria-label="Temas"></div>
+      <div class="grafico-envoltorio" id="grafico-semanas"></div>
+      <details class="tabla-detalle">
+        <summary>Ver como tabla</summary>
+        <div class="tabla-scroll"><table id="tabla-grafico"></table></div>
+      </details>
+    </div>
+  </section>
+
+  <section id="empresas" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Más mencionados del mes</h2>
+      <p class="subtitulo">Empresas y organismos con más titulares en los últimos 30 días (sin filtros). Pulsa un nombre para filtrar la lista.</p>
+    </div>
+    <div class="ranking" id="ranking-empresas"></div>
+  </section>
+
+  <section id="resumen" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Resumen semanal</h2>
+      <p class="subtitulo" id="resumen-periodo"></p>
+    </div>
+    <div class="resumen" id="resumen-semanal"></div>
+  </section>
+
+  <section id="fuentes" class="seccion">
+    <div class="seccion-encabezado">
+      <h2>Estado de las fuentes</h2>
+      <p class="subtitulo">Resultado de la última lectura de cada fuente. Una fuente con error no detiene a las demás.</p>
+    </div>
+    <ul class="estado-fuentes" id="estado-fuentes"></ul>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <p><strong>Proyecto personal e independiente. No representa la posición de ninguna empresa. Las noticias pertenecen a sus medios; aquí solo se enlazan.</strong></p>
+    <p>Solo se guardan título, medio, fecha, enlace y etiquetas de clasificación. La clasificación es automática, por palabras clave, y puede contener errores. Código abierto bajo licencia MIT<span id="enlace-repo"></span>.</p>
+  </div>
+</footer>
+
+<script id="radar-datos" type="application/json">{{DATOS_JSON}}</script>
+<script src="app.js"></script>
+</body>
+</html>

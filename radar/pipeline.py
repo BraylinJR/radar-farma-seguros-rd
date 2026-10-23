@@ -105,6 +105,7 @@ def _procesar_fuente(
             crudo.get("resumen", ""),
             categoria=fuente["categoria"],
             tema_fijo=fuente.get("tema_fijo"),
+            organismo_emisor=fuente["nombre"] if fuente["categoria"] == "organismo" else None,
         )
         if fuente["categoria"] == "medio" and not clasificacion["sectores"]:
             conteo["descartados"] += 1
@@ -246,6 +247,7 @@ def reclasificar(guardar: bool = True) -> dict:
             "",
             categoria=noticia.get("categoria", "medio"),
             tema_fijo=fuente.get("tema_fijo"),
+            organismo_emisor=noticia["medio"] if noticia.get("categoria") == "organismo" else None,
         )
         nueva["sectores_resumen"] = noticia.get("sectores_resumen", [])
         for sector in nueva["sectores_resumen"]:

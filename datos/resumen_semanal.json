@@ -1,0 +1,160 @@
+{
+  "periodo": {
+    "inicio": "2026-10-16T00:00:00-04:00",
+    "fin": "2026-10-23T09:42:58-04:00",
+    "texto": "del 16 de octubre de 2026 al 23 de octubre de 2026"
+  },
+  "total": 13,
+  "de_medios": 5,
+  "de_organismos": 8,
+  "por_sector": {
+    "Regulación y gobierno": 10,
+    "Seguros de salud (ARS)": 5,
+    "Seguros generales": 2,
+    "Laboratorios": 2
+  },
+  "por_tema": {
+    "Otros": 7,
+    "Regulación": 4,
+    "Fusiones y adquisiciones": 1,
+    "Alertas sanitarias": 1
+  },
+  "empresas_mas_mencionadas": [
+    [
+      "SISALRIL",
+      4
+    ],
+    [
+      "Superintendencia de Seguros",
+      2
+    ],
+    [
+      "Pro Consumidor",
+      2
+    ],
+    [
+      "Seguros Cibao",
+      1
+    ],
+    [
+      "DIGEMAPS",
+      1
+    ],
+    [
+      "CNSS",
+      1
+    ]
+  ],
+  "medios_mas_activos": [
+    [
+      "Diario Libre",
+      4
+    ],
+    [
+      "Superintendencia de Seguros",
+      2
+    ],
+    [
+      "Pro Consumidor",
+      2
+    ],
+    [
+      "SISALRIL",
+      2
+    ],
+    [
+      "DIGEMAPS",
+      1
+    ],
+    [
+      "Listín Diario",
+      1
+    ],
+    [
+      "CNSS",
+      1
+    ]
+  ],
+  "regulatorias": [
+    {
+      "id": "e0c079cf3e9d",
+      "titulo": "Resolucion 05 2026 Sobre cierre definitivo de la compania Seguros Cibao S.R.L",
+      "medio": "Superintendencia de Seguros",
+      "enlace": "https://sis.gob.do/wp-content/uploads/2024/04/Resolucion-05-2026-Sobre-cierre-definitivo-de-la-compania-Seguros-Cibao-S.R.L.pdf",
+      "fecha": "2026-10-23T09:11:22-04:00",
+      "precision": "deteccion",
+      "tema": "Fusiones y adquisiciones",
+      "tipo": "documento"
+    },
+    {
+      "id": "85203b1c7dc8",
+      "titulo": "Alerta retiro CYTOSAR",
+      "medio": "DIGEMAPS",
+      "enlace": "https://digemaps.gob.do/descargas/213/alerta-sanitaria-de-seguridad/34858/alerta-retiro-cytosar.pdf",
+      "fecha": "2026-10-23T09:11:21-04:00",
+      "precision": "deteccion",
+      "tema": "Alertas sanitarias",
+      "tipo": "documento"
+    },
+    {
+      "id": "dae7a280d202",
+      "titulo": "Pro Consumidor interviene más de 30 comercios chinos por irregularidades sanitarias y comerciales",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-interviene-mas-de-30-comercios-chinos-por-irregularidades-sanitarias-y-comerciales/",
+      "fecha": "2026-10-21T10:05:51-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    },
+    {
+      "id": "761fe9fbd716",
+      "titulo": "SISALRIL presenta nuevo Cuadro de Enfermedades Profesionales en el Seguro de Riesgos Laborales",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales",
+      "fecha": "2026-10-20T11:11:33-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia"
+    },
+    {
+      "id": "46c682262083",
+      "titulo": "SISALRIL impulsa jornada de concienciación y prevención del cáncer de mama con sus colaboradores",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-impulsa-jornada-de-concienciacion-y-prevencion-del-cancer-de-mama-con-sus-colaboradores/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-impulsa-jornada-de-concienciacion-y-prevencion-del-cancer-de-mama-con-sus-colaboradores",
+      "fecha": "2026-10-20T08:15:00-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    },
+    {
+      "id": "7033aa1380f8",
+      "titulo": "Países de Iberoamérica reconocen en El Salvador a Eddy Alcántara por sus aportes a la defensa de los consumidores a nivel global",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/paises-de-iberoamerica-reconocen-en-el-salvador-a-eddy-alcantara-por-sus-aportes-a-la-defensa-de-los-consumidores-a-nivel-global/",
+      "fecha": "2026-10-19T11:34:28-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    },
+    {
+      "id": "b5fea84ddb72",
+      "titulo": "Superintendencia de Seguros llama a aseguradoras a exhibir Carta de Derechos y Deberes de los Usuarios",
+      "medio": "Superintendencia de Seguros",
+      "enlace": "https://sis.gob.do/noticias/superintendencia-de-seguros-llama-a-aseguradoras-a-exhibir-carta-de-derechos-y-deberes-de-los-usuarios/",
+      "fecha": "2026-10-16T19:19:25-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia"
+    },
+    {
+      "id": "065abca6d633",
+      "titulo": "CNSS se une a campaña prevención Cáncer de Mama",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-se-une-a-campana-prevencion-cancer-de-mama-2/",
+      "fecha": "2026-10-16T11:33:54-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    }
+  ]
+}

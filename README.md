@@ -7,9 +7,9 @@ farmacéuticos, medicamentos y seguros**.
 Proyecto personal e independiente. No representa la posición de ninguna empresa.
 Las noticias pertenecen a sus medios; aquí solo se enlazan.
 
-> Estado: fase 3 (recolección y clasificación) terminada. La página (fase 4) y la
-> automatización con GitHub Actions y GitHub Pages (fase 5) se documentan aquí cuando
-> estén listas.
+> Estado: fases 3 (recolección y clasificación) y 4 (página estática en `docs/`)
+> terminadas y probadas en local. La automatización con GitHub Actions y la
+> publicación en GitHub Pages (fase 5) se documentan aquí cuando estén listas.
 
 ## Qué hace
 
@@ -40,8 +40,30 @@ datos/
   noticias.jsonl        historial completo (una noticia por línea)
   estado_fuentes.json   último éxito, último error y fallos seguidos por fuente
   ultima_corrida.json   resumen de la última ejecución
-docs/                   sitio estático (fase 4)
+docs/
+  index.html            página generada (los datos van incrustados; abre sin servidor)
+  datos.json            los mismos datos de la página, reutilizables
+  estilos.css, app.js   estilos y lógica de la página (filtros, gráfico, resumen)
+radar/plantilla/        plantilla HTML que usa el generador
 ```
+
+## La página
+
+`python -m radar generar` construye `docs/index.html` a partir de `datos/` y `config/`.
+Incluye: sección destacada de Regulación, lista de titulares con buscador y filtros
+(sector, tema, empresa u organismo, fechas), gráfico de titulares por semana y tema,
+empresas y organismos más mencionados del mes, resumen semanal solo con datos, fecha y
+hora de la última actualización y un panel con el estado de cada fuente. Funciona en
+el celular y en modo claro u oscuro, sin dependencias externas.
+
+Para verla en tu computadora abre `docs/index.html` en el navegador, o sirve la carpeta:
+
+```bash
+python -m http.server 8765 --bind 127.0.0.1 --directory docs
+```
+
+La página muestra los titulares de los últimos 18 meses; el historial completo sigue
+en `datos/noticias.jsonl`.
 
 ## Cómo ejecutarlo en tu computadora
 
@@ -63,7 +85,7 @@ Otros comandos:
 | `python -m radar probar "Título de prueba"` | Muestra cómo se clasificaría un título. |
 | `python -m radar reclasificar` | Vuelve a clasificar todo el historial con las reglas actuales. |
 | `python -m radar estado` | Estado de cada fuente (ok, error, fallos seguidos). |
-| `python -m radar generar` | Construye la página en `docs/`. |
+| `python -m radar generar` | Construye la página en `docs/` y el resumen semanal en `datos/`. |
 
 ## Cómo agregar o quitar una fuente
 

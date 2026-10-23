@@ -81,6 +81,7 @@ class Clasificador:
         resumen: str = "",
         categoria: str = "medio",
         tema_fijo: str | None = None,
+        organismo_emisor: str | None = None,
     ) -> dict:
         """Devuelve {"sectores": [...], "tema": str, "empresas": [...]}.
 
@@ -89,7 +90,8 @@ class Clasificador:
         - Los sectores salen del título y etiquetas, del sector de las empresas detectadas y,
           como apoyo, del resumen del feed cuando este contiene dos o más palabras clave
           distintas de un mismo sector.
-        - Las publicaciones de organismos llevan siempre el sector "Regulación y gobierno".
+        - Las publicaciones de organismos llevan siempre el sector "Regulación y gobierno" y,
+          si el organismo que publica está en la lista de empresas, queda como mencionado.
         - El tema es el primero (en el orden del YAML) cuyas palabras coinciden; si no hay
           ninguno se usa tema_fijo (si existe) o "Otros".
         """
@@ -100,6 +102,11 @@ class Clasificador:
             if sector not in sectores:
                 sectores.append(sector)
         empresas = self.detectar_empresas(texto)
+        if organismo_emisor:
+            for nombre, sector, _ in self.empresas:
+                if nombre == organismo_emisor and nombre not in [n for n, _ in empresas]:
+                    empresas.append((nombre, sector))
+                    break
         for _, sector in empresas:
             if sector and sector not in sectores and sector in self.nombres_sectores:
                 sectores.append(sector)
