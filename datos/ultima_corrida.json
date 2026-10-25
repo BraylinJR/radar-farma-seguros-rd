@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1024,
+  "descartadas": 1030,
   "errores": 0,
-  "fin": "2026-10-25T13:45:50-04:00",
+  "fin": "2026-10-25T14:24:49-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 45,
-      "leidos": 45,
+      "descartados": 48,
+      "leidos": 48,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -25,24 +25,24 @@
     "diariolibre_actualidad": {
       "descartados": 27,
       "leidos": 30,
-      "nuevos": 2,
-      "repetidos": 1
+      "nuevos": 0,
+      "repetidos": 3
     },
     "diariolibre_economia": {
       "descartados": 29,
       "leidos": 30,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 38,
-      "leidos": 39,
-      "nuevos": 1,
-      "repetidos": 0
+      "descartados": 41,
+      "leidos": 42,
+      "nuevos": 0,
+      "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 337,
-      "leidos": 342,
+      "descartados": 333,
+      "leidos": 338,
       "nuevos": 0,
       "repetidos": 5
     },
@@ -95,10 +95,10 @@
       "repetidos": 0
     },
     "listin_sitemap": {
-      "descartados": 210,
-      "leidos": 211,
-      "nuevos": 1,
-      "repetidos": 0
+      "descartados": 214,
+      "leidos": 215,
+      "nuevos": 0,
+      "repetidos": 1
     },
     "ndigital": {
       "descartados": 14,
@@ -115,8 +115,8 @@
     "promesecal_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 9
+      "nuevos": 0,
+      "repetidos": 10
     },
     "sis_documentos": {
       "descartados": 0,
@@ -133,12 +133,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 9
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-10-25T13:45:31-04:00",
-  "nuevas": 7,
-  "repetidas": 103,
+  "inicio": "2026-10-25T14:24:37-04:00",
+  "nuevas": 0,
+  "repetidas": 110,
   "total_historial": 109
 }
