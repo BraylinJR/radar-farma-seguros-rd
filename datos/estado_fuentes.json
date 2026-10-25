@@ -13,8 +13,8 @@
     "mensaje_error": null,
     "nombre": "Acento",
     "tipo": "sitemap_noticias",
-    "ultima_lectura": "2026-10-25T15:58:26-04:00",
-    "ultimo_exito": "2026-10-25T15:58:26-04:00",
+    "ultima_lectura": "2026-10-25T15:59:54-04:00",
+    "ultimo_exito": "2026-10-25T15:59:54-04:00",
     "url": "https://acento.com.do/sitemaps/sitemaps-googlenews.xml"
   },
   "arecoa": {
@@ -31,8 +31,8 @@
     "mensaje_error": null,
     "nombre": "Arecoa",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:27-04:00",
-    "ultimo_exito": "2026-10-25T15:58:27-04:00",
+    "ultima_lectura": "2026-10-25T15:59:55-04:00",
+    "ultimo_exito": "2026-10-25T15:59:55-04:00",
     "url": "https://www.arecoa.com/feed/"
   },
   "bcrd_imae": {
@@ -49,8 +49,8 @@
     "mensaje_error": null,
     "nombre": "BCRD · Indicador Mensual de Actividad Económica (IMAE, base 2018)",
     "tipo": "datos_bcrd",
-    "ultima_lectura": "2026-10-25T15:58:33-04:00",
-    "ultimo_exito": "2026-10-25T15:58:33-04:00",
+    "ultima_lectura": "2026-10-25T16:00:00-04:00",
+    "ultimo_exito": "2026-10-25T16:00:00-04:00",
     "url": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx"
   },
   "bcrd_ipc": {
@@ -67,8 +67,8 @@
     "mensaje_error": null,
     "nombre": "BCRD · IPC general (base 2019-2020)",
     "tipo": "datos_bcrd",
-    "ultima_lectura": "2026-10-25T15:58:33-04:00",
-    "ultimo_exito": "2026-10-25T15:58:33-04:00",
+    "ultima_lectura": "2026-10-25T16:00:00-04:00",
+    "ultimo_exito": "2026-10-25T16:00:00-04:00",
     "url": "https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_base_2019-2020.xls"
   },
   "bcrd_ipc_grupos": {
@@ -85,8 +85,8 @@
     "mensaje_error": null,
     "nombre": "BCRD · IPC por grupos de bienes y servicios",
     "tipo": "datos_bcrd",
-    "ultima_lectura": "2026-10-25T15:58:33-04:00",
-    "ultimo_exito": "2026-10-25T15:58:33-04:00",
+    "ultima_lectura": "2026-10-25T16:00:00-04:00",
+    "ultimo_exito": "2026-10-25T16:00:00-04:00",
     "url": "https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_grupos_base_2019-2020.xls"
   },
   "bcrd_pib_sectores": {
@@ -103,8 +103,8 @@
     "mensaje_error": null,
     "nombre": "BCRD · PIB por sectores de origen (base 2018, trimestral)",
     "tipo": "datos_bcrd",
-    "ultima_lectura": "2026-10-25T15:58:33-04:00",
-    "ultimo_exito": "2026-10-25T15:58:33-04:00",
+    "ultima_lectura": "2026-10-25T16:00:00-04:00",
+    "ultimo_exito": "2026-10-25T16:00:00-04:00",
     "url": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/pib_origen_2018.xlsx"
   },
   "bcrd_tpm": {
@@ -121,8 +121,8 @@
     "mensaje_error": null,
     "nombre": "BCRD · Serie de la Tasa de Política Monetaria",
     "tipo": "datos_bcrd",
-    "ultima_lectura": "2026-10-25T15:58:33-04:00",
-    "ultimo_exito": "2026-10-25T15:58:33-04:00",
+    "ultima_lectura": "2026-10-25T16:00:00-04:00",
+    "ultimo_exito": "2026-10-25T16:00:00-04:00",
     "url": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-monetario-y-financiero/documents/Serie_TPM.xlsx"
   },
   "cnss_normativas": {
@@ -139,8 +139,8 @@
     "mensaje_error": null,
     "nombre": "CNSS",
     "tipo": "html_documentos",
-    "ultima_lectura": "2026-10-25T15:58:16-04:00",
-    "ultimo_exito": "2026-10-25T15:58:16-04:00",
+    "ultima_lectura": "2026-10-25T15:59:34-04:00",
+    "ultimo_exito": "2026-10-25T15:59:34-04:00",
     "url": "https://cnss.gob.do/documentos/legal/normativas/"
   },
   "cnss_noticias": {
@@ -157,8 +157,8 @@
     "mensaje_error": null,
     "nombre": "CNSS",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:15-04:00",
-    "ultimo_exito": "2026-10-25T15:58:15-04:00",
+    "ultima_lectura": "2026-10-25T15:59:34-04:00",
+    "ultimo_exito": "2026-10-25T15:59:34-04:00",
     "url": "https://www.cnss.gob.do/feed/"
   },
   "deultimominuto": {
@@ -175,8 +175,8 @@
     "mensaje_error": null,
     "nombre": "De Último Minuto",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:30-04:00",
-    "ultimo_exito": "2026-10-25T15:58:30-04:00",
+    "ultima_lectura": "2026-10-25T15:59:58-04:00",
+    "ultimo_exito": "2026-10-25T15:59:58-04:00",
     "url": "https://www.deultimominuto.net/feed/"
   },
   "diariolibre_actualidad": {
@@ -193,8 +193,8 @@
     "mensaje_error": null,
     "nombre": "Diario Libre",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:21-04:00",
-    "ultimo_exito": "2026-10-25T15:58:21-04:00",
+    "ultima_lectura": "2026-10-25T15:59:40-04:00",
+    "ultimo_exito": "2026-10-25T15:59:40-04:00",
     "url": "https://www.diariolibre.com/rss/actualidad.xml"
   },
   "diariolibre_economia": {
@@ -211,8 +211,8 @@
     "mensaje_error": null,
     "nombre": "Diario Libre",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:20-04:00",
-    "ultimo_exito": "2026-10-25T15:58:20-04:00",
+    "ultima_lectura": "2026-10-25T15:59:39-04:00",
+    "ultimo_exito": "2026-10-25T15:59:39-04:00",
     "url": "https://www.diariolibre.com/rss/economia.xml"
   },
   "diariolibre_portada": {
@@ -229,8 +229,8 @@
     "mensaje_error": null,
     "nombre": "Diario Libre",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:20-04:00",
-    "ultimo_exito": "2026-10-25T15:58:20-04:00",
+    "ultima_lectura": "2026-10-25T15:59:39-04:00",
+    "ultimo_exito": "2026-10-25T15:59:39-04:00",
     "url": "https://www.diariolibre.com/rss/portada.xml"
   },
   "diariolibre_sitemap": {
@@ -247,8 +247,8 @@
     "mensaje_error": null,
     "nombre": "Diario Libre",
     "tipo": "sitemap_noticias",
-    "ultima_lectura": "2026-10-25T15:58:21-04:00",
-    "ultimo_exito": "2026-10-25T15:58:21-04:00",
+    "ultima_lectura": "2026-10-25T15:59:40-04:00",
+    "ultimo_exito": "2026-10-25T15:59:40-04:00",
     "url": "https://www.diariolibre.com/sitemapnews"
   },
   "diariosalud": {
@@ -257,16 +257,16 @@
     "conteo_ultima_lectura": {
       "descartados": 12,
       "leidos": 16,
-      "nuevos": 4,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 4
     },
     "estado": "ok",
     "fallos_consecutivos": 0,
     "mensaje_error": null,
     "nombre": "Diario Salud",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:31-04:00",
-    "ultimo_exito": "2026-10-25T15:58:31-04:00",
+    "ultima_lectura": "2026-10-25T15:59:59-04:00",
+    "ultimo_exito": "2026-10-25T15:59:59-04:00",
     "url": "https://diariosalud.do/feed/"
   },
   "digemaps_alertas": {
@@ -283,8 +283,8 @@
     "mensaje_error": null,
     "nombre": "DIGEMAPS",
     "tipo": "html_documentos",
-    "ultima_lectura": "2026-10-25T15:58:13-04:00",
-    "ultimo_exito": "2026-10-25T15:58:13-04:00",
+    "ultima_lectura": "2026-10-25T15:59:31-04:00",
+    "ultimo_exito": "2026-10-25T15:59:31-04:00",
     "url": "https://digemaps.gob.do/alerta-sanitaria-de-seguridad/"
   },
   "digemaps_noticias": {
@@ -301,8 +301,8 @@
     "mensaje_error": null,
     "nombre": "DIGEMAPS",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:11-04:00",
-    "ultimo_exito": "2026-10-25T15:58:11-04:00",
+    "ultima_lectura": "2026-10-25T15:59:30-04:00",
+    "ultimo_exito": "2026-10-25T15:59:30-04:00",
     "url": "https://digemaps.gob.do/feed/"
   },
   "eldia": {
@@ -319,8 +319,8 @@
     "mensaje_error": null,
     "nombre": "El Día",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:24-04:00",
-    "ultimo_exito": "2026-10-25T15:58:24-04:00",
+    "ultima_lectura": "2026-10-25T15:59:53-04:00",
+    "ultimo_exito": "2026-10-25T15:59:53-04:00",
     "url": "https://eldia.com.do/feed/"
   },
   "eldinero": {
@@ -332,12 +332,13 @@
       "nuevos": 0,
       "repetidos": 0
     },
-    "estado": "ok",
-    "fallos_consecutivos": 0,
-    "mensaje_error": null,
+    "estado": "error",
+    "fallos_consecutivos": 1,
+    "mensaje_error": "HTTPError: 403 Client Error: Forbidden for url: https://eldinero.com.do/feed/",
     "nombre": "elDinero",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:24-04:00",
+    "ultima_lectura": "2026-10-25T15:59:43-04:00",
+    "ultimo_error": "2026-10-25T15:59:43-04:00",
     "ultimo_exito": "2026-10-25T15:58:24-04:00",
     "url": "https://eldinero.com.do/feed/"
   },
@@ -355,8 +356,8 @@
     "mensaje_error": null,
     "nombre": "El Nuevo Diario",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:27-04:00",
-    "ultimo_exito": "2026-10-25T15:58:27-04:00",
+    "ultima_lectura": "2026-10-25T15:59:55-04:00",
+    "ultimo_exito": "2026-10-25T15:59:55-04:00",
     "url": "https://elnuevodiario.com.do/feed/"
   },
   "hoy_economia": {
@@ -373,8 +374,8 @@
     "mensaje_error": null,
     "nombre": "Hoy",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:25-04:00",
-    "ultimo_exito": "2026-10-25T15:58:25-04:00",
+    "ultima_lectura": "2026-10-25T15:59:53-04:00",
+    "ultimo_exito": "2026-10-25T15:59:53-04:00",
     "url": "https://hoy.com.do/rss/economia.xml"
   },
   "hoy_portada": {
@@ -391,8 +392,8 @@
     "mensaje_error": null,
     "nombre": "Hoy",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:24-04:00",
-    "ultimo_exito": "2026-10-25T15:58:24-04:00",
+    "ultima_lectura": "2026-10-25T15:59:53-04:00",
+    "ultimo_exito": "2026-10-25T15:59:53-04:00",
     "url": "https://hoy.com.do/rss/home.xml"
   },
   "listin_economia": {
@@ -409,8 +410,8 @@
     "mensaje_error": null,
     "nombre": "Listín Diario",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:22-04:00",
-    "ultimo_exito": "2026-10-25T15:58:22-04:00",
+    "ultima_lectura": "2026-10-25T15:59:41-04:00",
+    "ultimo_exito": "2026-10-25T15:59:41-04:00",
     "url": "https://listindiario.com/rss/economia.xml"
   },
   "listin_la_republica": {
@@ -427,8 +428,8 @@
     "mensaje_error": null,
     "nombre": "Listín Diario",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:22-04:00",
-    "ultimo_exito": "2026-10-25T15:58:22-04:00",
+    "ultima_lectura": "2026-10-25T15:59:42-04:00",
+    "ultimo_exito": "2026-10-25T15:59:42-04:00",
     "url": "https://listindiario.com/rss/la-republica.xml"
   },
   "listin_sitemap": {
@@ -445,8 +446,8 @@
     "mensaje_error": null,
     "nombre": "Listín Diario",
     "tipo": "sitemap_noticias",
-    "ultima_lectura": "2026-10-25T15:58:23-04:00",
-    "ultimo_exito": "2026-10-25T15:58:23-04:00",
+    "ultima_lectura": "2026-10-25T15:59:42-04:00",
+    "ultimo_exito": "2026-10-25T15:59:42-04:00",
     "url": "https://listindiario.com/sitemap-google-news.xml"
   },
   "ndigital": {
@@ -463,8 +464,8 @@
     "mensaje_error": null,
     "nombre": "N Digital",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:25-04:00",
-    "ultimo_exito": "2026-10-25T15:58:25-04:00",
+    "ultima_lectura": "2026-10-25T15:59:53-04:00",
+    "ultimo_exito": "2026-10-25T15:59:53-04:00",
     "url": "https://n.com.do/feed/"
   },
   "noticiassin": {
@@ -481,8 +482,8 @@
     "mensaje_error": null,
     "nombre": "Noticias SIN",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:27-04:00",
-    "ultimo_exito": "2026-10-25T15:58:27-04:00",
+    "ultima_lectura": "2026-10-25T15:59:55-04:00",
+    "ultimo_exito": "2026-10-25T15:59:55-04:00",
     "url": "https://noticiassin.com/feed/"
   },
   "panorama": {
@@ -499,8 +500,8 @@
     "mensaje_error": null,
     "nombre": "Panorama",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:30-04:00",
-    "ultimo_exito": "2026-10-25T15:58:30-04:00",
+    "ultima_lectura": "2026-10-25T15:59:59-04:00",
+    "ultimo_exito": "2026-10-25T15:59:59-04:00",
     "url": "https://panorama.com.do/feed/"
   },
   "proconsumidor_noticias": {
@@ -517,8 +518,8 @@
     "mensaje_error": null,
     "nombre": "Pro Consumidor",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:16-04:00",
-    "ultimo_exito": "2026-10-25T15:58:16-04:00",
+    "ultima_lectura": "2026-10-25T15:59:35-04:00",
+    "ultimo_exito": "2026-10-25T15:59:35-04:00",
     "url": "https://proconsumidor.gob.do/feed/"
   },
   "promesecal_noticias": {
@@ -535,8 +536,8 @@
     "mensaje_error": null,
     "nombre": "Promese/Cal",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:17-04:00",
-    "ultimo_exito": "2026-10-25T15:58:17-04:00",
+    "ultima_lectura": "2026-10-25T15:59:36-04:00",
+    "ultimo_exito": "2026-10-25T15:59:36-04:00",
     "url": "https://www.promesecal.gob.do/feed/"
   },
   "revistamercado": {
@@ -553,8 +554,8 @@
     "mensaje_error": null,
     "nombre": "Revista Mercado",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:29-04:00",
-    "ultimo_exito": "2026-10-25T15:58:29-04:00",
+    "ultima_lectura": "2026-10-25T15:59:57-04:00",
+    "ultimo_exito": "2026-10-25T15:59:57-04:00",
     "url": "https://www.revistamercado.do/feed/"
   },
   "sis_documentos": {
@@ -571,8 +572,8 @@
     "mensaje_error": null,
     "nombre": "Superintendencia de Seguros",
     "tipo": "html_documentos",
-    "ultima_lectura": "2026-10-25T15:58:15-04:00",
-    "ultimo_exito": "2026-10-25T15:58:15-04:00",
+    "ultima_lectura": "2026-10-25T15:59:33-04:00",
+    "ultimo_exito": "2026-10-25T15:59:33-04:00",
     "url": "https://sis.gob.do/"
   },
   "sis_noticias": {
@@ -589,8 +590,8 @@
     "mensaje_error": null,
     "nombre": "Superintendencia de Seguros",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:14-04:00",
-    "ultimo_exito": "2026-10-25T15:58:14-04:00",
+    "ultima_lectura": "2026-10-25T15:59:32-04:00",
+    "ultimo_exito": "2026-10-25T15:59:32-04:00",
     "url": "https://sis.gob.do/feed/"
   },
   "sisalril_noticias": {
@@ -607,8 +608,8 @@
     "mensaje_error": null,
     "nombre": "SISALRIL",
     "tipo": "rss",
-    "ultima_lectura": "2026-10-25T15:58:10-04:00",
-    "ultimo_exito": "2026-10-25T15:58:10-04:00",
+    "ultima_lectura": "2026-10-25T15:59:29-04:00",
+    "ultimo_exito": "2026-10-25T15:59:29-04:00",
     "url": "https://www.sisalril.gob.do/feed/"
   }
 }
