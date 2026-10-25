@@ -42,7 +42,13 @@ publica en una página estática. No representa la posición de ninguna empresa.
 ## Ejecución
 
 - Python en `.venv` (`.venv\Scripts\python.exe -m radar ...`). Comandos: `recolectar`,
-  `reclasificar`, `probar "título"`, `estado`, `generar`, `avisos --simular`.
+  `reclasificar`, `probar "título"`, `estado`, `indicadores`, `generar`, `avisos --simular`.
+- Indicadores: solo archivos oficiales del BCRD (`config/indicadores.yaml`). No usar una
+  cifra cuyo período sea ambiguo; documentar en la tarjeta cualquier sustitución.
+- La prioridad se decide solo con las reglas de `config/clasificacion.yaml`. No ordenar ni
+  destacar titulares a mano.
+- No commitear `datos/` desde la copia local: lo escribe el flujo de Actions cada 6 horas y
+  un commit local provocaría conflictos.
 - Pruebas: `python -m unittest discover -s tests`. Deben pasar antes de cada commit.
 - En GitHub Actions (`.github/workflows/radar.yml`) la corrida es: recolectar,
   reclasificar, generar, commit de `datos/`, avisos y publicación en Pages.

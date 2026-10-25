@@ -34,6 +34,8 @@ def _principal(argumentos: list[str] | None = None) -> int:
 
     sub.add_parser("estado", help="muestra el estado de cada fuente")
     sub.add_parser("generar", help="construye el sitio estático en docs/")
+    p_indicadores = sub.add_parser("indicadores", help="actualiza los indicadores económicos del BCRD")
+    p_indicadores.add_argument("--sin-guardar", action="store_true")
     p_avisos = sub.add_parser("avisos", help="abre o cierra issues en GitHub según los fallos de las fuentes")
     p_avisos.add_argument("--simular", action="store_true", help="muestra qué haría sin llamar a GitHub")
 
@@ -60,6 +62,11 @@ def _principal(argumentos: list[str] | None = None) -> int:
         from . import generar_sitio
 
         generar_sitio.generar()
+        return 0
+    if opciones.comando == "indicadores":
+        from . import indicadores
+
+        indicadores.actualizar(guardar=not opciones.sin_guardar)
         return 0
     if opciones.comando == "avisos":
         from . import avisos

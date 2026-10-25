@@ -167,6 +167,107 @@ class PruebasSitio(unittest.TestCase):
         self.assertEqual(json.loads(seguro)["titulo"], "Ataque </script><script>alert(1)</script> <!-- x")
 
 
+class PruebasPrioridad(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.c = Clasificador(config.cargar_clasificacion())
+
+    def test_ley_con_numero_es_alta(self):
+        r = self.c.clasificar("Senado aprueba modificación a la Ley 87-01 sobre seguridad social")
+        self.assertEqual((r["prioridad"], r["motivo_prioridad"]), ("alta", "Menciona Ley 87-01"))
+        r = self.c.clasificar("Gobierno someterá reforma a la Ley núm. 146-02 de Seguros y Fianzas")
+        self.assertEqual(r["motivo_prioridad"], "Menciona Ley 146-02")
+
+    def test_documento_con_anio_separado(self):
+        r = self.c.clasificar("Resolucion 05 2026 Sobre cierre definitivo de la compania Seguros Cibao", categoria="organismo")
+        self.assertEqual(r["prioridad"], "alta")
+        self.assertIn("Resolución 05-2026", r["motivo_prioridad"])
+
+    def test_comunicado_institucional_es_baja(self):
+        r = self.c.clasificar("CNSS se une a campaña prevención Cáncer de Mama", categoria="organismo", organismo_emisor="CNSS")
+        self.assertEqual(r["prioridad"], "baja")
+
+    def test_medio_sin_actor_es_baja_pero_organismo_no(self):
+        self.assertEqual(self.c.clasificar("Vacuna contra la tuberculosis muestra potencial frente a la demencia")["prioridad"], "baja")
+        r = self.c.clasificar("Encuentro técnico sobre medicamentos", categoria="organismo", organismo_emisor="DIGEMAPS")
+        self.assertNotEqual(r["motivo_prioridad"], "Sin empresa u organismo del mercado dominicano")
+
+    def test_noticia_comun_es_media(self):
+        self.assertEqual(self.c.clasificar("Farmacia Carol abre nueva sucursal en Santiago")["prioridad"], "media")
+
+
+def _meses(desde_anio, n, valor):
+    """Filas año/mes al estilo del BCRD: el año solo en enero."""
+    meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+    filas = []
+    for k in range(n):
+        anio, mes = desde_anio + k // 12, k % 12
+        filas.append([str(anio) if mes == 0 else "", meses[mes], *valor(k)])
+    return filas
+
+
+class PruebasIndicadores(unittest.TestCase):
+    def test_ipc(self):
+        from radar.indicadores import leer_ipc, tarjetas_ipc
+        filas = [["Índice de Precios"], ["Período", "", "Indice", "Variación Porcentual"], ["", "", "", "Mensual", "con Dic.", "12 meses", "12 meses"]]
+        filas += _meses(2025, 21, lambda k: [100 + k, 0.3, 0.3 * (k % 12 + 1), 5.0 + k / 100, 4.0])
+        serie = leer_ipc(filas)
+        self.assertEqual((serie[-1]["anio"], serie[-1]["mes"]), (2026, 9))
+        interanual, acumulada = tarjetas_ipc(serie, "Meta", {})
+        self.assertEqual(interanual["texto_valor"], "5.20 %")
+        self.assertEqual(interanual["direccion"], "sube")
+        self.assertIn("Mismo período de 2025", acumulada["comparacion"])
+
+    def test_ipc_grupo_calcula_interanual(self):
+        from radar.indicadores import ErrorIndicador, leer_ipc_grupo
+        meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+        # formato del BCRD: el año en una fila aparte ("2024.0") y los meses debajo
+        filas = [["Período", "Alimentos", "", "Salud"], ["", "Indice", "Var. %", "Indice"], ["2024.0"]]
+        filas += [[m, "1", "-", 100.0] for m in meses]
+        filas += [["2025.0"]] + [[m, "1", "-", 104.0] for m in meses]
+        filas += [["2026.0"], ["Enero", "1", "-", 106.08]]
+        serie = leer_ipc_grupo(filas, "salud")
+        self.assertAlmostEqual(serie[-1]["interanual"], 2.0, places=6)   # 106.08 / 104 - 1
+        self.assertAlmostEqual(serie[-2]["interanual"], 4.0, places=6)   # 104 / 100 - 1
+        with self.assertRaises(ErrorIndicador):
+            leer_ipc_grupo(filas[:20], "salud")  # sin un año completo de base: muy pocas filas
+
+    def test_tpm_en_fraccion_y_desde_cuando(self):
+        from radar.indicadores import leer_tpm, tarjeta_tpm
+        filas = [["Tasas de Política Monetaria"], ["Año", "Mes", "Tasa de Política Monetaria"]]
+        tasas = [0.0525] * 20 + [0.055]
+        abreviados = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+        for k, t in enumerate(tasas):
+            filas.append([str(2025 + k // 12) if k % 12 == 0 else "", abreviados[k % 12], t])
+        t = tarjeta_tpm(leer_tpm(filas), {})
+        self.assertEqual(t["texto_valor"], "5.50 %")
+        self.assertEqual(t["direccion"], "sube")
+        self.assertEqual(t["periodo"], "vigente desde septiembre 2026")
+        self.assertIn("Antes: 5.25 %", t["comparacion"])
+
+    def test_pib_sector_interanual(self):
+        from radar.indicadores import leer_pib_sector
+        anios = ["INDICE", "2024", "", "", "", "2025 (p)", "", "", "", "2026 (p)", ""]
+        trims = ["", "E-M", "A-J", "J-S", "O-D", "E-M", "A-J", "J-S", "O-D", "E-M", "A-J"]
+        salud = ["Salud", 100, 100, 100, 100, 104, 105, 106, 107, 110.24, 109.2]
+        serie = leer_pib_sector([["PIB"], anios, trims, ["Agropecuario"] + [1] * 10, salud], "salud")
+        self.assertAlmostEqual(serie[-1]["interanual"], 4.0, places=6)
+        self.assertTrue(serie[-1]["preliminar"])
+        self.assertEqual((serie[-1]["anio"], serie[-1]["trimestre"]), (2026, 2))
+
+    def test_titulo_nota_imae(self):
+        from radar.indicadores import titulo_nota_imae
+        self.assertEqual(titulo_nota_imae("Valdez Albizu anunció que la economía dominicana creció 5.6 % interanual en septiembre 2026"), (5.6, 9, 2026))
+        self.assertEqual(titulo_nota_imae("Economía dominicana registra expansión de 6.4 % en junio 2026"), (6.4, 6, 2026))
+        self.assertIsNone(titulo_nota_imae("Economía dominicana registra crecimiento interanual promedio de 4.5 % en enero-agosto de 2026"))
+        self.assertIsNone(titulo_nota_imae("BCRD informa que la variación mensual del IPC de septiembre fue de 0.33 %"))
+
+    def test_fuera_de_rango_es_error(self):
+        from radar.indicadores import ErrorIndicador, _comprobar
+        with self.assertRaises(ErrorIndicador):
+            _comprobar(512.0, "inflacion", "prueba")
+
+
 class PruebasConfiguracion(unittest.TestCase):
     def test_fuentes_validas(self):
         fuentes = config.cargar_fuentes(solo_activas=False)

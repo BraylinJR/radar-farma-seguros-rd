@@ -47,6 +47,8 @@ def _item_pagina(noticia: dict) -> dict:
         "sectores": noticia.get("sectores", []),
         "tema": noticia.get("tema", config.TEMA_POR_DEFECTO),
         "empresas": noticia.get("empresas", []),
+        "prioridad": noticia.get("prioridad", "media"),
+        "motivo": noticia.get("motivo_prioridad", ""),
         "tambien_en": noticia.get("tambien_en", []),
     }
 
@@ -65,11 +67,13 @@ def resumen_semanal(items: list[dict], ahora: datetime) -> dict:
         for empresa in item["empresas"]:
             empresas[empresa] += 1
         medios[item["medio"]] += 1
-    regulatorias = [
-        {"id": i["id"], "titulo": i["titulo"], "medio": i["medio"], "enlace": i["enlace"],
-         "fecha": i["fecha"], "precision": i["precision"], "tema": i["tema"], "tipo": i["tipo"]}
-        for i in semana if i["categoria"] == "organismo"
-    ]
+    def breve(i):
+        return {"id": i["id"], "titulo": i["titulo"], "medio": i["medio"], "enlace": i["enlace"], "fecha": i["fecha"],
+                "precision": i["precision"], "tema": i["tema"], "tipo": i["tipo"], "prioridad": i["prioridad"], "motivo": i["motivo"]}
+
+    regulatorias = [breve(i) for i in semana if i["categoria"] == "organismo" and i["prioridad"] != "baja"]
+    alta = [breve(i) for i in semana if i["prioridad"] == "alta"]
+    por_prioridad = Counter(i["prioridad"] for i in semana)
     return {
         "periodo": {
             "inicio": a_iso(inicio),
@@ -78,7 +82,9 @@ def resumen_semanal(items: list[dict], ahora: datetime) -> dict:
         },
         "total": len(semana),
         "de_medios": sum(1 for i in semana if i["categoria"] == "medio"),
-        "de_organismos": len(regulatorias),
+        "de_organismos": sum(1 for i in semana if i["categoria"] == "organismo"),
+        "por_prioridad": {p: por_prioridad.get(p, 0) for p in ("alta", "media", "baja")},
+        "alta": alta,
         "por_sector": dict(por_sector.most_common()),
         "por_tema": dict(por_tema.most_common()),
         "empresas_mas_mencionadas": empresas.most_common(10),
@@ -123,6 +129,10 @@ def construir_datos(ahora: datetime | None = None) -> dict:
 
     temas = [t["nombre"] for t in clasificacion["temas"]] + [config.TEMA_POR_DEFECTO]
     sectores = list(clasificacion["sectores"].keys())
+    fuentes_activas = config.cargar_fuentes()
+    medios = sorted({f["nombre"] for f in fuentes_activas if f["categoria"] == "medio"})
+    organismos = sorted({f["nombre"] for f in fuentes_activas if f["categoria"] == "organismo"})
+    from . import indicadores as modulo_indicadores
 
     repositorio = os.environ.get("GITHUB_REPOSITORY")
     servidor = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
@@ -146,6 +156,8 @@ def construir_datos(ahora: datetime | None = None) -> dict:
         "items": visibles,
         "resumen_semanal": resumen_semanal(visibles, ahora),
         "fuentes": _estado_para_pagina(estado),
+        "indicadores": modulo_indicadores.cargar(),
+        "metodologia": {"medios": medios, "organismos": organismos},
     }
 
 
@@ -163,9 +175,17 @@ def generar(carpeta_salida: Path = config.CARPETA_SITIO) -> Path:
     json_datos = json.dumps(datos, ensure_ascii=False, separators=(",", ":"))
     json_incrustado = incrustar_json(json_datos)
 
+    import hashlib
+
+    def huella(nombre: str) -> str:
+        ruta = carpeta_salida / nombre
+        return hashlib.sha1(ruta.read_bytes()).hexdigest()[:10] if ruta.exists() else "0"
+
     plantilla = PLANTILLA.read_text(encoding="utf-8")
     html = (
         plantilla
+        .replace("{{VERSION_CSS}}", huella("estilos.css"))
+        .replace("{{VERSION_JS}}", huella("app.js"))
         .replace("{{DATOS_JSON}}", json_incrustado)
         .replace("{{GENERADO_TEXTO}}", datos["meta"]["generado_texto"])
         .replace("{{GENERADO_ISO}}", datos["meta"]["generado"])

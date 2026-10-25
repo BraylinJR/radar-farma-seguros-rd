@@ -4,124 +4,242 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar Farma &amp; Seguros RD</title>
-<meta name="description" content="Titulares y documentos regulatorios de República Dominicana sobre farmacias, laboratorios, medicamentos y seguros, reunidos automáticamente. Proyecto personal e independiente.">
+<meta name="description" content="Indicadores del BCRD, normas y noticias de farmacias, laboratorios, medicamentos y seguros en República Dominicana, reunidos automáticamente desde fuentes públicas. Proyecto personal e independiente.">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%232a78d6'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fcfcfb' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fcfcfb'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="estilos.css">
+<meta property="og:title" content="Radar Farma & Seguros RD">
+<meta property="og:description" content="Indicadores económicos, regulación y noticias del mercado farmacéutico y asegurador dominicano, actualizados cada 6 horas.">
+<meta property="og:type" content="website">
+<script>
+  (function () {
+    try {
+      var guardado = localStorage.getItem("radar-tema");
+      if (guardado === "light" || guardado === "dark") document.documentElement.setAttribute("data-theme", guardado);
+    } catch (e) {}
+  })();
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1f3a'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%2322d3ee' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='none' stroke='%2322d3ee' stroke-width='2' opacity='.6'/%3E%3Cpath d='M16 16 L24 9' stroke='%2322d3ee' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='21' cy='20' r='2' fill='%23fb7185'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="estilos.css?v={{VERSION_CSS}}">
 </head>
 <body>
 
-<header class="cabecera">
-  <div class="contenedor">
-    <p class="sobretitulo">República Dominicana</p>
-    <h1>Radar Farma &amp; Seguros RD</h1>
-    <p class="lema">Titulares y documentos regulatorios sobre farmacias, laboratorios, medicamentos y seguros, reunidos automáticamente desde fuentes públicas.</p>
-    <p class="actualizacion">Última actualización: <time datetime="{{GENERADO_ISO}}">{{GENERADO_TEXTO}}</time></p>
-    <div class="kpis" id="kpis" aria-label="Cifras de la semana"></div>
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Interfaz -->
+    <symbol id="i-logo" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="16" r="6.5" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/><path d="M16 16 26 8" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M14.5 3.5h3M16 2v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity=".8"/><circle cx="21.5" cy="21" r="2.2" fill="#fb7185"/></symbol>
+    <symbol id="i-sol" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.3M12 19.2v2.3M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.3M19.2 12h2.3M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-luna" viewBox="0 0 24 24"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-buscar" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+    <symbol id="i-externo" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-rayo" viewBox="0 0 24 24"><path d="M13.5 2.5 5 13.5h6l-1 8 8.5-11h-6l1-8Z" fill="currentColor"/></symbol>
+    <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 2.8h8l4.2 4.2V20a1.2 1.2 0 0 1-1.2 1.2H6A1.2 1.2 0 0 1 4.8 20V4A1.2 1.2 0 0 1 6 2.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M14 2.8V7h4.2M8 11.5h8M8 15h8M8 18.5h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+
+    <!-- Temas -->
+    <symbol id="t-alertas" viewBox="0 0 24 24"><path d="M10.3 3.9 2.6 17.6A2 2 0 0 0 4.3 20.6h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9v5M12 17.2v.3" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/></symbol>
+    <symbol id="t-fusiones" viewBox="0 0 24 24"><circle cx="9" cy="12" r="5.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="15" cy="12" r="5.6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="t-resultados" viewBox="0 0 24 24"><path d="M4 20.5h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 17v-4M11 17V9.5M15.5 17v-6M20 17V5.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="m5 8.5 4.5-4 4 3 5-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/></symbol>
+    <symbol id="t-precios" viewBox="0 0 24 24"><path d="M3.5 12.6V4.7A1.2 1.2 0 0 1 4.7 3.5h7.9l8.2 8.2a1.6 1.6 0 0 1 0 2.3l-6.8 6.8a1.6 1.6 0 0 1-2.3 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="8.2" cy="8.2" r="1.7" fill="currentColor"/></symbol>
+    <symbol id="t-regulacion" viewBox="0 0 24 24"><path d="M12 3v17.5M7 20.5h10M4 7h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.2 7 3 13.5a3.4 3.4 0 0 0 6.4 0Zm11.6 0-3.2 6.5a3.4 3.4 0 0 0 6.4 0Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="t-lanzamientos" viewBox="0 0 24 24"><path d="M14.5 4.2c3-1.2 5.2-.9 5.2-.9s.3 2.2-.9 5.2c-1.1 2.7-3.9 5.7-6.6 7.4l-3.9-3.9c1.7-2.7 4.5-6.6 6.2-7.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="15.2" cy="8.8" r="1.6" fill="currentColor"/><path d="M8.3 12 5 11.4l2.5-3.3h3.2M12 15.7l.6 3.3 3.3-2.5v-3.2M5.5 18.5c.3-1.6 1.2-2.5 2.2-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="t-otros" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="14" height="15" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M17.5 8.5h2a1 1 0 0 1 1 1v8.2a1.8 1.8 0 0 1-3.6 0M6.5 8h8M6.5 11.5h8M6.5 15h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+
+    <!-- Sectores -->
+    <symbol id="s-farmacia" viewBox="0 0 24 24"><rect x="2.8" y="8.2" width="18.4" height="7.6" rx="3.8" transform="rotate(-40 12 12)" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m9.3 8.9 5.8 6.2" stroke="currentColor" stroke-width="1.8" transform="rotate(4 12 12)"/></symbol>
+    <symbol id="s-laboratorios" viewBox="0 0 24 24"><path d="M9.5 3h5M10.5 3v6L5 18.6A1.6 1.6 0 0 0 6.4 21h11.2a1.6 1.6 0 0 0 1.4-2.4L13.5 9V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.4 15h9.2" stroke="currentColor" stroke-width="1.6"/><circle cx="11" cy="17.6" r="1" fill="currentColor"/><circle cx="14" cy="18.2" r=".8" fill="currentColor"/></symbol>
+    <symbol id="s-ars" viewBox="0 0 24 24"><path d="M12 20.3S3.8 15.4 3.8 9.4A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 8.2 2.1c0 6-8.2 10.9-8.2 10.9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.5 12.3h3l1.3-2.3 2 4.3 1.3-2h3.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="s-seguros" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 1 9 9H3a9 9 0 0 1 9-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 12v6.5a2 2 0 0 1-4 0M12 2v1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="s-gobierno" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M4.5 20.5h15M6 10.5v7M10 10.5v7M14 10.5v7M18 10.5v7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+
+    <!-- Indicadores -->
+    <symbol id="ind-inflacion" viewBox="0 0 24 24"><path d="M3 4.5h2.2l2.4 10.8h10.6l2.3-7.8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="19.2" r="1.5" fill="currentColor"/><circle cx="16.6" cy="19.2" r="1.5" fill="currentColor"/></symbol>
+    <symbol id="ind-acumulada" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 9.5h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m8 16.5 2.6-2.6 2 1.6 3.4-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="ind-tpm" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M4.5 20.5h15M6.5 11v6.5M17.5 11v6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="m9.5 17 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="10" cy="12.4" r="1.1" fill="currentColor"/><circle cx="14" cy="16.6" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="ind-imae" viewBox="0 0 24 24"><path d="M2.5 12.5h4l2.2-6 4.2 12 2.6-7.5 1.5 1.5h4.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="ind-salud" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.8v8.4M7.8 12h8.4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="ind-pastilla" viewBox="0 0 24 24"><rect x="2.8" y="8.2" width="18.4" height="7.6" rx="3.8" transform="rotate(-40 12 12)" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m9.3 8.9 5.8 6.2" stroke="currentColor" stroke-width="1.8" transform="rotate(4 12 12)"/><path d="M17.5 17.5h4M19.5 15.5v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="barra" id="inicio">
+  <div class="contenedor barra-fila">
+    <a class="marca" href="#inicio" aria-label="Radar Farma y Seguros RD, inicio">
+      <svg class="marca-logo" aria-hidden="true"><use href="#i-logo"/></svg>
+      <span class="marca-nombre">Radar <b>Farma &amp; Seguros</b> <span class="marca-rd">RD</span></span>
+    </a>
+    <nav class="menu" aria-label="Secciones">
+      <a href="#indicadores">Indicadores</a>
+      <a href="#prioridad">Prioridad alta</a>
+      <a href="#regulacion">Regulación</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#tendencias">Tendencias</a>
+      <a href="#metodologia">Metodología</a>
+    </nav>
+    <button type="button" class="tema-boton" id="tema-boton" aria-label="Cambiar a modo claro">
+      <svg class="ico-sol" aria-hidden="true"><use href="#i-sol"/></svg>
+      <svg class="ico-luna" aria-hidden="true"><use href="#i-luna"/></svg>
+    </button>
   </div>
 </header>
 
-<main class="contenedor">
-
-  <section id="regulacion" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Regulación</h2>
-      <p class="subtitulo">Lo último publicado por los organismos: resoluciones, circulares, alertas y comunicados.</p>
+<section class="heroe" aria-labelledby="titulo-principal">
+  <div id="indicadores" class="contenedor franja-indicadores" role="region" aria-labelledby="titulo-indicadores">
+    <div class="en-linea">
+      <h2 id="titulo-indicadores"><svg aria-hidden="true"><use href="#ind-imae"/></svg> Indicadores económicos</h2>
+      <p class="subtitulo" id="indicadores-fuente">Fuente: Banco Central de la República Dominicana</p>
     </div>
-    <ul class="tarjetas" id="lista-regulacion"></ul>
-    <p class="acciones"><button type="button" class="boton-secundario" id="ver-regulacion">Ver todo lo regulatorio en la lista</button></p>
-  </section>
-
-  <section id="noticias" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Noticias</h2>
-      <p class="subtitulo">Filtra por sector, tema, empresa u organismo y fechas. Cada título enlaza al medio original.</p>
+    <div class="indicadores" id="lista-indicadores"></div>
+    <p class="nota-pequena">Las flechas indican la dirección frente a la comparación de cada tarjeta. No son juicios de valor ni proyecciones.</p>
+  </div>
+  <div class="contenedor heroe-rejilla">
+    <div class="heroe-texto">
+      <p class="sobretitulo"><span class="punto-vivo" aria-hidden="true"></span> Actualización automática cada 6 horas</p>
+      <h1 id="titulo-principal">El pulso del mercado farmacéutico y asegurador dominicano</h1>
+      <p class="lema">Indicadores del Banco Central, normas de los reguladores y titulares de los principales medios, en un solo lugar. Clasificados con reglas públicas, sin opiniones.</p>
+      <p class="actualizacion">Última actualización: <time datetime="{{GENERADO_ISO}}">{{GENERADO_TEXTO}}</time></p>
+      <div class="cifras" id="cifras" aria-label="Cifras principales"></div>
     </div>
-    <form id="filtros" class="filtros" autocomplete="off">
-      <label class="campo campo-buscar">
-        <span>Buscar</span>
-        <input type="search" id="f-texto" placeholder="Título, medio o empresa">
-      </label>
-      <label class="campo">
-        <span>Sector</span>
-        <select id="f-sector"><option value="">Todos</option></select>
-      </label>
-      <label class="campo">
-        <span>Tema</span>
-        <select id="f-tema"><option value="">Todos</option></select>
-      </label>
-      <label class="campo">
-        <span>Empresa u organismo</span>
-        <select id="f-empresa"><option value="">Todas</option></select>
-      </label>
-      <label class="campo">
-        <span>Desde</span>
-        <input type="date" id="f-desde">
-      </label>
-      <label class="campo">
-        <span>Hasta</span>
-        <input type="date" id="f-hasta">
-      </label>
-      <div class="campo campo-boton">
-        <button type="reset" class="boton-secundario" id="f-limpiar">Limpiar filtros</button>
+    <div class="radar-visual" aria-hidden="true">
+      <div class="radar">
+        <span class="radar-barrido"></span>
+        <span class="blip b1"></span><span class="blip b2"></span><span class="blip b3"></span><span class="blip b4"></span><span class="blip b5"></span>
+        <span class="radar-etiqueta e1"><svg><use href="#s-farmacia"/></svg></span>
+        <span class="radar-etiqueta e2"><svg><use href="#s-seguros"/></svg></span>
+        <span class="radar-etiqueta e3"><svg><use href="#s-laboratorios"/></svg></span>
+        <span class="radar-etiqueta e4"><svg><use href="#s-gobierno"/></svg></span>
       </div>
-    </form>
-    <p class="conteo" id="conteo" aria-live="polite"></p>
-    <ol class="lista" id="lista-noticias"></ol>
-    <p class="acciones"><button type="button" class="boton-secundario" id="mostrar-mas" hidden>Mostrar más</button></p>
-  </section>
-
-  <section id="grafico" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Noticias por semana y tema</h2>
-      <p class="subtitulo">Últimas 12 semanas. Sigue los filtros de sector, tema, empresa y texto de la lista (no los de fecha).</p>
     </div>
-    <div class="tarjeta-grafico">
-      <div class="leyenda" id="leyenda-grafico" aria-label="Temas"></div>
-      <div class="grafico-envoltorio" id="grafico-semanas"></div>
-      <details class="tabla-detalle">
-        <summary>Ver como tabla</summary>
-        <div class="tabla-scroll"><table id="tabla-grafico"></table></div>
-      </details>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section id="empresas" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Más mencionados del mes</h2>
-      <p class="subtitulo">Empresas y organismos con más titulares en los últimos 30 días (sin filtros). Pulsa un nombre para filtrar la lista.</p>
-    </div>
-    <div class="ranking" id="ranking-empresas"></div>
-  </section>
+<main id="contenido">
 
-  <section id="resumen" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Resumen semanal</h2>
-      <p class="subtitulo" id="resumen-periodo"></p>
-    </div>
-    <div class="resumen" id="resumen-semanal"></div>
-  </section>
+  <div class="contenedor">
 
-  <section id="fuentes" class="seccion">
-    <div class="seccion-encabezado">
-      <h2>Estado de las fuentes</h2>
-      <p class="subtitulo">Resultado de la última lectura de cada fuente. Una fuente con error no detiene a las demás.</p>
-    </div>
-    <ul class="estado-fuentes" id="estado-fuentes"></ul>
-  </section>
+    <section id="prioridad" class="seccion" aria-labelledby="titulo-prioridad">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion alta"><svg aria-hidden="true"><use href="#i-rayo"/></svg> Prioridad alta</p>
+        <h2 id="titulo-prioridad">Lo que puede mover el mercado</h2>
+        <p class="subtitulo">Leyes, decretos, resoluciones y circulares con número, reformas, tarifas, coberturas y cierres. Últimos 30 días, de medios y organismos.</p>
+      </div>
+      <ul class="tarjetas-alta" id="lista-alta"></ul>
+    </section>
 
+    <section id="regulacion" class="seccion" aria-labelledby="titulo-regulacion">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#s-gobierno"/></svg> Reguladores</p>
+        <h2 id="titulo-regulacion">Regulación</h2>
+        <p class="subtitulo">Lo último publicado por SISALRIL, DIGEMAPS, la Superintendencia de Seguros, el CNSS, Pro Consumidor y Promese/Cal. No incluye comunicados institucionales.</p>
+      </div>
+      <div class="chips-filtro" id="filtro-organismos" role="group" aria-label="Filtrar por organismo"></div>
+      <ul class="tarjetas" id="lista-regulacion"></ul>
+    </section>
+
+    <section id="noticias" class="seccion" aria-labelledby="titulo-noticias">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#t-otros"/></svg> Titulares</p>
+        <h2 id="titulo-noticias">Noticias</h2>
+        <p class="subtitulo">Titulares de medios dominicanos. Cada uno enlaza al medio original; aquí no se copia el texto.</p>
+      </div>
+      <form id="filtros" class="filtros" autocomplete="off" role="search">
+        <div class="segmentos" role="radiogroup" aria-label="Tipo de fuente">
+          <label><input type="radio" name="f-categoria" value="medio" checked><span>Medios</span></label>
+          <label><input type="radio" name="f-categoria" value="organismo"><span>Organismos</span></label>
+          <label><input type="radio" name="f-categoria" value=""><span>Todo</span></label>
+        </div>
+        <label class="campo campo-buscar">
+          <span class="sr">Buscar</span>
+          <svg aria-hidden="true"><use href="#i-buscar"/></svg>
+          <input type="search" id="f-texto" placeholder="Buscar en títulos, medios, empresas y temas">
+        </label>
+        <div class="fila-campos">
+          <label class="campo"><span>Sector</span><select id="f-sector"><option value="">Todos</option></select></label>
+          <label class="campo"><span>Tema</span><select id="f-tema"><option value="">Todos</option></select></label>
+          <label class="campo"><span>Empresa u organismo</span><select id="f-empresa"><option value="">Todas</option></select></label>
+          <label class="campo"><span>Desde</span><input type="date" id="f-desde"></label>
+          <label class="campo"><span>Hasta</span><input type="date" id="f-hasta"></label>
+        </div>
+        <div class="fila-prioridad">
+          <span class="rotulo">Prioridad</span>
+          <label class="chip-check alta"><input type="checkbox" name="f-prioridad" value="alta" checked><span>Alta</span></label>
+          <label class="chip-check media"><input type="checkbox" name="f-prioridad" value="media" checked><span>Media</span></label>
+          <label class="chip-check baja"><input type="checkbox" name="f-prioridad" value="baja"><span>Baja</span></label>
+          <button type="reset" class="boton-texto" id="f-limpiar">Limpiar filtros</button>
+        </div>
+      </form>
+      <p class="conteo" id="conteo" aria-live="polite"></p>
+      <ol class="lista" id="lista-noticias"></ol>
+      <p class="acciones"><button type="button" class="boton" id="mostrar-mas" hidden>Mostrar más</button></p>
+    </section>
+
+    <section id="tendencias" class="seccion" aria-labelledby="titulo-tendencias">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#t-resultados"/></svg> Tendencias</p>
+        <h2 id="titulo-tendencias">Titulares por semana y tema</h2>
+        <p class="subtitulo">Últimas 12 semanas. Sigue los filtros de la lista de noticias, salvo las fechas.</p>
+      </div>
+      <div class="tendencias-rejilla">
+        <div class="panel panel-grafico">
+          <div class="leyenda" id="leyenda-grafico" aria-label="Temas"></div>
+          <div class="grafico-envoltorio" id="grafico-semanas"></div>
+          <details class="tabla-detalle">
+            <summary>Ver como tabla</summary>
+            <div class="tabla-scroll"><table id="tabla-grafico"></table></div>
+          </details>
+        </div>
+        <div class="panel">
+          <h3>Más mencionados del mes</h3>
+          <p class="subtitulo pequeno">Empresas y organismos nombrados en titulares de los últimos 30 días. No cuenta las publicaciones propias de cada organismo. Pulsa un nombre para filtrar.</p>
+          <div class="ranking" id="ranking-empresas"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resumen" class="seccion" aria-labelledby="titulo-resumen">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#ind-acumulada"/></svg> Semana</p>
+        <h2 id="titulo-resumen">Resumen semanal</h2>
+        <p class="subtitulo" id="resumen-periodo"></p>
+      </div>
+      <div class="resumen" id="resumen-semanal"></div>
+    </section>
+
+    <section id="fuentes" class="seccion" aria-labelledby="titulo-fuentes">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#i-info"/></svg> Transparencia</p>
+        <h2 id="titulo-fuentes">Estado de las fuentes</h2>
+        <p class="subtitulo" id="fuentes-resumen">Resultado de la última lectura de cada fuente. Una fuente con error no detiene a las demás.</p>
+      </div>
+      <div id="estado-fuentes"></div>
+    </section>
+
+    <section id="metodologia" class="seccion" aria-labelledby="titulo-metodologia">
+      <div class="seccion-encabezado">
+        <p class="etiqueta-seccion"><svg aria-hidden="true"><use href="#t-regulacion"/></svg> Criterios</p>
+        <h2 id="titulo-metodologia">Metodología</h2>
+        <p class="subtitulo">Las mismas reglas para todas las fuentes. Nadie elige a mano qué titular aparece.</p>
+      </div>
+      <div class="metodologia" id="metodologia-contenido"></div>
+    </section>
+
+  </div>
 </main>
 
 <footer class="pie">
-  <div class="contenedor">
-    <p><strong>Proyecto personal e independiente. No representa la posición de ninguna empresa. Las noticias pertenecen a sus medios; aquí solo se enlazan.</strong></p>
-    <p>Solo se guardan título, medio, fecha, enlace y etiquetas de clasificación. La clasificación es automática, por palabras clave, y puede contener errores. Código abierto bajo licencia MIT<span id="enlace-repo"></span>.</p>
+  <div class="contenedor pie-rejilla">
+    <div>
+      <p class="pie-marca"><svg aria-hidden="true"><use href="#i-logo"/></svg> Radar Farma &amp; Seguros RD</p>
+      <p class="aviso"><strong>Proyecto personal e independiente. No representa la posición de ninguna empresa. Las noticias pertenecen a sus medios; aquí solo se enlazan.</strong></p>
+    </div>
+    <p class="pie-detalle">Solo se guardan título, medio, fecha, enlace y etiquetas de clasificación. La clasificación es automática y puede contener errores. Indicadores: Banco Central de la República Dominicana. Código abierto bajo licencia MIT<span id="enlace-repo"></span>.</p>
   </div>
 </footer>
 
 <script id="radar-datos" type="application/json">{{DATOS_JSON}}</script>
-<script src="app.js"></script>
+<script src="app.js?v={{VERSION_JS}}"></script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+# Indicadores económicos de la franja superior de la página.
+#
+# Todos salen de archivos oficiales del Banco Central de la República Dominicana (BCRD).
+# robots.txt de bancentral.gov.do no restringe la lectura (verificado el 25-oct-2026).
+#
+# Si el BCRD cambia el nombre de un archivo, basta con actualizar su "url" aquí.
+# Las flechas indican la dirección respecto de la comparación de cada tarjeta:
+#   ▲ subió, ▼ bajó, ● sin cambio. No son juicios de valor ni proyecciones.
+
+pagina_fuente: https://www.bancentral.gov.do/a/d/2533-sector-real
+
+archivos:
+  ipc:
+    nombre: IPC general (base 2019-2020)
+    url: https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_base_2019-2020.xls
+    pagina: https://www.bancentral.gov.do/a/d/2534-precios
+  ipc_grupos:
+    nombre: IPC por grupos de bienes y servicios
+    url: https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_grupos_base_2019-2020.xls
+    pagina: https://www.bancentral.gov.do/a/d/2534-precios
+  tpm:
+    nombre: Serie de la Tasa de Política Monetaria
+    url: https://cdn.bancentral.gov.do/documents/estadisticas/sector-monetario-y-financiero/documents/Serie_TPM.xlsx
+    pagina: https://www.bancentral.gov.do/a/d/2536-sector-monetario-y-financiero
+  imae:
+    nombre: Indicador Mensual de Actividad Económica (IMAE, base 2018)
+    url: https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx
+    pagina: https://www.bancentral.gov.do/a/d/2533-sector-real
+  pib_sectores:
+    nombre: PIB por sectores de origen (base 2018, trimestral)
+    url: https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/pib_origen_2018.xlsx
+    pagina: https://www.bancentral.gov.do/a/d/2533-sector-real
+
+# Notas de prensa del BCRD: solo se usa el TÍTULO de la nota más reciente del IMAE,
+# cuando anuncia un mes que el archivo de datos todavía no incluye
+# (ej. "...creció 5.6 % interanual en septiembre 2026").
+notas_prensa:
+  activo: true
+  seccion_id: 2686
+  url_contenido: https://www.bancentral.gov.do/Home/GetContentForRender
+  url_articulo: https://www.bancentral.gov.do/a/d/
+
+meta_inflacion: "Meta del BCRD: 4 % ± 1 %"
+
+# Orden en la página
+orden:
+  - inflacion_interanual
+  - inflacion_acumulada
+  - tpm
+  - imae
+  - salud_actividad
+  - inflacion_salud

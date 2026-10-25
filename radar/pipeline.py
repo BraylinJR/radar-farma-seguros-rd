@@ -77,6 +77,8 @@ def _construir_noticia(crudo: dict, fuente: dict, clasificacion: dict, ahora: da
         "sectores_resumen": clasificacion.get("sectores_resumen", []),
         "tema": clasificacion["tema"],
         "empresas": clasificacion["empresas"],
+        "prioridad": clasificacion["prioridad"],
+        "motivo_prioridad": clasificacion["motivo_prioridad"],
         "etiquetas_fuente": crudo.get("etiquetas") or [],
         "capturado": a_iso(ahora),
         "tambien_en": [],
@@ -206,6 +208,8 @@ def recolectar(solo_fuente: str | None = None, guardar: bool = True) -> dict:
     # Fuentes desactivadas: se conservan en el estado como inactivas.
     activas = {f["id"] for f in config.cargar_fuentes()}
     for id_fuente, registro in estado.items():
+        if registro.get("categoria") == "indicador":
+            continue  # los archivos del BCRD los gestiona radar.indicadores
         registro["activa"] = id_fuente in activas
 
     corregidas = aplicar_correcciones(noticias, correcciones)
@@ -254,7 +258,8 @@ def reclasificar(guardar: bool = True) -> dict:
             if sector not in nueva["sectores"]:
                 nueva["sectores"].append(sector)
         nueva["sectores"] = [s for s in clasificador.nombres_sectores if s in nueva["sectores"]]
-        antes = (noticia.get("sectores"), noticia.get("tema"), noticia.get("empresas"), noticia.get("excluida"))
+        antes = (noticia.get("sectores"), noticia.get("tema"), noticia.get("empresas"), noticia.get("excluida"),
+                 noticia.get("prioridad"))
         noticia.update(nueva)
         noticia["corregida"] = False
         noticia["excluida"] = False
@@ -264,7 +269,7 @@ def reclasificar(guardar: bool = True) -> dict:
             excluidas += 1
         else:
             noticia.pop("motivo_exclusion", None)
-        if antes != (noticia["sectores"], noticia["tema"], noticia["empresas"], noticia["excluida"]):
+        if antes != (noticia["sectores"], noticia["tema"], noticia["empresas"], noticia["excluida"], noticia["prioridad"]):
             cambios += 1
     corregidas = aplicar_correcciones(noticias, correcciones)
     if guardar:

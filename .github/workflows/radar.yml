@@ -2,6 +2,8 @@
 #
 # Se ejecuta cada 6 horas, a mano desde la pestaña Actions ("Run workflow") y cuando se
 # cambia la configuración o el código en la rama main.
+# Pasos: recolectar titulares, indicadores del BCRD, reclasificar, generar la página,
+# guardar datos/, avisos por fuentes caídas y publicar en Pages.
 #
 # Requisito único en GitHub: Settings > Pages > Build and deployment > Source: "GitHub Actions".
 
@@ -53,6 +55,11 @@ jobs:
         # error pero el flujo sigue: guarda el estado, avisa y vuelve a publicar.
         continue-on-error: true
         run: python -m radar recolectar
+
+      - name: Indicadores económicos del BCRD
+        # Si un archivo del BCRD falla, se conservan los últimos valores y se marca el error.
+        continue-on-error: true
+        run: python -m radar indicadores
 
       - name: Aplicar reglas y correcciones actuales al historial
         run: python -m radar reclasificar

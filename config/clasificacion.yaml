@@ -17,6 +17,131 @@
 # Las publicaciones de ORGANISMOS se guardan siempre con el sector "Regulación y gobierno"
 # (y además cualquier otro sector que se detecte).
 
+# Prioridad: criterio explícito y verificable, igual para todas las fuentes.
+# Se evalúa sobre el título y las etiquetas, en este orden:
+#   1. ALTA  si menciona una norma con número (ley, decreto, resolución, circular, norma)
+#            o alguna de las "palabras" de alta (reformas, tarifas, coberturas, cierres...).
+#   2. BAJA  si es un comunicado institucional (campañas, aniversarios, premios, talleres...).
+#   3. BAJA  si viene de un medio, no menciona ninguna empresa u organismo de la lista y
+#            su tema es "Otros" (notas generales de salud o ciencia sin actor del mercado).
+#   4. MEDIA en todos los demás casos.
+# La página muestra el motivo de cada prioridad (p. ej. "Menciona Ley 87-01").
+# "expresiones" son expresiones regulares sobre el texto en minúsculas y sin acentos.
+prioridad:
+  alta:
+    expresiones:
+      - '\bley(?:es)?\s+(?:n(?:o|um|umero|°|º)\.?\s*)?\d{1,4}\s*[-–‑]\s*\d{2,4}\b'
+      - '\bdecreto\s+(?:n(?:o|um|umero|°|º)\.?\s*)?\d{1,4}\s*[-–‑]\s*\d{2,4}\b'
+      # en documentos el año puede venir separado por espacio ("Circular 12 2026")
+      - '\bresolucion(?:es)?\s+(?:administrativa\s+)?(?:n(?:o|um|umero|°|º)\.?\s*)?\d{1,4}\s*(?:[-–‑]\s*\d{2,4}|\s+(?:19|20)\d{2})\b'
+      - '\bcircular(?:es)?\s+(?:externa\s+)?(?:n(?:o|um|umero|°|º)\.?\s*)?\d{1,4}\s*(?:[-–‑]\s*\d{2,4}|\s+(?:19|20)\d{2})\b'
+      - '\bnorma(?:tiva)?\s+(?:n(?:o|um|umero|°|º)\.?\s*)?\d{1,4}\s*(?:[-–‑]\s*\d{2,4}|\s+(?:19|20)\d{2})\b'
+      # abreviaturas en documentos del CNSS ("Resol No 584 03", "Res CNSS No 569 03")
+      - '\b(?:res|resol)\.?\s+(?:cnss\s+)?(?:n(?:o|um)\.?\s*)?\d{1,4}\s*[-\s]\s*\d{2}\b'
+      # documentos cuyo título empieza por el tipo de norma ("Normativa de...", "Reglamento de...")
+      - '^(?:normativa|norma|reglamento)\b'
+      - '\b(?:congreso|senado|camara de diputados|diputados|senadores)\s+(?:aprueba|aprueban|aprobo|aprobaron|conoce|remite)\b'
+      - '\baprueba[n]?\s+(?:la|el|nueva|nuevo)\s+(?:ley|reglamento|resolucion|norma|normativa)\b'
+      # cierre de una aseguradora; impuestos que gravan los seguros (con motivo fijo)
+      - expresion: '\bcierre\b.*\bseguros?\b'
+        motivo: "Cierre de una aseguradora"
+      - expresion: '\bimpuestos?\s+(?:al|a\s+los|a\s+las|sobre\s+(?:el|los|las)?)\s*(?:seguro|seguros|primas|polizas)\b'
+        motivo: "Impuesto sobre los seguros"
+    palabras:
+      - "proyecto de ley"
+      - "anteproyecto de ley"
+      - "reforma a la ley"
+      - "reforma de la ley"
+      - "modifica la ley"
+      - "modificación de la ley"
+      - "reforma de la seguridad social"
+      - "reforma al sistema de seguridad social"
+      - "ley de seguros"
+      - "ley de seguridad social"
+      - "ley general de salud"
+      - "ley de medicamentos"
+      - promulga*
+      - "entra en vigencia"
+      - "entrará en vigencia"
+      - "entran en vigencia"
+      - deroga*
+      - "nuevo reglamento"
+      - "catálogo de prestaciones"
+      - "Plan de Servicios de Salud"
+      - PDSS
+      - "plan básico de salud"
+      - "per cápita"
+      - "aumento de la cápita"
+      - "aumento de las primas"
+      - "alza de las primas"
+      - "medicamentos de alto costo"
+      - "enfermedades de alto costo"
+      - FONAMAT
+      - "cuadro de enfermedades profesionales"
+      - "amplía cobertura"
+      - "amplía la cobertura"
+      - "amplía beneficios"
+      - "nueva cobertura"
+      - "sin copagos"
+      - "carta de derechos"
+      - "infracciones y sanciones"
+      - "cierre definitivo"
+      - "intervención de la aseguradora"
+      - "revoca la licencia"
+      - "suspende la licencia"
+      - "régimen sancionador"
+      - "precio máximo"
+      - "precios máximos"
+      - "control de precios"
+      - "registro sanitario"
+      - "retiro del mercado"
+      - "retira del mercado"
+  baja:
+    palabras:
+      - campaña
+      - conmemora*
+      - celebra*
+      - aniversario
+      - reconoce
+      - reconocimiento
+      - premio
+      - premiación
+      - galardón
+      - taller
+      - charla
+      - jornada
+      - voluntariado
+      - reforestación
+      - recital
+      - concierto
+      - ilumina
+      - "se une a"
+      - "se suma a"
+      - "participa en"
+      - visita
+      - ceremonia
+      - juramenta*
+      - felicita
+      - condecora*
+      - homenaje
+      - torneo
+      - maratón
+      - "día mundial"
+      - "día nacional"
+      - oración
+      - colaboradores
+      - diplomado
+      - graduación
+      - donación
+      - dona
+      - recaudan
+      - recauda
+      - "responsabilidad social"
+      - "producto del mes"
+  sin_actor:
+    solo_medios: true
+    temas: ["Otros"]
+
 sectores:
 
   Farmacia:

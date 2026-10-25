@@ -123,6 +123,61 @@ fuentes:
     activa: true
     nota: Acento no publica RSS; el sitemap de noticias está declarado en su robots.txt.
 
+  # Medios agregados el 25-oct-2026 (robots.txt y feed verificados ese día).
+  # Descartados: CDN y El Nacional (su robots.txt no permite leer el feed), El Caribe (feed vacío).
+
+  - id: elnuevodiario
+    nombre: El Nuevo Diario
+    tipo: rss
+    url: https://elnuevodiario.com.do/feed/
+    categoria: medio
+    activa: true
+
+  - id: noticiassin
+    nombre: Noticias SIN
+    tipo: rss
+    url: https://noticiassin.com/feed/
+    categoria: medio
+    activa: true
+
+  - id: arecoa
+    nombre: Arecoa
+    tipo: rss
+    url: https://www.arecoa.com/feed/
+    categoria: medio
+    activa: true
+    nota: Medio de economía y negocios.
+
+  - id: revistamercado
+    nombre: Revista Mercado
+    tipo: rss
+    url: https://www.revistamercado.do/feed/
+    categoria: medio
+    activa: true
+    nota: Medio de economía y negocios.
+
+  - id: deultimominuto
+    nombre: De Último Minuto
+    tipo: rss
+    url: https://www.deultimominuto.net/feed/
+    categoria: medio
+    activa: true
+
+  - id: panorama
+    nombre: Panorama
+    tipo: rss
+    url: https://panorama.com.do/feed/
+    categoria: medio
+    activa: true
+
+  - id: diariosalud
+    nombre: Diario Salud
+    tipo: rss
+    url: https://diariosalud.do/feed/
+    categoria: medio
+    activa: true
+    nota: Medio especializado en salud.
+
   # ---------------- Organismos ----------------
 
   - id: sisalril_noticias

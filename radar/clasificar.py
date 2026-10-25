@@ -39,6 +39,56 @@ class Clasificador:
         self.nombres_sectores = [nombre for nombre, _ in self.sectores]
         self.nombres_temas = [nombre for nombre, _ in self.temas] + [TEMA_POR_DEFECTO]
 
+        prioridad = configuracion.get("prioridad") or {}
+        alta = prioridad.get("alta") or {}
+        self.alta_expresiones = []
+        for entrada in alta.get("expresiones") or []:
+            if isinstance(entrada, dict):
+                self.alta_expresiones.append((re.compile(entrada["expresion"]), entrada.get("motivo")))
+            else:
+                self.alta_expresiones.append((re.compile(entrada), None))
+        self.alta_palabras = [(p, compilar_palabra(str(p))) for p in alta.get("palabras") or []]
+        self.baja_palabras = [(p, compilar_palabra(str(p))) for p in (prioridad.get("baja") or {}).get("palabras") or []]
+        sin_actor = prioridad.get("sin_actor") or {}
+        self.sin_actor_solo_medios = bool(sin_actor.get("solo_medios", True))
+        self.sin_actor_temas = set(sin_actor.get("temas") or [])
+
+    # -------------------------------------------------------------- prioridad
+
+    @staticmethod
+    def _texto_prioridad(titulo: str, etiquetas: list[str] | None) -> str:
+        texto = Clasificador.texto_para_reglas(titulo, etiquetas)
+        return re.sub(r"[–‑]", "-", texto)
+
+    @staticmethod
+    def _formatear_norma(fragmento: str) -> str:
+        """'ley no. 87 - 01' -> 'Ley 87-01'; 'resol 525 06' -> 'Resol. 525-06' (para mostrar el motivo)."""
+        limpio = re.sub(r"\s*-\s*", "-", fragmento.strip())
+        limpio = re.sub(r"\s+(?:n(?:o|um|umero|°|º)\.?)\s*", " ", limpio)
+        limpio = re.sub(r"(\d{1,4})\s+(\d{2,4})$", r"\1-\2", limpio)
+        limpio = re.sub(r"^(res|resol)\.?\s", r"\1. ", limpio)
+        limpio = re.sub(r"\bcnss\b", "CNSS", limpio)
+        limpio = re.sub(r"\bresolucion(es)?\b", lambda m: "resolución" if not m.group(1) else "resoluciones", limpio)
+        limpio = re.sub(r"\bcamara\b", "cámara", limpio)
+        return limpio[:1].upper() + limpio[1:]
+
+    def prioridad(self, titulo: str, etiquetas: list[str] | None, categoria: str, tema: str, empresas: list[str]) -> tuple[str, str]:
+        """Devuelve (prioridad, motivo) según las reglas de clasificacion.yaml."""
+        texto = self._texto_prioridad(titulo, etiquetas)
+        for expresion, motivo in self.alta_expresiones:
+            m = expresion.search(texto)
+            if m:
+                return "alta", motivo or f"Menciona {self._formatear_norma(m.group(0))}"
+        for palabra, patron in self.alta_palabras:
+            if patron.search(texto):
+                return "alta", f"Menciona «{palabra}»"
+        for palabra, patron in self.baja_palabras:
+            if patron.search(texto):
+                return "baja", f"Comunicado institucional («{palabra}»)"
+        if (not self.sin_actor_solo_medios or categoria == "medio") and not empresas and tema in self.sin_actor_temas:
+            return "baja", "Sin empresa u organismo del mercado dominicano"
+        return "media", "Noticia del sector"
+
     # ------------------------------------------------------------ utilidades
 
     @staticmethod
@@ -126,11 +176,17 @@ class Clasificador:
         tema = self.detectar_tema(texto)
         if tema == TEMA_POR_DEFECTO and tema_fijo:
             tema = tema_fijo
+        nombres_empresas = [nombre for nombre, _ in empresas]
+        # Para "sin actor" solo cuentan las empresas nombradas en el texto, no el organismo emisor.
+        mencionadas = [n for n, _ in self.detectar_empresas(texto)]
+        prioridad, motivo = self.prioridad(titulo, etiquetas, categoria, tema, mencionadas)
         return {
             "sectores": sectores,
             "sectores_resumen": sectores_resumen,
             "tema": tema,
-            "empresas": [nombre for nombre, _ in empresas],
+            "empresas": nombres_empresas,
+            "prioridad": prioridad,
+            "motivo_prioridad": motivo,
         }
 
 
