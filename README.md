@@ -7,8 +7,8 @@ farmacéuticos, medicamentos y seguros**.
 Proyecto personal e independiente. No representa la posición de ninguna empresa.
 Las noticias pertenecen a sus medios; aquí solo se enlazan.
 
-> Estado: recolección, clasificación, página y automatización terminadas y probadas
-> en local. Falta publicar el repositorio en GitHub (ver *Cómo publicarlo*).
+> Página: <https://braylinjr.github.io/radar-farma-seguros-rd/> (activa tras la
+> primera publicación; ver *Cómo publicarlo*).
 
 ## Qué hace
 
@@ -181,8 +181,12 @@ basta con entrar en *Actions* y pulsar *Enable workflow*.
 3. **Primera corrida.** *Actions* > *Radar* > *Run workflow*. Al publicar el repositorio
    puede arrancar una corrida antes del paso 2 y fallar en *Configurar Pages*: es normal,
    basta con volver a ejecutarla.
-4. **Enlace público:** `https://TU-USUARIO.github.io/radar-farma-seguros-rd/`. Aparece
+4. **Enlace público:** <https://braylinjr.github.io/radar-farma-seguros-rd/>. Aparece
    también en *Settings* > *Pages* y en el resumen de cada corrida.
+
+Nota: la sección *Pages* de la configuración de tu **cuenta** (dominios verificados) no
+hace falta. La que importa es *Settings* > *Pages* dentro del **repositorio**, que
+aparece después del paso 1.
 
 Los avisos por correo usan las notificaciones normales de GitHub: revisa en
 *Settings* (de tu cuenta) > *Notifications* que estén activados los correos de
