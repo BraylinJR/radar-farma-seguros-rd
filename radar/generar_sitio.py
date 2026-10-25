@@ -9,6 +9,7 @@ Produce:
 from __future__ import annotations
 
 import json
+import os
 from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -123,8 +124,11 @@ def construir_datos(ahora: datetime | None = None) -> dict:
     temas = [t["nombre"] for t in clasificacion["temas"]] + [config.TEMA_POR_DEFECTO]
     sectores = list(clasificacion["sectores"].keys())
 
+    repositorio = os.environ.get("GITHUB_REPOSITORY")
+    servidor = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
     return {
         "meta": {
+            "repositorio": f"{servidor}/{repositorio}" if repositorio else None,
             "generado": a_iso(ahora),
             "generado_texto": fecha_hora_larga(ahora),
             "total_historial": len(noticias),
@@ -145,13 +149,19 @@ def construir_datos(ahora: datetime | None = None) -> dict:
     }
 
 
+def incrustar_json(json_texto: str) -> str:
+    """Prepara JSON para ir dentro de <script>: un "</script>" o "<!--" en un título
+    rompería la página. Se escapan "<", ">" y "&" como \\u003c, \\u003e y \\u0026
+    (sigue siendo JSON válido y JSON.parse devuelve el texto original)."""
+    return json_texto.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+
+
 def generar(carpeta_salida: Path = config.CARPETA_SITIO) -> Path:
     datos = construir_datos()
     carpeta_salida.mkdir(parents=True, exist_ok=True)
 
     json_datos = json.dumps(datos, ensure_ascii=False, separators=(",", ":"))
-    # Un "</script>" dentro de un título rompería la página; se escapa de forma segura.
-    json_incrustado = json_datos.replace("</", "<\\/")
+    json_incrustado = incrustar_json(json_datos)
 
     plantilla = PLANTILLA.read_text(encoding="utf-8")
     html = (

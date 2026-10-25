@@ -7,9 +7,8 @@ farmacéuticos, medicamentos y seguros**.
 Proyecto personal e independiente. No representa la posición de ninguna empresa.
 Las noticias pertenecen a sus medios; aquí solo se enlazan.
 
-> Estado: fases 3 (recolección y clasificación) y 4 (página estática en `docs/`)
-> terminadas y probadas en local. La automatización con GitHub Actions y la
-> publicación en GitHub Pages (fase 5) se documentan aquí cuando estén listas.
+> Estado: recolección, clasificación, página y automatización terminadas y probadas
+> en local. Falta publicar el repositorio en GitHub (ver *Cómo publicarlo*).
 
 ## Qué hace
 
@@ -41,10 +40,14 @@ datos/
   estado_fuentes.json   último éxito, último error y fallos seguidos por fuente
   ultima_corrida.json   resumen de la última ejecución
 docs/
-  index.html            página generada (los datos van incrustados; abre sin servidor)
-  datos.json            los mismos datos de la página, reutilizables
   estilos.css, app.js   estilos y lógica de la página (filtros, gráfico, resumen)
+  index.html            página generada en cada corrida (no se guarda en git)
+  datos.json            datos de la página, generados en cada corrida (no se guarda en git)
 radar/plantilla/        plantilla HTML que usa el generador
+tests/                  pruebas automáticas
+.github/workflows/
+  radar.yml             corrida cada 6 horas: recolecta, guarda, avisa y publica
+  pruebas.yml           pruebas del código en cada cambio
 ```
 
 ## La página
@@ -86,6 +89,8 @@ Otros comandos:
 | `python -m radar reclasificar` | Vuelve a clasificar todo el historial con las reglas actuales. |
 | `python -m radar estado` | Estado de cada fuente (ok, error, fallos seguidos). |
 | `python -m radar generar` | Construye la página en `docs/` y el resumen semanal en `datos/`. |
+| `python -m radar avisos --simular` | Muestra qué avisos (issues) se abrirían, sin llamar a GitHub. |
+| `python -m unittest discover -s tests` | Ejecuta las pruebas. |
 
 ## Cómo agregar o quitar una fuente
 
@@ -144,8 +149,44 @@ Las correcciones se aplican en cada corrida y prevalecen sobre las reglas autom�
    noticias (`tipo: sitemap_noticias`, suele estar declarado en `robots.txt`).
 3. Si la fuente no se puede leer de forma legítima, ponle `activa: false` y anota el
    motivo en `nota`.
-4. Cuando la automatización esté activa, una fuente con 3 fallos seguidos genera un
-   *issue* en GitHub de forma automática (fase 5).
+4. No hace falta hacer nada para el aviso: una fuente con 3 fallos seguidos abre un
+   *issue* en GitHub con la etiqueta `fuente-caida`, asignado a ti (te llega por correo).
+   Cuando la fuente vuelve a funcionar, o la desactivas, el issue se cierra solo.
+
+## Automatización
+
+El flujo `.github/workflows/radar.yml` corre en GitHub Actions, gratis:
+
+- **Cuándo:** cada 6 horas (02:17, 08:17, 14:17 y 20:17, hora de RD), cuando cambias
+  algo en `config/`, `radar/` o los estilos, y a mano desde la pestaña *Actions*
+  (*Radar* > *Run workflow*).
+- **Qué hace:** recolecta y clasifica; vuelve a aplicar las reglas y las correcciones de
+  `config/` a todo el historial; genera la página; guarda `datos/` en el repositorio con
+  un commit; abre o cierra los avisos por fuentes caídas; publica la página en GitHub Pages.
+- **Si una fuente falla**, las demás siguen. Si fallan todas (por ejemplo, un corte de
+  red), el flujo igual guarda el estado, avisa y vuelve a publicar.
+- El flujo `pruebas.yml` ejecuta las pruebas cada vez que cambias el código.
+
+GitHub desactiva los flujos programados de un repositorio sin actividad durante 60 días.
+Aquí no debería pasar, porque cada corrida guarda datos con un commit, pero si ocurre
+basta con entrar en *Actions* y pulsar *Enable workflow*.
+
+## Cómo publicarlo (una sola vez)
+
+1. **Crear el repositorio.** En GitHub Desktop: *File* > *Add local repository* > elegir
+   esta carpeta > *Publish repository*. Nombre: `radar-farma-seguros-rd`. Desmarca
+   *Keep this code private*: GitHub Pages es gratis en repositorios públicos.
+2. **Activar Pages.** En github.com, dentro del repositorio: *Settings* > *Pages* >
+   *Build and deployment* > *Source*: **GitHub Actions**.
+3. **Primera corrida.** *Actions* > *Radar* > *Run workflow*. Al publicar el repositorio
+   puede arrancar una corrida antes del paso 2 y fallar en *Configurar Pages*: es normal,
+   basta con volver a ejecutarla.
+4. **Enlace público:** `https://TU-USUARIO.github.io/radar-farma-seguros-rd/`. Aparece
+   también en *Settings* > *Pages* y en el resumen de cada corrida.
+
+Los avisos por correo usan las notificaciones normales de GitHub: revisa en
+*Settings* (de tu cuenta) > *Notifications* que estén activados los correos de
+*Issues* y de *Actions*.
 
 ## Fuentes verificadas (23 de octubre de 2026)
 

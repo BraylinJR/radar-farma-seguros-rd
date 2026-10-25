@@ -1,0 +1,30 @@
+# Pruebas automáticas del código y de la configuración. No lee fuentes ni publica nada.
+
+name: Pruebas
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "datos/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Pruebas unitarias
+        run: python -m unittest discover -s tests -v
+      - name: Validar la configuración
+        run: python -c "from radar import config; print(len(config.cargar_fuentes(False)), 'fuentes'); config.cargar_clasificacion(); config.cargar_correcciones()"

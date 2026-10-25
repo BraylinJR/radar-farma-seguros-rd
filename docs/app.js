@@ -426,6 +426,10 @@
     renderGrafico();
   }
 
+  if (DATOS.meta.repositorio) {
+    $("enlace-repo").innerHTML = ` · <a href="${escapar(DATOS.meta.repositorio)}" target="_blank" rel="noopener noreferrer">código y datos en GitHub</a>`;
+  }
+
   renderKpis();
   renderRegulacion();
   prepararFiltros();

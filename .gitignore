@@ -1,8 +1,12 @@
 .venv/
+.claude/
 __pycache__/
 *.pyc
 .pytest_cache/
 datos/cache/
+# La página se genera en cada corrida (python -m radar generar); no se guarda en git.
+docs/index.html
+docs/datos.json
 *.log
 .DS_Store
 Thumbs.db

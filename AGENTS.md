@@ -42,6 +42,9 @@ publica en una página estática. No representa la posición de ninguna empresa.
 ## Ejecución
 
 - Python en `.venv` (`.venv\Scripts\python.exe -m radar ...`). Comandos: `recolectar`,
-  `reclasificar`, `probar "título"`, `estado`, `generar`.
+  `reclasificar`, `probar "título"`, `estado`, `generar`, `avisos --simular`.
+- Pruebas: `python -m unittest discover -s tests`. Deben pasar antes de cada commit.
+- En GitHub Actions (`.github/workflows/radar.yml`) la corrida es: recolectar,
+  reclasificar, generar, commit de `datos/`, avisos y publicación en Pages.
 - Una fuente que falla nunca detiene a las demás. El estado por fuente queda en
   `datos/estado_fuentes.json`.

@@ -1,31 +1,33 @@
 {
   "periodo": {
-    "inicio": "2026-10-16T00:00:00-04:00",
-    "fin": "2026-10-23T09:42:58-04:00",
-    "texto": "del 16 de octubre de 2026 al 23 de octubre de 2026"
+    "inicio": "2026-10-18T00:00:00-04:00",
+    "fin": "2026-10-25T13:47:07-04:00",
+    "texto": "del 18 de octubre de 2026 al 25 de octubre de 2026"
   },
-  "total": 13,
-  "de_medios": 5,
+  "total": 18,
+  "de_medios": 10,
   "de_organismos": 8,
   "por_sector": {
-    "Regulación y gobierno": 10,
-    "Seguros de salud (ARS)": 5,
-    "Seguros generales": 2,
-    "Laboratorios": 2
+    "Regulación y gobierno": 11,
+    "Laboratorios": 7,
+    "Seguros de salud (ARS)": 6,
+    "Farmacia": 5,
+    "Seguros generales": 1
   },
   "por_tema": {
-    "Otros": 7,
-    "Regulación": 4,
+    "Otros": 12,
+    "Regulación": 3,
+    "Precios": 1,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SISALRIL",
-      4
+      5
     ],
     [
-      "Superintendencia de Seguros",
+      "Promese/Cal",
       2
     ],
     [
@@ -37,21 +39,29 @@
       1
     ],
     [
+      "Superintendencia de Seguros",
+      1
+    ],
+    [
       "DIGEMAPS",
       1
     ],
     [
-      "CNSS",
+      "Farmacias del Pueblo",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      4
+      8
     ],
     [
-      "Superintendencia de Seguros",
+      "SISALRIL",
+      3
+    ],
+    [
+      "Listín Diario",
       2
     ],
     [
@@ -59,23 +69,39 @@
       2
     ],
     [
-      "SISALRIL",
-      2
+      "Promese/Cal",
+      1
+    ],
+    [
+      "Superintendencia de Seguros",
+      1
     ],
     [
       "DIGEMAPS",
       1
-    ],
-    [
-      "Listín Diario",
-      1
-    ],
-    [
-      "CNSS",
-      1
     ]
   ],
   "regulatorias": [
+    {
+      "id": "cb551d8a8405",
+      "titulo": "PROMESE/CAL fortalece distribución de medicamentos con adquisición de diez nuevos camiones",
+      "medio": "Promese/Cal",
+      "enlace": "https://promesecal.gob.do/noticias/promese-cal-fortalece-distribucion-de-medicamentos-con-adquisicion-de-diez-nuevos-camiones/",
+      "fecha": "2026-10-23T10:01:04-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    },
+    {
+      "id": "7a902204c156",
+      "titulo": "SISALRIL encabeza Mesa Gestora del Dato sobre Seguridad Vial",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-encabeza-mesa-gestora-del-dato-sobre-seguridad-vial/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-encabeza-mesa-gestora-del-dato-sobre-seguridad-vial",
+      "fecha": "2026-10-23T09:47:57-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia"
+    },
     {
       "id": "e0c079cf3e9d",
       "titulo": "Resolucion 05 2026 Sobre cierre definitivo de la compania Seguros Cibao S.R.L",
@@ -132,26 +158,6 @@
       "medio": "Pro Consumidor",
       "enlace": "https://proconsumidor.gob.do/paises-de-iberoamerica-reconocen-en-el-salvador-a-eddy-alcantara-por-sus-aportes-a-la-defensa-de-los-consumidores-a-nivel-global/",
       "fecha": "2026-10-19T11:34:28-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia"
-    },
-    {
-      "id": "b5fea84ddb72",
-      "titulo": "Superintendencia de Seguros llama a aseguradoras a exhibir Carta de Derechos y Deberes de los Usuarios",
-      "medio": "Superintendencia de Seguros",
-      "enlace": "https://sis.gob.do/noticias/superintendencia-de-seguros-llama-a-aseguradoras-a-exhibir-carta-de-derechos-y-deberes-de-los-usuarios/",
-      "fecha": "2026-10-16T19:19:25-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia"
-    },
-    {
-      "id": "065abca6d633",
-      "titulo": "CNSS se une a campaña prevención Cáncer de Mama",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-se-une-a-campana-prevencion-cancer-de-mama-2/",
-      "fecha": "2026-10-16T11:33:54-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia"

@@ -8,21 +8,31 @@ from .config import SECTOR_ORGANISMO, TEMA_POR_DEFECTO
 from .utilidades import compilar_palabra, normalizar_texto
 
 
+def _compilar_lista(palabras: list[str] | None) -> list[re.Pattern]:
+    """Compila una lista de palabras clave sin repetir las que solo difieren en
+    mayúsculas o acentos ("seguros" y "Seguros" son la misma palabra)."""
+    vistos: dict[str, re.Pattern] = {}
+    for palabra in palabras or []:
+        patron = compilar_palabra(str(palabra))
+        vistos.setdefault(patron.pattern, patron)
+    return list(vistos.values())
+
+
 class Clasificador:
     def __init__(self, configuracion: dict) -> None:
         self.sectores: list[tuple[str, list[re.Pattern]]] = [
-            (nombre, [compilar_palabra(p) for p in (definicion or {}).get("palabras") or []])
+            (nombre, _compilar_lista((definicion or {}).get("palabras")))
             for nombre, definicion in configuracion["sectores"].items()
         ]
         self.temas: list[tuple[str, list[re.Pattern]]] = [
-            (tema["nombre"], [compilar_palabra(p) for p in tema.get("palabras") or []])
+            (tema["nombre"], _compilar_lista(tema.get("palabras")))
             for tema in configuracion["temas"]
         ]
         self.empresas: list[tuple[str, str, list[re.Pattern]]] = [
             (
                 empresa["nombre"],
                 (empresa.get("sector") or "") if empresa.get("implica_sector", True) else "",
-                [compilar_palabra(p) for p in empresa.get("palabras") or []],
+                _compilar_lista(empresa.get("palabras")),
             )
             for empresa in configuracion["empresas"]
         ]
