@@ -1,25 +1,81 @@
 {
   "periodo": {
     "inicio": "2026-10-18T00:00:00-04:00",
-    "fin": "2026-10-25T14:50:17-04:00",
+    "fin": "2026-10-25T15:58:35-04:00",
     "texto": "del 18 de octubre de 2026 al 25 de octubre de 2026"
   },
-  "total": 18,
-  "de_medios": 10,
+  "total": 22,
+  "de_medios": 14,
   "de_organismos": 8,
+  "por_prioridad": {
+    "alta": 4,
+    "media": 9,
+    "baja": 9
+  },
+  "alta": [
+    {
+      "id": "e0c079cf3e9d",
+      "titulo": "Resolucion 05 2026 Sobre cierre definitivo de la compania Seguros Cibao S.R.L",
+      "medio": "Superintendencia de Seguros",
+      "enlace": "https://sis.gob.do/wp-content/uploads/2024/04/Resolucion-05-2026-Sobre-cierre-definitivo-de-la-compania-Seguros-Cibao-S.R.L.pdf",
+      "fecha": "2026-10-23T09:11:22-04:00",
+      "precision": "deteccion",
+      "tema": "Fusiones y adquisiciones",
+      "tipo": "documento",
+      "prioridad": "alta",
+      "motivo": "Menciona Resolución 05-2026"
+    },
+    {
+      "id": "72bed8a640ad",
+      "titulo": "Sisalril incluye burnout, depresión, insomnio y cáncer en nuevo cuadro de enfermedades profesionales",
+      "medio": "Listín Diario",
+      "enlace": "https://listindiario.com/la-republica/sector-salud/20261021/sisalril-incluye-burnout-depresion-insomnio-cancer-nuevo-cuadro-enfermedades-profesionales_926926.html",
+      "fecha": "2026-10-21T00:00:00-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    },
+    {
+      "id": "761fe9fbd716",
+      "titulo": "SISALRIL presenta nuevo Cuadro de Enfermedades Profesionales en el Seguro de Riesgos Laborales",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales",
+      "fecha": "2026-10-20T11:11:33-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    },
+    {
+      "id": "3c17adeec251",
+      "titulo": "Nuevas enfermedades profesionales: Sisalril incluye el burnout",
+      "medio": "Diario Libre",
+      "enlace": "https://www.diariolibre.com/actualidad/salud/2026/10/20/nuevas-enfermedades-profesionales-sisalril-incluye-el-burnout/3694614",
+      "fecha": "2026-10-20T10:03:00-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    }
+  ],
   "por_sector": {
     "Regulación y gobierno": 11,
-    "Laboratorios": 7,
-    "Seguros de salud (ARS)": 6,
+    "Laboratorios": 10,
+    "Seguros de salud (ARS)": 7,
     "Farmacia": 5,
-    "Seguros generales": 1
+    "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 12,
+    "Otros": 15,
     "Regulación": 3,
     "Precios": 1,
     "Fusiones y adquisiciones": 1,
-    "Alertas sanitarias": 1
+    "Alertas sanitarias": 1,
+    "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
@@ -49,12 +105,20 @@
     [
       "Farmacias del Pueblo",
       1
+    ],
+    [
+      "Ministerio de Salud Pública",
+      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
       8
+    ],
+    [
+      "Diario Salud",
+      4
     ],
     [
       "SISALRIL",
@@ -90,7 +154,9 @@
       "fecha": "2026-10-23T10:01:04-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia"
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
     },
     {
       "id": "7a902204c156",
@@ -100,7 +166,9 @@
       "fecha": "2026-10-23T09:47:57-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia"
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
     },
     {
       "id": "e0c079cf3e9d",
@@ -110,7 +178,9 @@
       "fecha": "2026-10-23T09:11:22-04:00",
       "precision": "deteccion",
       "tema": "Fusiones y adquisiciones",
-      "tipo": "documento"
+      "tipo": "documento",
+      "prioridad": "alta",
+      "motivo": "Menciona Resolución 05-2026"
     },
     {
       "id": "85203b1c7dc8",
@@ -120,7 +190,9 @@
       "fecha": "2026-10-23T09:11:21-04:00",
       "precision": "deteccion",
       "tema": "Alertas sanitarias",
-      "tipo": "documento"
+      "tipo": "documento",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
     },
     {
       "id": "dae7a280d202",
@@ -130,7 +202,9 @@
       "fecha": "2026-10-21T10:05:51-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia"
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
     },
     {
       "id": "761fe9fbd716",
@@ -140,17 +214,9 @@
       "fecha": "2026-10-20T11:11:33-04:00",
       "precision": "dia",
       "tema": "Regulación",
-      "tipo": "noticia"
-    },
-    {
-      "id": "46c682262083",
-      "titulo": "SISALRIL impulsa jornada de concienciación y prevención del cáncer de mama con sus colaboradores",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-impulsa-jornada-de-concienciacion-y-prevencion-del-cancer-de-mama-con-sus-colaboradores/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-impulsa-jornada-de-concienciacion-y-prevencion-del-cancer-de-mama-con-sus-colaboradores",
-      "fecha": "2026-10-20T08:15:00-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia"
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
     },
     {
       "id": "7033aa1380f8",
@@ -160,7 +226,9 @@
       "fecha": "2026-10-19T11:34:28-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia"
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
     }
   ]
 }

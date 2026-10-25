@@ -1,12 +1,18 @@
 {
   "corregidas": 0,
-  "descartadas": 1031,
+  "descartadas": 1095,
   "errores": 0,
-  "fin": "2026-10-25T14:50:16-04:00",
+  "fin": "2026-10-25T15:58:32-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 50,
-      "leidos": 50,
+      "descartados": 51,
+      "leidos": 51,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "arecoa": {
+      "descartados": 10,
+      "leidos": 10,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -22,6 +28,12 @@
       "nuevos": 0,
       "repetidos": 10
     },
+    "deultimominuto": {
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
+    },
     "diariolibre_actualidad": {
       "descartados": 27,
       "leidos": 30,
@@ -35,16 +47,22 @@
       "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 41,
-      "leidos": 42,
+      "descartados": 44,
+      "leidos": 45,
       "nuevos": 0,
       "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 330,
-      "leidos": 335,
+      "descartados": 313,
+      "leidos": 318,
       "nuevos": 0,
       "repetidos": 5
+    },
+    "diariosalud": {
+      "descartados": 12,
+      "leidos": 16,
+      "nuevos": 4,
+      "repetidos": 0
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -70,6 +88,12 @@
       "nuevos": 0,
       "repetidos": 0
     },
+    "elnuevodiario": {
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
+    },
     "hoy_economia": {
       "descartados": 20,
       "leidos": 20,
@@ -77,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 72,
-      "leidos": 72,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -95,14 +119,26 @@
       "repetidos": 0
     },
     "listin_sitemap": {
-      "descartados": 216,
-      "leidos": 217,
+      "descartados": 219,
+      "leidos": 220,
       "nuevos": 0,
       "repetidos": 1
     },
     "ndigital": {
       "descartados": 14,
       "leidos": 14,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "noticiassin": {
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "panorama": {
+      "descartados": 10,
+      "leidos": 10,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -117,6 +153,12 @@
       "leidos": 10,
       "nuevos": 0,
       "repetidos": 10
+    },
+    "revistamercado": {
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "sis_documentos": {
       "descartados": 0,
@@ -137,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-25T14:50:02-04:00",
-  "nuevas": 0,
+  "inicio": "2026-10-25T15:58:10-04:00",
+  "nuevas": 4,
   "repetidas": 110,
-  "total_historial": 109
+  "total_historial": 113
 }

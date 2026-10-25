@@ -1,0 +1,412 @@
+{
+  "actualizado": "2026-10-25T15:58:33-04:00",
+  "fuente": "Banco Central de la República Dominicana",
+  "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
+  "tarjetas": [
+    {
+      "id": "inflacion_interanual",
+      "nombre": "Inflación interanual",
+      "valor": 5.12,
+      "decimales": 2,
+      "texto_valor": "5.12 %",
+      "periodo": "septiembre 2026",
+      "comparacion": "Agosto: 5.13 % · Meta del BCRD: 4 % ± 1 %",
+      "direccion": "baja",
+      "serie": [
+        {
+          "etiqueta": "sep 2025",
+          "valor": 3.76
+        },
+        {
+          "etiqueta": "oct 2025",
+          "valor": 4.23
+        },
+        {
+          "etiqueta": "nov 2025",
+          "valor": 4.81
+        },
+        {
+          "etiqueta": "dic 2025",
+          "valor": 4.95
+        },
+        {
+          "etiqueta": "ene 2026",
+          "valor": 4.98
+        },
+        {
+          "etiqueta": "feb 2026",
+          "valor": 4.67
+        },
+        {
+          "etiqueta": "mar 2026",
+          "valor": 4.63
+        },
+        {
+          "etiqueta": "abr 2026",
+          "valor": 5.11
+        },
+        {
+          "etiqueta": "may 2026",
+          "valor": 5.35
+        },
+        {
+          "etiqueta": "jun 2026",
+          "valor": 5.67
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 5.47
+        },
+        {
+          "etiqueta": "ago 2026",
+          "valor": 5.13
+        },
+        {
+          "etiqueta": "sep 2026",
+          "valor": 5.12
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · IPC general (base 2019-2020)",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_base_2019-2020.xls",
+        "pagina": "https://www.bancentral.gov.do/a/d/2534-precios"
+      },
+      "desactualizado": false
+    },
+    {
+      "id": "inflacion_acumulada",
+      "nombre": "Inflación acumulada",
+      "valor": 2.93,
+      "decimales": 2,
+      "texto_valor": "2.93 %",
+      "periodo": "enero–septiembre 2026",
+      "comparacion": "Mismo período de 2025: 2.77 %",
+      "direccion": "sube",
+      "serie": [
+        {
+          "etiqueta": "sep 2025",
+          "valor": 2.77
+        },
+        {
+          "etiqueta": "oct 2025",
+          "valor": 3.34
+        },
+        {
+          "etiqueta": "nov 2025",
+          "valor": 4.08
+        },
+        {
+          "etiqueta": "dic 2025",
+          "valor": 4.95
+        },
+        {
+          "etiqueta": "ene 2026",
+          "valor": 0.4
+        },
+        {
+          "etiqueta": "feb 2026",
+          "valor": 0.42
+        },
+        {
+          "etiqueta": "mar 2026",
+          "valor": 0.7
+        },
+        {
+          "etiqueta": "abr 2026",
+          "valor": 1.19
+        },
+        {
+          "etiqueta": "may 2026",
+          "valor": 1.5
+        },
+        {
+          "etiqueta": "jun 2026",
+          "valor": 2.02
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 2.21
+        },
+        {
+          "etiqueta": "ago 2026",
+          "valor": 2.6
+        },
+        {
+          "etiqueta": "sep 2026",
+          "valor": 2.93
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · IPC general (base 2019-2020)",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_base_2019-2020.xls",
+        "pagina": "https://www.bancentral.gov.do/a/d/2534-precios"
+      },
+      "desactualizado": false
+    },
+    {
+      "id": "tpm",
+      "nombre": "Tasa de política monetaria (TPM)",
+      "valor": 5.5,
+      "decimales": 2,
+      "texto_valor": "5.50 %",
+      "periodo": "vigente desde octubre 2026",
+      "comparacion": "Antes: 5.25 % · oct 2025: 5.50 %",
+      "direccion": "sube",
+      "serie": [
+        {
+          "etiqueta": "oct 2025",
+          "valor": 5.5
+        },
+        {
+          "etiqueta": "nov 2025",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "dic 2025",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "ene 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "feb 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "mar 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "abr 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "may 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "jun 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "ago 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "sep 2026",
+          "valor": 5.25
+        },
+        {
+          "etiqueta": "oct 2026",
+          "valor": 5.5
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · Serie de la Tasa de Política Monetaria",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-monetario-y-financiero/documents/Serie_TPM.xlsx",
+        "pagina": "https://www.bancentral.gov.do/a/d/2536-sector-monetario-y-financiero"
+      },
+      "desactualizado": false
+    },
+    {
+      "id": "imae",
+      "nombre": "Actividad económica (IMAE)",
+      "valor": 5.6,
+      "decimales": 1,
+      "texto_valor": "5.6 %",
+      "periodo": "septiembre 2026 · preliminar",
+      "comparacion": "Agosto: 3.8 % · ene–ago: 4.5 %",
+      "direccion": "sube",
+      "serie": [
+        {
+          "etiqueta": "sep 2025",
+          "valor": 1.1
+        },
+        {
+          "etiqueta": "oct 2025",
+          "valor": 0.2
+        },
+        {
+          "etiqueta": "nov 2025",
+          "valor": 3.2
+        },
+        {
+          "etiqueta": "dic 2025",
+          "valor": 2.3
+        },
+        {
+          "etiqueta": "ene 2026",
+          "valor": 3.5
+        },
+        {
+          "etiqueta": "feb 2026",
+          "valor": 3.9
+        },
+        {
+          "etiqueta": "mar 2026",
+          "valor": 5.1
+        },
+        {
+          "etiqueta": "abr 2026",
+          "valor": 3.8
+        },
+        {
+          "etiqueta": "may 2026",
+          "valor": 4.7
+        },
+        {
+          "etiqueta": "jun 2026",
+          "valor": 6.4
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 4.6
+        },
+        {
+          "etiqueta": "ago 2026",
+          "valor": 3.8
+        },
+        {
+          "etiqueta": "sep 2026",
+          "valor": 5.6
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · Indicador Mensual de Actividad Económica (IMAE, base 2018)",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx",
+        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real",
+        "nota": "https://www.bancentral.gov.do/a/d/6705"
+      },
+      "desactualizado": false,
+      "aclaracion": "Dato de la nota de prensa del BCRD del 2026-10-23; el archivo de datos aún no incluye septiembre."
+    },
+    {
+      "id": "salud_actividad",
+      "nombre": "Actividad salud (PIB real)",
+      "valor": 5.2,
+      "decimales": 1,
+      "texto_valor": "5.2 %",
+      "periodo": "abr–jun 2026 · preliminar",
+      "comparacion": "Ene–mar 2026: 6.1 %",
+      "direccion": "baja",
+      "serie": [
+        {
+          "etiqueta": "T3 2024",
+          "valor": 4.2
+        },
+        {
+          "etiqueta": "T4 2024",
+          "valor": 4.2
+        },
+        {
+          "etiqueta": "T1 2025",
+          "valor": 2.7
+        },
+        {
+          "etiqueta": "T2 2025",
+          "valor": 0.1
+        },
+        {
+          "etiqueta": "T3 2025",
+          "valor": -2.2
+        },
+        {
+          "etiqueta": "T4 2025",
+          "valor": -1.5
+        },
+        {
+          "etiqueta": "T1 2026",
+          "valor": 6.1
+        },
+        {
+          "etiqueta": "T2 2026",
+          "valor": 5.2
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · PIB por sectores de origen (base 2018, trimestral)",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/pib_origen_2018.xlsx",
+        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real"
+      },
+      "desactualizado": false,
+      "aclaracion": "El BCRD no publica un IMAE mensual por sector en archivo de datos; se usa el PIB real trimestral del sector salud."
+    },
+    {
+      "id": "inflacion_salud",
+      "nombre": "Inflación salud",
+      "valor": 5.02,
+      "decimales": 2,
+      "texto_valor": "5.02 %",
+      "periodo": "septiembre 2026 · interanual",
+      "comparacion": "Agosto: 4.98 % · mensual: 0.28 %",
+      "direccion": "sube",
+      "serie": [
+        {
+          "etiqueta": "sep 2025",
+          "valor": 4.88
+        },
+        {
+          "etiqueta": "oct 2025",
+          "valor": 5.03
+        },
+        {
+          "etiqueta": "nov 2025",
+          "valor": 5.12
+        },
+        {
+          "etiqueta": "dic 2025",
+          "valor": 5.1
+        },
+        {
+          "etiqueta": "ene 2026",
+          "valor": 5.12
+        },
+        {
+          "etiqueta": "feb 2026",
+          "valor": 5.35
+        },
+        {
+          "etiqueta": "mar 2026",
+          "valor": 5.53
+        },
+        {
+          "etiqueta": "abr 2026",
+          "valor": 5.24
+        },
+        {
+          "etiqueta": "may 2026",
+          "valor": 5.05
+        },
+        {
+          "etiqueta": "jun 2026",
+          "valor": 4.94
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 4.95
+        },
+        {
+          "etiqueta": "ago 2026",
+          "valor": 4.98
+        },
+        {
+          "etiqueta": "sep 2026",
+          "valor": 5.02
+        }
+      ],
+      "fuente": {
+        "nombre": "BCRD · IPC por grupos de bienes y servicios",
+        "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/precios/documents/ipc_grupos_base_2019-2020.xls",
+        "pagina": "https://www.bancentral.gov.do/a/d/2534-precios"
+      },
+      "desactualizado": false,
+      "aclaracion": "Grupo Salud del IPC (base 2019-2020); la variación interanual se calcula con el índice publicado."
+    }
+  ],
+  "errores": {}
+}
