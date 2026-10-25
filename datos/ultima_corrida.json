@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1030,
+  "descartadas": 1031,
   "errores": 0,
-  "fin": "2026-10-25T14:24:49-04:00",
+  "fin": "2026-10-25T14:50:16-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 48,
-      "leidos": 48,
+      "descartados": 50,
+      "leidos": 50,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -41,8 +41,8 @@
       "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 333,
-      "leidos": 338,
+      "descartados": 330,
+      "leidos": 335,
       "nuevos": 0,
       "repetidos": 5
     },
@@ -95,8 +95,8 @@
       "repetidos": 0
     },
     "listin_sitemap": {
-      "descartados": 214,
-      "leidos": 215,
+      "descartados": 216,
+      "leidos": 217,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -137,7 +137,7 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-25T14:24:37-04:00",
+  "inicio": "2026-10-25T14:50:02-04:00",
   "nuevas": 0,
   "repetidas": 110,
   "total_historial": 109
