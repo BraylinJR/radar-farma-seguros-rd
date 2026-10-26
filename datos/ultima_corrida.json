@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1075,
+  "descartadas": 1019,
   "errores": 1,
-  "fin": "2026-10-25T16:00:00-04:00",
+  "fin": "2026-10-26T00:55:06-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 51,
-      "leidos": 51,
+      "descartados": 2,
+      "leidos": 2,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,10 +35,10 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 27,
+      "descartados": 28,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 3
+      "repetidos": 2
     },
     "diariolibre_economia": {
       "descartados": 29,
@@ -47,16 +47,16 @@
       "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 44,
-      "leidos": 45,
+      "descartados": 50,
+      "leidos": 51,
       "nuevos": 0,
       "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 313,
-      "leidos": 318,
+      "descartados": 305,
+      "leidos": 309,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 4
     },
     "diariosalud": {
       "descartados": 12,
@@ -83,7 +83,10 @@
       "repetidos": 0
     },
     "eldinero": {
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldinero.com.do/feed/"
+      "descartados": 20,
+      "leidos": 20,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -92,15 +95,15 @@
       "repetidos": 0
     },
     "hoy_economia": {
-      "descartados": 20,
+      "descartados": 19,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 0
+      "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 74,
-      "leidos": 74,
-      "nuevos": 0,
+      "descartados": 72,
+      "leidos": 73,
+      "nuevos": 1,
       "repetidos": 0
     },
     "listin_economia": {
@@ -110,16 +113,16 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 100,
+      "descartados": 99,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "listin_sitemap": {
-      "descartados": 219,
-      "leidos": 220,
+      "descartados": 207,
+      "leidos": 209,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 2
     },
     "ndigital": {
       "descartados": 14,
@@ -134,10 +137,7 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "HTTPError: 415 Client Error: Unsupported Media Type for url: https://panorama.com.do/feed/"
     },
     "proconsumidor_noticias": {
       "descartados": 0,
@@ -176,8 +176,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-25T15:59:29-04:00",
-  "nuevas": 0,
+  "inicio": "2026-10-26T00:54:38-04:00",
+  "nuevas": 2,
   "repetidas": 114,
-  "total_historial": 113
+  "total_historial": 115
 }
