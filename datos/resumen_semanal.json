@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-19T00:00:00-04:00",
-    "fin": "2026-10-26T00:55:08-04:00",
+    "fin": "2026-10-26T09:12:23-04:00",
     "texto": "del 19 de octubre de 2026 al 26 de octubre de 2026"
   },
-  "total": 24,
-  "de_medios": 16,
+  "total": 25,
+  "de_medios": 17,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 4,
     "media": 11,
-    "baja": 9
+    "baja": 10
   },
   "alta": [
     {
@@ -64,13 +64,13 @@
   ],
   "por_sector": {
     "Regulación y gobierno": 12,
-    "Laboratorios": 10,
+    "Laboratorios": 11,
     "Seguros de salud (ARS)": 7,
     "Farmacia": 6,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 17,
+    "Otros": 18,
     "Regulación": 3,
     "Precios": 1,
     "Fusiones y adquisiciones": 1,
@@ -122,7 +122,7 @@
     ],
     [
       "Diario Salud",
-      4
+      5
     ],
     [
       "Listín Diario",
