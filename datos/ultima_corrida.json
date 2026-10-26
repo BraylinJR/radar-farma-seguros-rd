@@ -1,13 +1,13 @@
 {
   "corregidas": 0,
-  "descartadas": 1038,
-  "errores": 2,
-  "fin": "2026-10-26T09:12:19-04:00",
+  "descartadas": 1140,
+  "errores": 1,
+  "fin": "2026-10-26T18:44:23-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 35,
-      "leidos": 35,
-      "nuevos": 0,
+      "descartados": 80,
+      "leidos": 82,
+      "nuevos": 2,
       "repetidos": 0
     },
     "arecoa": {
@@ -35,9 +35,9 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 29,
+      "descartados": 28,
       "leidos": 30,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 1
     },
     "diariolibre_economia": {
@@ -47,22 +47,22 @@
       "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 39,
-      "leidos": 40,
-      "nuevos": 0,
+      "descartados": 47,
+      "leidos": 49,
+      "nuevos": 1,
       "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 306,
-      "leidos": 310,
+      "descartados": 316,
+      "leidos": 321,
       "nuevos": 0,
-      "repetidos": 4
+      "repetidos": 5
     },
     "diariosalud": {
       "descartados": 13,
       "leidos": 16,
-      "nuevos": 1,
-      "repetidos": 2
+      "nuevos": 0,
+      "repetidos": 3
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -77,16 +77,22 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 15,
+      "descartados": 14,
       "leidos": 15,
+      "nuevos": 0,
+      "repetidos": 1
+    },
+    "eldinero": {
+      "descartados": 20,
+      "leidos": 20,
       "nuevos": 0,
       "repetidos": 0
     },
-    "eldinero": {
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://eldinero.com.do/feed/"
-    },
     "elnuevodiario": {
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://elnuevodiario.com.do/feed/"
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "hoy_economia": {
       "descartados": 19,
@@ -95,8 +101,8 @@
       "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 74,
+      "descartados": 74,
+      "leidos": 75,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -113,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 220,
-      "leidos": 222,
+      "descartados": 232,
+      "leidos": 234,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -131,27 +137,24 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "proconsumidor_noticias": {
-      "descartados": 0,
-      "leidos": 5,
-      "nuevos": 0,
-      "repetidos": 5
+      "error": "SSLError: HTTPSConnectionPool(host='proconsumidor.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
     },
     "promesecal_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     },
     "revistamercado": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -169,12 +172,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     }
   },
-  "inicio": "2026-10-26T09:11:38-04:00",
-  "nuevas": 1,
-  "repetidas": 113,
-  "total_historial": 116
+  "inicio": "2026-10-26T18:43:44-04:00",
+  "nuevas": 8,
+  "repetidas": 109,
+  "total_historial": 124
 }

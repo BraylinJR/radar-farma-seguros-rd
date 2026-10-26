@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-19T00:00:00-04:00",
-    "fin": "2026-10-26T09:12:23-04:00",
+    "fin": "2026-10-26T18:44:25-04:00",
     "texto": "del 19 de octubre de 2026 al 26 de octubre de 2026"
   },
-  "total": 25,
-  "de_medios": 17,
-  "de_organismos": 8,
+  "total": 33,
+  "de_medios": 23,
+  "de_organismos": 10,
   "por_prioridad": {
     "alta": 4,
-    "media": 11,
-    "baja": 10
+    "media": 18,
+    "baja": 11
   },
   "alta": [
     {
@@ -63,15 +63,15 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 12,
-    "Laboratorios": 11,
-    "Seguros de salud (ARS)": 7,
-    "Farmacia": 6,
+    "Regulación y gobierno": 17,
+    "Laboratorios": 14,
+    "Seguros de salud (ARS)": 11,
+    "Farmacia": 9,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 18,
-    "Regulación": 3,
+    "Otros": 24,
+    "Regulación": 5,
     "Precios": 1,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1,
@@ -80,19 +80,27 @@
   "empresas_mas_mencionadas": [
     [
       "SISALRIL",
-      5
+      7
     ],
     [
       "Farmacias del Pueblo",
-      2
+      4
     ],
     [
       "Promese/Cal",
+      4
+    ],
+    [
+      "DIDA",
       2
     ],
     [
       "Pro Consumidor",
       2
+    ],
+    [
+      "SeNaSa",
+      1
     ],
     [
       "SIPEN",
@@ -109,51 +117,75 @@
     [
       "DIGEMAPS",
       1
-    ],
-    [
-      "Ministerio de Salud Pública",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      8
+      10
     ],
     [
       "Diario Salud",
       5
     ],
     [
+      "SISALRIL",
+      4
+    ],
+    [
       "Listín Diario",
       3
     ],
     [
-      "SISALRIL",
-      3
+      "Acento",
+      2
+    ],
+    [
+      "Promese/Cal",
+      2
     ],
     [
       "Pro Consumidor",
       2
     ],
     [
+      "Panorama",
+      1
+    ],
+    [
+      "Revista Mercado",
+      1
+    ],
+    [
       "Hoy",
-      1
-    ],
-    [
-      "Promese/Cal",
-      1
-    ],
-    [
-      "Superintendencia de Seguros",
-      1
-    ],
-    [
-      "DIGEMAPS",
       1
     ]
   ],
   "regulatorias": [
+    {
+      "id": "0b9972776bfa",
+      "titulo": "Seguro Familiar de Salud destinó más de RD$3,352 millones en atención cáncer de mama en 2025",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/seguro-familiar-de-salud-destino-mas-de-rd3352-millones-en-atencion-cancer-de-mama-en-2025/?utm_source=rss&utm_medium=rss&utm_campaign=seguro-familiar-de-salud-destino-mas-de-rd3352-millones-en-atencion-cancer-de-mama-en-2025",
+      "fecha": "2026-10-26T14:57:35-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "17b3e9b2d2d2",
+      "titulo": "PROMESE/CAL anuncia distribución de 34 millones de unidades de medicamentos para reforzar Farmacias del Pueblo",
+      "medio": "Promese/Cal",
+      "enlace": "https://promesecal.gob.do/noticias/promese-cal-anuncia-distribucion-de-34-millones-de-unidades-de-medicamentos-para-reforzar-farmacias-del-pueblo/",
+      "fecha": "2026-10-26T14:26:24-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "cb551d8a8405",
       "titulo": "PROMESE/CAL fortalece distribución de medicamentos con adquisición de diez nuevos camiones",
