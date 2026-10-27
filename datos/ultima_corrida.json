@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1139,
-  "errores": 1,
-  "fin": "2026-10-27T01:12:36-04:00",
+  "descartadas": 1140,
+  "errores": 2,
+  "fin": "2026-10-27T08:20:37-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 6,
-      "leidos": 6,
+      "descartados": 26,
+      "leidos": 26,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -29,16 +29,16 @@
       "repetidos": 10
     },
     "deultimominuto": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_actualidad": {
       "descartados": 28,
       "leidos": 30,
-      "nuevos": 1,
-      "repetidos": 1
+      "nuevos": 0,
+      "repetidos": 2
     },
     "diariolibre_economia": {
       "descartados": 29,
@@ -47,22 +47,22 @@
       "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 71,
-      "leidos": 74,
-      "nuevos": 1,
-      "repetidos": 2
+      "descartados": 43,
+      "leidos": 43,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 339,
-      "leidos": 346,
+      "descartados": 356,
+      "leidos": 363,
       "nuevos": 0,
       "repetidos": 7
     },
     "diariosalud": {
-      "descartados": 13,
+      "descartados": 14,
       "leidos": 16,
-      "nuevos": 0,
-      "repetidos": 3
+      "nuevos": 1,
+      "repetidos": 1
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -89,10 +89,7 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://elnuevodiario.com.do/feed/"
     },
     "hoy_economia": {
       "descartados": 19,
@@ -101,8 +98,8 @@
       "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 76,
-      "leidos": 76,
+      "descartados": 78,
+      "leidos": 78,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -115,12 +112,12 @@
     "listin_la_republica": {
       "descartados": 98,
       "leidos": 100,
-      "nuevos": 1,
-      "repetidos": 1
+      "nuevos": 0,
+      "repetidos": 2
     },
     "listin_sitemap": {
-      "descartados": 256,
-      "leidos": 258,
+      "descartados": 254,
+      "leidos": 256,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -176,8 +173,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-27T01:12:01-04:00",
-  "nuevas": 4,
-  "repetidas": 113,
-  "total_historial": 128
+  "inicio": "2026-10-27T08:19:50-04:00",
+  "nuevas": 1,
+  "repetidas": 111,
+  "total_historial": 129
 }

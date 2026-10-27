@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-10-20T00:00:00-04:00",
-    "fin": "2026-10-27T01:12:39-04:00",
+    "fin": "2026-10-27T08:20:38-04:00",
     "texto": "del 20 de octubre de 2026 al 27 de octubre de 2026"
   },
-  "total": 36,
-  "de_medios": 27,
+  "total": 37,
+  "de_medios": 28,
   "de_organismos": 9,
   "por_prioridad": {
     "alta": 4,
-    "media": 21,
+    "media": 22,
     "baja": 11
   },
   "alta": [
@@ -63,14 +63,14 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 17,
+    "Regulación y gobierno": 18,
     "Laboratorios": 15,
-    "Seguros de salud (ARS)": 13,
+    "Seguros de salud (ARS)": 14,
     "Farmacia": 10,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 26,
+    "Otros": 27,
     "Regulación": 6,
     "Precios": 1,
     "Fusiones y adquisiciones": 1,
@@ -80,7 +80,7 @@
   "empresas_mas_mencionadas": [
     [
       "SISALRIL",
-      7
+      8
     ],
     [
       "Farmacias del Pueblo",
@@ -126,7 +126,7 @@
     ],
     [
       "Diario Salud",
-      5
+      6
     ],
     [
       "Listín Diario",
