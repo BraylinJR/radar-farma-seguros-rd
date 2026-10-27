@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T18:44:23-04:00",
+  "actualizado": "2026-10-27T01:12:36-04:00",
   "fuente": "Banco Central de la República Dominicana",
   "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
   "tarjetas": [
@@ -220,7 +220,7 @@
       "decimales": 1,
       "texto_valor": "5.6 %",
       "periodo": "septiembre 2026 · preliminar",
-      "comparacion": "Agosto: 3.8 % · ene–ago: 4.5 %",
+      "comparacion": "Ene–sep: 4.6 % · agosto: 3.8 %",
       "direccion": "sube",
       "serie": [
         {
@@ -279,11 +279,9 @@
       "fuente": {
         "nombre": "BCRD · Indicador Mensual de Actividad Económica (IMAE, base 2018)",
         "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx",
-        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real",
-        "nota": "https://www.bancentral.gov.do/a/d/6705"
+        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real"
       },
-      "desactualizado": false,
-      "aclaracion": "Dato de la nota de prensa del BCRD del 2026-10-23; el archivo de datos aún no incluye septiembre."
+      "desactualizado": false
     },
     {
       "id": "salud_actividad",

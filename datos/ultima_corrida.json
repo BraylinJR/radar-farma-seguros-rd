@@ -1,13 +1,13 @@
 {
   "corregidas": 0,
-  "descartadas": 1140,
+  "descartadas": 1139,
   "errores": 1,
-  "fin": "2026-10-26T18:44:23-04:00",
+  "fin": "2026-10-27T01:12:36-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 80,
-      "leidos": 82,
-      "nuevos": 2,
+      "descartados": 6,
+      "leidos": 6,
+      "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
@@ -29,9 +29,9 @@
       "repetidos": 10
     },
     "deultimominuto": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "diariolibre_actualidad": {
@@ -47,16 +47,16 @@
       "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 47,
-      "leidos": 49,
+      "descartados": 71,
+      "leidos": 74,
       "nuevos": 1,
-      "repetidos": 1
+      "repetidos": 2
     },
     "diariolibre_sitemap": {
-      "descartados": 316,
-      "leidos": 321,
+      "descartados": 339,
+      "leidos": 346,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 7
     },
     "diariosalud": {
       "descartados": 13,
@@ -77,10 +77,10 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 14,
+      "descartados": 15,
       "leidos": 15,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "eldinero": {
       "descartados": 20,
@@ -101,10 +101,10 @@
       "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 74,
-      "leidos": 75,
+      "descartados": 76,
+      "leidos": 76,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "listin_economia": {
       "descartados": 97,
@@ -113,14 +113,14 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 99,
+      "descartados": 98,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 232,
-      "leidos": 234,
+      "descartados": 256,
+      "leidos": 258,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -137,9 +137,9 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "proconsumidor_noticias": {
@@ -148,14 +148,14 @@
     "promesecal_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 9
+      "nuevos": 0,
+      "repetidos": 10
     },
     "revistamercado": {
       "descartados": 9,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "sis_documentos": {
       "descartados": 0,
@@ -172,12 +172,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 9
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-10-26T18:43:44-04:00",
-  "nuevas": 8,
-  "repetidas": 109,
-  "total_historial": 124
+  "inicio": "2026-10-27T01:12:01-04:00",
+  "nuevas": 4,
+  "repetidas": 113,
+  "total_historial": 128
 }
