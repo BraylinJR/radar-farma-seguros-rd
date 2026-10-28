@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-20T00:00:00-04:00",
-    "fin": "2026-10-27T18:21:45-04:00",
-    "texto": "del 20 de octubre de 2026 al 27 de octubre de 2026"
+    "inicio": "2026-10-21T00:00:00-04:00",
+    "fin": "2026-10-28T01:51:18-04:00",
+    "texto": "del 21 de octubre de 2026 al 28 de octubre de 2026"
   },
-  "total": 41,
-  "de_medios": 32,
-  "de_organismos": 9,
+  "total": 38,
+  "de_medios": 31,
+  "de_organismos": 7,
   "por_prioridad": {
-    "alta": 4,
-    "media": 25,
-    "baja": 12
+    "alta": 2,
+    "media": 26,
+    "baja": 10
   },
   "alta": [
     {
@@ -36,52 +36,24 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «cuadro de enfermedades profesionales»"
-    },
-    {
-      "id": "761fe9fbd716",
-      "titulo": "SISALRIL presenta nuevo Cuadro de Enfermedades Profesionales en el Seguro de Riesgos Laborales",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales",
-      "fecha": "2026-10-20T11:11:33-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
-    },
-    {
-      "id": "3c17adeec251",
-      "titulo": "Nuevas enfermedades profesionales: Sisalril incluye el burnout",
-      "medio": "Diario Libre",
-      "enlace": "https://www.diariolibre.com/actualidad/salud/2026/10/20/nuevas-enfermedades-profesionales-sisalril-incluye-el-burnout/3694614",
-      "fecha": "2026-10-20T10:03:00-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 21,
-    "Laboratorios": 17,
-    "Seguros de salud (ARS)": 15,
+    "Laboratorios": 18,
+    "Regulación y gobierno": 18,
     "Farmacia": 12,
+    "Seguros de salud (ARS)": 11,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 30,
-    "Regulación": 6,
+    "Otros": 29,
+    "Regulación": 4,
     "Precios": 2,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
-    [
-      "SISALRIL",
-      9
-    ],
     [
       "Farmacias del Pueblo",
       6
@@ -91,8 +63,16 @@
       6
     ],
     [
+      "SISALRIL",
+      6
+    ],
+    [
       "SeNaSa",
       3
+    ],
+    [
+      "Ministerio de Salud Pública",
+      2
     ],
     [
       "Pro Consumidor",
@@ -113,16 +93,12 @@
     [
       "Seguros Cibao",
       1
-    ],
-    [
-      "Superintendencia de Seguros",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      12
+      11
     ],
     [
       "Diario Salud",
@@ -133,15 +109,15 @@
       4
     ],
     [
-      "SISALRIL",
-      4
-    ],
-    [
       "Revista Mercado",
       2
     ],
     [
       "Acento",
+      2
+    ],
+    [
+      "SISALRIL",
       2
     ],
     [
@@ -245,18 +221,6 @@
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
-    },
-    {
-      "id": "761fe9fbd716",
-      "titulo": "SISALRIL presenta nuevo Cuadro de Enfermedades Profesionales en el Seguro de Riesgos Laborales",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-nuevo-cuadro-de-enfermedades-profesionales-en-el-seguro-de-riesgos-laborales",
-      "fecha": "2026-10-20T11:11:33-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
     }
   ]
 }
