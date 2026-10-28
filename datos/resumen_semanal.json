@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-21T00:00:00-04:00",
-    "fin": "2026-10-28T09:03:56-04:00",
+    "fin": "2026-10-28T18:39:58-04:00",
     "texto": "del 21 de octubre de 2026 al 28 de octubre de 2026"
   },
-  "total": 40,
-  "de_medios": 32,
-  "de_organismos": 8,
+  "total": 47,
+  "de_medios": 36,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 26,
-    "baja": 12
+    "media": 31,
+    "baja": 14
   },
   "alta": [
     {
@@ -39,16 +39,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 19,
-    "Laboratorios": 19,
+    "Regulación y gobierno": 24,
+    "Laboratorios": 20,
+    "Seguros de salud (ARS)": 12,
     "Farmacia": 12,
-    "Seguros de salud (ARS)": 11,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 30,
+    "Otros": 35,
     "Regulación": 5,
-    "Precios": 2,
+    "Precios": 4,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1,
     "Lanzamientos": 1
@@ -67,8 +67,16 @@
       6
     ],
     [
+      "Pro Consumidor",
+      5
+    ],
+    [
       "SeNaSa",
       3
+    ],
+    [
+      "CNSS",
+      2
     ],
     [
       "DIGEMAPS",
@@ -79,19 +87,11 @@
       2
     ],
     [
-      "Pro Consumidor",
-      2
-    ],
-    [
       "DIDA",
       2
     ],
     [
       "Novo Nordisk",
-      1
-    ],
-    [
-      "SIPEN",
       1
     ]
   ],
@@ -102,11 +102,27 @@
     ],
     [
       "Diario Salud",
-      8
+      9
     ],
     [
       "Listín Diario",
       4
+    ],
+    [
+      "Acento",
+      3
+    ],
+    [
+      "CNSS",
+      2
+    ],
+    [
+      "elDinero",
+      2
+    ],
+    [
+      "Pro Consumidor",
+      2
     ],
     [
       "DIGEMAPS",
@@ -117,27 +133,23 @@
       2
     ],
     [
-      "Acento",
-      2
-    ],
-    [
       "SISALRIL",
       2
-    ],
-    [
-      "Promese/Cal",
-      2
-    ],
-    [
-      "Hoy",
-      2
-    ],
-    [
-      "El Día",
-      1
     ]
   ],
   "regulatorias": [
+    {
+      "id": "bd701141b64f",
+      "titulo": "Pro Consumidor asegura que habrá pollo suficiente en Navidad y destaca precios estables",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-asegura-que-habra-pollo-suficiente-en-navidad-y-destaca-precios-estables/",
+      "fecha": "2026-10-28T10:30:54-04:00",
+      "precision": "dia",
+      "tema": "Precios",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "0b9972776bfa",
       "titulo": "Seguro Familiar de Salud destinó más de RD$3,352 millones en atención cáncer de mama en 2025",
@@ -207,6 +219,18 @@
       "precision": "deteccion",
       "tema": "Alertas sanitarias",
       "tipo": "documento",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "39ee2480e832",
+      "titulo": "CNSS abre convocatoria pública para elegir a sus nuevos representantes",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-abre-convocatoria-publica-para-elegir-a-sus-nuevos-representantes/",
+      "fecha": "2026-10-21T17:43:52-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
     },
