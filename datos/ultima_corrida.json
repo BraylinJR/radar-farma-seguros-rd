@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1307,
-  "errores": 0,
-  "fin": "2026-10-28T01:51:16-04:00",
+  "descartadas": 1342,
+  "errores": 1,
+  "fin": "2026-10-28T09:03:52-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 7,
-      "leidos": 7,
+      "descartados": 39,
+      "leidos": 39,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,22 +47,22 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 67,
-      "leidos": 67,
+      "descartados": 69,
+      "leidos": 69,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 483,
-      "leidos": 488,
-      "nuevos": 1,
-      "repetidos": 4
+      "descartados": 492,
+      "leidos": 497,
+      "nuevos": 0,
+      "repetidos": 5
     },
     "diariosalud": {
       "descartados": 14,
       "leidos": 16,
-      "nuevos": 0,
-      "repetidos": 2
+      "nuevos": 1,
+      "repetidos": 1
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -73,8 +73,8 @@
     "digemaps_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     },
     "eldia": {
       "descartados": 15,
@@ -89,10 +89,7 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://elnuevodiario.com.do/feed/"
     },
     "hoy_economia": {
       "descartados": 20,
@@ -101,8 +98,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 74,
-      "leidos": 74,
+      "descartados": 75,
+      "leidos": 75,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -119,8 +116,8 @@
       "repetidos": 2
     },
     "listin_sitemap": {
-      "descartados": 279,
-      "leidos": 280,
+      "descartados": 280,
+      "leidos": 281,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -179,8 +176,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-28T01:49:58-04:00",
-  "nuevas": 1,
-  "repetidas": 110,
-  "total_historial": 135
+  "inicio": "2026-10-28T09:03:23-04:00",
+  "nuevas": 2,
+  "repetidas": 109,
+  "total_historial": 137
 }

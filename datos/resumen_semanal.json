@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-21T00:00:00-04:00",
-    "fin": "2026-10-28T01:51:18-04:00",
+    "fin": "2026-10-28T09:03:56-04:00",
     "texto": "del 21 de octubre de 2026 al 28 de octubre de 2026"
   },
-  "total": 38,
-  "de_medios": 31,
-  "de_organismos": 7,
+  "total": 40,
+  "de_medios": 32,
+  "de_organismos": 8,
   "por_prioridad": {
     "alta": 2,
     "media": 26,
-    "baja": 10
+    "baja": 12
   },
   "alta": [
     {
@@ -39,15 +39,15 @@
     }
   ],
   "por_sector": {
-    "Laboratorios": 18,
-    "Regulación y gobierno": 18,
+    "Regulación y gobierno": 19,
+    "Laboratorios": 19,
     "Farmacia": 12,
     "Seguros de salud (ARS)": 11,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 29,
-    "Regulación": 4,
+    "Otros": 30,
+    "Regulación": 5,
     "Precios": 2,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1,
@@ -71,6 +71,10 @@
       3
     ],
     [
+      "DIGEMAPS",
+      2
+    ],
+    [
       "Ministerio de Salud Pública",
       2
     ],
@@ -89,10 +93,6 @@
     [
       "SIPEN",
       1
-    ],
-    [
-      "Seguros Cibao",
-      1
     ]
   ],
   "medios_mas_activos": [
@@ -102,11 +102,15 @@
     ],
     [
       "Diario Salud",
-      7
+      8
     ],
     [
       "Listín Diario",
       4
+    ],
+    [
+      "DIGEMAPS",
+      2
     ],
     [
       "Revista Mercado",
@@ -130,10 +134,6 @@
     ],
     [
       "El Día",
-      1
-    ],
-    [
-      "De Último Minuto",
       1
     ]
   ],
