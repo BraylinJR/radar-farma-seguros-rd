@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1387,
-  "errores": 0,
-  "fin": "2026-10-29T09:10:44-04:00",
+  "descartadas": 1433,
+  "errores": 1,
+  "fin": "2026-10-29T18:49:26-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 36,
-      "leidos": 36,
+      "descartados": 95,
+      "leidos": 95,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -25,8 +25,8 @@
     "cnss_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 2,
+      "repetidos": 8
     },
     "deultimominuto": {
       "descartados": 10,
@@ -47,22 +47,22 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 39,
-      "leidos": 39,
+      "descartados": 37,
+      "leidos": 37,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 552,
-      "leidos": 557,
+      "descartados": 544,
+      "leidos": 547,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 3
     },
     "diariosalud": {
-      "descartados": 12,
+      "descartados": 14,
       "leidos": 16,
-      "nuevos": 1,
-      "repetidos": 3
+      "nuevos": 0,
+      "repetidos": 2
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -83,15 +83,15 @@
       "repetidos": 0
     },
     "eldinero": {
-      "descartados": 20,
+      "descartados": 19,
       "leidos": 20,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 76,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "listin_economia": {
       "descartados": 96,
@@ -113,21 +113,21 @@
       "repetidos": 4
     },
     "listin_la_republica": {
-      "descartados": 98,
+      "descartados": 99,
       "leidos": 100,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 292,
-      "leidos": 293,
+      "descartados": 286,
+      "leidos": 287,
       "nuevos": 0,
       "repetidos": 1
     },
     "ndigital": {
-      "descartados": 13,
+      "descartados": 14,
       "leidos": 14,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "noticiassin": {
@@ -173,14 +173,11 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "descartados": 0,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sisalril.gob.do/feed/"
     }
   },
-  "inicio": "2026-10-29T09:10:25-04:00",
+  "inicio": "2026-10-29T18:48:57-04:00",
   "nuevas": 3,
-  "repetidas": 113,
-  "total_historial": 148
+  "repetidas": 96,
+  "total_historial": 151
 }

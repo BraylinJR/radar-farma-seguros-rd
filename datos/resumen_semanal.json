@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-22T00:00:00-04:00",
-    "fin": "2026-10-29T09:10:46-04:00",
+    "fin": "2026-10-29T18:49:27-04:00",
     "texto": "del 22 de octubre de 2026 al 29 de octubre de 2026"
   },
-  "total": 44,
-  "de_medios": 35,
-  "de_organismos": 9,
+  "total": 47,
+  "de_medios": 36,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 1,
-    "media": 27,
-    "baja": 16
+    "media": 29,
+    "baja": 17
   },
   "alta": [
     {
@@ -27,20 +27,24 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 21,
+    "Regulación y gobierno": 24,
     "Laboratorios": 19,
     "Farmacia": 12,
     "Seguros de salud (ARS)": 11,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 34,
-    "Precios": 4,
+    "Otros": 36,
+    "Precios": 5,
     "Regulación": 4,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1
   },
   "empresas_mas_mencionadas": [
+    [
+      "Pro Consumidor",
+      6
+    ],
     [
       "Farmacias del Pueblo",
       6
@@ -50,12 +54,12 @@
       6
     ],
     [
-      "Pro Consumidor",
-      5
-    ],
-    [
       "SISALRIL",
       4
+    ],
+    [
+      "CNSS",
+      3
     ],
     [
       "SeNaSa",
@@ -68,10 +72,6 @@
     [
       "DIDA",
       2
-    ],
-    [
-      "CNSS",
-      1
     ],
     [
       "Ministerio de Salud Pública",
@@ -92,16 +92,20 @@
       8
     ],
     [
+      "CNSS",
+      3
+    ],
+    [
+      "elDinero",
+      3
+    ],
+    [
       "Acento",
       3
     ],
     [
       "Listín Diario",
       3
-    ],
-    [
-      "elDinero",
-      2
     ],
     [
       "DIGEMAPS",
@@ -118,13 +122,21 @@
     [
       "Promese/Cal",
       2
-    ],
-    [
-      "Hoy",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "9cf4ddae0e21",
+      "titulo": "CNSS presenta borrador del Manual de Evaluación y Calificación del Grado de Discapacidad",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-presenta-borrador-del-manual-de-evaluacion-y-calificacion-del-grado-de-discapacidad/",
+      "fecha": "2026-10-29T16:46:37-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "bd701141b64f",
       "titulo": "Pro Consumidor asegura que habrá pollo suficiente en Navidad y destaca precios estables",
