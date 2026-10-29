@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1371,
-  "errores": 1,
-  "fin": "2026-10-29T01:54:57-04:00",
+  "descartadas": 1387,
+  "errores": 0,
+  "fin": "2026-10-29T09:10:44-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 11,
-      "leidos": 11,
+      "descartados": 36,
+      "leidos": 36,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,21 +47,21 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 59,
-      "leidos": 59,
+      "descartados": 39,
+      "leidos": 39,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 549,
-      "leidos": 554,
+      "descartados": 552,
+      "leidos": 557,
       "nuevos": 0,
       "repetidos": 5
     },
     "diariosalud": {
-      "descartados": 13,
+      "descartados": 12,
       "leidos": 16,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 3
     },
     "digemaps_alertas": {
@@ -89,9 +89,9 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -103,8 +103,8 @@
     "hoy_portada": {
       "descartados": 75,
       "leidos": 76,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_economia": {
       "descartados": 96,
@@ -119,15 +119,15 @@
       "repetidos": 2
     },
     "listin_sitemap": {
-      "descartados": 291,
-      "leidos": 292,
+      "descartados": 292,
+      "leidos": 293,
       "nuevos": 0,
       "repetidos": 1
     },
     "ndigital": {
-      "descartados": 14,
+      "descartados": 13,
       "leidos": 14,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "noticiassin": {
@@ -137,7 +137,10 @@
       "repetidos": 0
     },
     "panorama": {
-      "error": "HTTPError: 415 Client Error: Unsupported Media Type for url: https://panorama.com.do/feed/"
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "proconsumidor_noticias": {
       "descartados": 0,
@@ -176,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-29T01:54:22-04:00",
-  "nuevas": 1,
-  "repetidas": 112,
-  "total_historial": 145
+  "inicio": "2026-10-29T09:10:25-04:00",
+  "nuevas": 3,
+  "repetidas": 113,
+  "total_historial": 148
 }
