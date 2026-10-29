@@ -1,15 +1,15 @@
 {
   "periodo": {
-    "inicio": "2026-10-21T00:00:00-04:00",
-    "fin": "2026-10-28T18:39:58-04:00",
-    "texto": "del 21 de octubre de 2026 al 28 de octubre de 2026"
+    "inicio": "2026-10-22T00:00:00-04:00",
+    "fin": "2026-10-29T01:54:59-04:00",
+    "texto": "del 22 de octubre de 2026 al 29 de octubre de 2026"
   },
-  "total": 47,
-  "de_medios": 36,
-  "de_organismos": 11,
+  "total": 41,
+  "de_medios": 32,
+  "de_organismos": 9,
   "por_prioridad": {
-    "alta": 2,
-    "media": 31,
+    "alta": 1,
+    "media": 26,
     "baja": 14
   },
   "alta": [
@@ -24,34 +24,21 @@
       "tipo": "documento",
       "prioridad": "alta",
       "motivo": "Menciona Resolución 05-2026"
-    },
-    {
-      "id": "72bed8a640ad",
-      "titulo": "Sisalril incluye burnout, depresión, insomnio y cáncer en nuevo cuadro de enfermedades profesionales",
-      "medio": "Listín Diario",
-      "enlace": "https://listindiario.com/la-republica/sector-salud/20261021/sisalril-incluye-burnout-depresion-insomnio-cancer-nuevo-cuadro-enfermedades-profesionales_926926.html",
-      "fecha": "2026-10-21T00:00:00-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 24,
-    "Laboratorios": 20,
-    "Seguros de salud (ARS)": 12,
+    "Regulación y gobierno": 20,
+    "Laboratorios": 19,
     "Farmacia": 12,
+    "Seguros de salud (ARS)": 9,
     "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 35,
-    "Regulación": 5,
+    "Otros": 31,
     "Precios": 4,
+    "Regulación": 4,
     "Fusiones y adquisiciones": 1,
-    "Alertas sanitarias": 1,
-    "Lanzamientos": 1
+    "Alertas sanitarias": 1
   },
   "empresas_mas_mencionadas": [
     [
@@ -63,32 +50,32 @@
       6
     ],
     [
-      "SISALRIL",
-      6
+      "Pro Consumidor",
+      4
     ],
     [
-      "Pro Consumidor",
-      5
+      "SISALRIL",
+      4
     ],
     [
       "SeNaSa",
       3
     ],
     [
-      "CNSS",
-      2
-    ],
-    [
       "DIGEMAPS",
-      2
-    ],
-    [
-      "Ministerio de Salud Pública",
       2
     ],
     [
       "DIDA",
       2
+    ],
+    [
+      "CNSS",
+      1
+    ],
+    [
+      "Ministerio de Salud Pública",
+      1
     ],
     [
       "Novo Nordisk",
@@ -98,30 +85,22 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      11
+      10
     ],
     [
       "Diario Salud",
-      9
-    ],
-    [
-      "Listín Diario",
-      4
+      7
     ],
     [
       "Acento",
       3
     ],
     [
-      "CNSS",
-      2
+      "Listín Diario",
+      3
     ],
     [
       "elDinero",
-      2
-    ],
-    [
-      "Pro Consumidor",
       2
     ],
     [
@@ -134,6 +113,14 @@
     ],
     [
       "SISALRIL",
+      2
+    ],
+    [
+      "Promese/Cal",
+      2
+    ],
+    [
+      "Hoy",
       2
     ]
   ],
@@ -219,30 +206,6 @@
       "precision": "deteccion",
       "tema": "Alertas sanitarias",
       "tipo": "documento",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "39ee2480e832",
-      "titulo": "CNSS abre convocatoria pública para elegir a sus nuevos representantes",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-abre-convocatoria-publica-para-elegir-a-sus-nuevos-representantes/",
-      "fecha": "2026-10-21T17:43:52-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "dae7a280d202",
-      "titulo": "Pro Consumidor interviene más de 30 comercios chinos por irregularidades sanitarias y comerciales",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/pro-consumidor-interviene-mas-de-30-comercios-chinos-por-irregularidades-sanitarias-y-comerciales/",
-      "fecha": "2026-10-21T10:05:51-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
     }
