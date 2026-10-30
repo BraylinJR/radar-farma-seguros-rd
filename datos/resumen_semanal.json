@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-10-23T00:00:00-04:00",
-    "fin": "2026-10-30T09:02:58-04:00",
+    "fin": "2026-10-30T18:26:23-04:00",
     "texto": "del 23 de octubre de 2026 al 30 de octubre de 2026"
   },
-  "total": 46,
-  "de_medios": 35,
-  "de_organismos": 11,
+  "total": 53,
+  "de_medios": 40,
+  "de_organismos": 13,
   "por_prioridad": {
-    "alta": 1,
-    "media": 31,
+    "alta": 2,
+    "media": 37,
     "baja": 14
   },
   "alta": [
+    {
+      "id": "69e166e79afc",
+      "titulo": "Black Friday 2026 en RD: cuándo es, qué derechos tienes y cómo saber si el descuento es real",
+      "medio": "Revista Mercado",
+      "enlace": "https://revistamercado.do/money-invest/daily-news/black-friday-2026-rd/?utm_source=rss&utm_medium=rss&utm_campaign=black-friday-2026-rd",
+      "fecha": "2026-10-30T13:36:59-04:00",
+      "precision": "dia",
+      "tema": "Precios",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona Ley 358-05"
+    },
     {
       "id": "e0c079cf3e9d",
       "titulo": "Resolucion 05 2026 Sobre cierre definitivo de la compania Seguros Cibao S.R.L",
@@ -27,15 +39,15 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 26,
-    "Laboratorios": 16,
+    "Regulación y gobierno": 29,
+    "Laboratorios": 17,
+    "Seguros de salud (ARS)": 14,
     "Farmacia": 13,
-    "Seguros de salud (ARS)": 11,
     "Seguros generales": 1
   },
   "por_tema": {
-    "Otros": 33,
-    "Precios": 6,
+    "Otros": 39,
+    "Precios": 7,
     "Regulación": 5,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1
@@ -43,7 +55,11 @@
   "empresas_mas_mencionadas": [
     [
       "Pro Consumidor",
-      7
+      10
+    ],
+    [
+      "SeNaSa",
+      6
     ],
     [
       "Farmacias del Pueblo",
@@ -66,30 +82,42 @@
       3
     ],
     [
-      "SeNaSa",
-      3
-    ],
-    [
       "DIDA",
       2
     ],
     [
-      "Ministerio de Salud Pública",
+      "Roche",
       1
     ],
     [
-      "Novo Nordisk",
+      "Ministerio de Salud Pública",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      9
+      11
     ],
     [
       "Diario Salud",
       7
+    ],
+    [
+      "Listín Diario",
+      4
+    ],
+    [
+      "Acento",
+      4
+    ],
+    [
+      "Revista Mercado",
+      3
+    ],
+    [
+      "Pro Consumidor",
+      3
     ],
     [
       "CNSS",
@@ -100,31 +128,39 @@
       3
     ],
     [
-      "Acento",
-      3
-    ],
-    [
-      "Listín Diario",
-      3
-    ],
-    [
       "N Digital",
       2
     ],
     [
       "DIGEMAPS",
       2
-    ],
-    [
-      "Revista Mercado",
-      2
-    ],
-    [
-      "SISALRIL",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "4177ad54b469",
+      "titulo": "Protección del consumidor ante la publicidad engañosa",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/proteccion-del-consumidor-ante-la-publicidad-enganosa/",
+      "fecha": "2026-10-30T10:30:16-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "7f5dd14e75f2",
+      "titulo": "Higiene y cuidado personal de los deliverys y que debe tener en cuenta el consumidor a la hora de recibir el pedido",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/higiene-y-cuidado-personal-de-los-deliverys-y-que-debe-tener-en-cuenta-el-consumidor-a-la-hora-de-recibir-el-pedido/",
+      "fecha": "2026-10-30T10:26:16-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "9cf4ddae0e21",
       "titulo": "CNSS presenta borrador del Manual de Evaluación y Calificación del Grado de Discapacidad",
