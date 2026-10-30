@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-10-23T00:00:00-04:00",
-    "fin": "2026-10-30T01:55:49-04:00",
+    "fin": "2026-10-30T09:02:58-04:00",
     "texto": "del 23 de octubre de 2026 al 30 de octubre de 2026"
   },
-  "total": 44,
-  "de_medios": 33,
+  "total": 46,
+  "de_medios": 35,
   "de_organismos": 11,
   "por_prioridad": {
     "alta": 1,
-    "media": 29,
+    "media": 31,
     "baja": 14
   },
   "alta": [
@@ -27,23 +27,23 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 24,
+    "Regulación y gobierno": 26,
     "Laboratorios": 16,
-    "Farmacia": 12,
+    "Farmacia": 13,
     "Seguros de salud (ARS)": 11,
     "Seguros generales": 1
   },
   "por_tema": {
     "Otros": 33,
-    "Precios": 5,
-    "Regulación": 4,
+    "Precios": 6,
+    "Regulación": 5,
     "Fusiones y adquisiciones": 1,
     "Alertas sanitarias": 1
   },
   "empresas_mas_mencionadas": [
     [
       "Pro Consumidor",
-      6
+      7
     ],
     [
       "Farmacias del Pueblo",
@@ -62,12 +62,12 @@
       3
     ],
     [
-      "SeNaSa",
+      "DIGEMAPS",
       3
     ],
     [
-      "DIGEMAPS",
-      2
+      "SeNaSa",
+      3
     ],
     [
       "DIDA",
@@ -89,7 +89,7 @@
     ],
     [
       "Diario Salud",
-      6
+      7
     ],
     [
       "CNSS",
@@ -108,6 +108,10 @@
       3
     ],
     [
+      "N Digital",
+      2
+    ],
+    [
       "DIGEMAPS",
       2
     ],
@@ -117,10 +121,6 @@
     ],
     [
       "SISALRIL",
-      2
-    ],
-    [
-      "Promese/Cal",
       2
     ]
   ],
