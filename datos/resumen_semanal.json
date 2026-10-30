@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-22T00:00:00-04:00",
-    "fin": "2026-10-29T18:49:27-04:00",
-    "texto": "del 22 de octubre de 2026 al 29 de octubre de 2026"
+    "inicio": "2026-10-23T00:00:00-04:00",
+    "fin": "2026-10-30T01:55:49-04:00",
+    "texto": "del 23 de octubre de 2026 al 30 de octubre de 2026"
   },
-  "total": 47,
-  "de_medios": 36,
+  "total": 44,
+  "de_medios": 33,
   "de_organismos": 11,
   "por_prioridad": {
     "alta": 1,
     "media": 29,
-    "baja": 17
+    "baja": 14
   },
   "alta": [
     {
@@ -28,13 +28,13 @@
   ],
   "por_sector": {
     "Regulación y gobierno": 24,
-    "Laboratorios": 19,
+    "Laboratorios": 16,
     "Farmacia": 12,
     "Seguros de salud (ARS)": 11,
-    "Seguros generales": 2
+    "Seguros generales": 1
   },
   "por_tema": {
-    "Otros": 36,
+    "Otros": 33,
     "Precios": 5,
     "Regulación": 4,
     "Fusiones y adquisiciones": 1,
@@ -85,11 +85,11 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      10
+      9
     ],
     [
       "Diario Salud",
-      8
+      6
     ],
     [
       "CNSS",

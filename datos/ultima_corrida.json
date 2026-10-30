@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1433,
-  "errores": 1,
-  "fin": "2026-10-29T18:49:26-04:00",
+  "descartadas": 1372,
+  "errores": 0,
+  "fin": "2026-10-30T01:55:45-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 95,
-      "leidos": 95,
+      "descartados": 9,
+      "leidos": 9,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -25,8 +25,8 @@
     "cnss_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 2,
-      "repetidos": 8
+      "nuevos": 0,
+      "repetidos": 10
     },
     "deultimominuto": {
       "descartados": 10,
@@ -47,16 +47,16 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 37,
-      "leidos": 37,
+      "descartados": 35,
+      "leidos": 35,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 544,
-      "leidos": 547,
+      "descartados": 560,
+      "leidos": 561,
       "nuevos": 0,
-      "repetidos": 3
+      "repetidos": 1
     },
     "diariosalud": {
       "descartados": 14,
@@ -85,8 +85,8 @@
     "eldinero": {
       "descartados": 19,
       "leidos": 20,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 286,
-      "leidos": 287,
+      "descartados": 297,
+      "leidos": 298,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -173,11 +173,14 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sisalril.gob.do/feed/"
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-10-29T18:48:57-04:00",
-  "nuevas": 3,
-  "repetidas": 96,
+  "inicio": "2026-10-30T01:55:21-04:00",
+  "nuevas": 0,
+  "repetidas": 107,
   "total_historial": 151
 }
