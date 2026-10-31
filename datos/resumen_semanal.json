@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-10-24T00:00:00-04:00",
-    "fin": "2026-10-31T08:41:22-04:00",
+    "fin": "2026-10-31T17:41:15-04:00",
     "texto": "del 24 de octubre de 2026 al 31 de octubre de 2026"
   },
-  "total": 49,
-  "de_medios": 40,
+  "total": 51,
+  "de_medios": 42,
   "de_organismos": 9,
   "por_prioridad": {
     "alta": 1,
-    "media": 34,
+    "media": 36,
     "baja": 14
   },
   "alta": [
@@ -28,12 +28,12 @@
   ],
   "por_sector": {
     "Regulación y gobierno": 24,
-    "Laboratorios": 15,
-    "Seguros de salud (ARS)": 14,
+    "Laboratorios": 16,
+    "Seguros de salud (ARS)": 15,
     "Farmacia": 11
   },
   "por_tema": {
-    "Otros": 37,
+    "Otros": 39,
     "Precios": 7,
     "Regulación": 5
   },
@@ -44,7 +44,7 @@
     ],
     [
       "SeNaSa",
-      7
+      8
     ],
     [
       "Farmacias del Pueblo",
@@ -63,6 +63,10 @@
       3
     ],
     [
+      "Ministerio de Salud Pública",
+      2
+    ],
+    [
       "DIGEMAPS",
       2
     ],
@@ -73,16 +77,12 @@
     [
       "Roche",
       1
-    ],
-    [
-      "Ministerio de Salud Pública",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      10
+      12
     ],
     [
       "Diario Salud",

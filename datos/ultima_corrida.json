@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1294,
-  "errores": 0,
-  "fin": "2026-10-31T08:41:18-04:00",
+  "descartadas": 1255,
+  "errores": 1,
+  "fin": "2026-10-31T17:41:13-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 25,
-      "leidos": 25,
+      "descartados": 56,
+      "leidos": 56,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,10 +35,10 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 29,
+      "descartados": 28,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 2
     },
     "diariolibre_economia": {
       "descartados": 30,
@@ -47,22 +47,22 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 46,
-      "leidos": 46,
-      "nuevos": 0,
+      "descartados": 49,
+      "leidos": 51,
+      "nuevos": 2,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 515,
-      "leidos": 517,
+      "descartados": 454,
+      "leidos": 458,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 4
     },
     "diariosalud": {
-      "descartados": 14,
+      "descartados": 15,
       "leidos": 16,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 1
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -77,10 +77,10 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 14,
+      "descartados": 15,
       "leidos": 15,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "eldinero": {
       "descartados": 20,
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
+      "descartados": 76,
+      "leidos": 76,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -113,14 +113,14 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 99,
-      "leidos": 100,
+      "descartados": 98,
+      "leidos": 99,
       "nuevos": 0,
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 236,
-      "leidos": 237,
+      "descartados": 223,
+      "leidos": 224,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -173,14 +173,11 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "descartados": 0,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "error": "SSLError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
     }
   },
-  "inicio": "2026-10-31T08:40:57-04:00",
-  "nuevas": 0,
-  "repetidas": 108,
-  "total_historial": 161
+  "inicio": "2026-10-31T17:40:47-04:00",
+  "nuevas": 2,
+  "repetidas": 99,
+  "total_historial": 163
 }
