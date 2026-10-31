@@ -1,13 +1,13 @@
 {
   "corregidas": 0,
-  "descartadas": 1424,
+  "descartadas": 1312,
   "errores": 0,
-  "fin": "2026-10-30T18:26:20-04:00",
+  "fin": "2026-10-31T01:51:49-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 82,
-      "leidos": 83,
-      "nuevos": 1,
+      "descartados": 7,
+      "leidos": 7,
+      "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
@@ -47,15 +47,15 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 42,
-      "leidos": 43,
-      "nuevos": 1,
+      "descartados": 46,
+      "leidos": 46,
+      "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 543,
-      "leidos": 546,
-      "nuevos": 1,
+      "descartados": 524,
+      "leidos": 526,
+      "nuevos": 0,
       "repetidos": 2
     },
     "diariosalud": {
@@ -77,9 +77,9 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 15,
+      "descartados": 14,
       "leidos": 15,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "eldinero": {
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 76,
-      "leidos": 76,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -115,14 +115,14 @@
     "listin_la_republica": {
       "descartados": 99,
       "leidos": 100,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 284,
-      "leidos": 286,
+      "descartados": 265,
+      "leidos": 266,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 1
     },
     "ndigital": {
       "descartados": 14,
@@ -145,8 +145,8 @@
     "proconsumidor_noticias": {
       "descartados": 0,
       "leidos": 5,
-      "nuevos": 2,
-      "repetidos": 3
+      "nuevos": 0,
+      "repetidos": 5
     },
     "promesecal_noticias": {
       "descartados": 0,
@@ -157,8 +157,8 @@
     "revistamercado": {
       "descartados": 9,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "sis_documentos": {
       "descartados": 0,
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-10-30T18:25:57-04:00",
-  "nuevas": 7,
-  "repetidas": 105,
-  "total_historial": 160
+  "inicio": "2026-10-31T01:51:25-04:00",
+  "nuevas": 1,
+  "repetidas": 108,
+  "total_historial": 161
 }
