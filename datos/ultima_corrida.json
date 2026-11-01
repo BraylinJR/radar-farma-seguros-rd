@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1255,
+  "descartadas": 1106,
   "errores": 1,
-  "fin": "2026-10-31T17:41:13-04:00",
+  "fin": "2026-11-01T02:15:41-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 56,
-      "leidos": 56,
+      "descartados": 1,
+      "leidos": 1,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,14 +47,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 49,
-      "leidos": 51,
-      "nuevos": 2,
-      "repetidos": 0
+      "descartados": 40,
+      "leidos": 42,
+      "nuevos": 0,
+      "repetidos": 2
     },
     "diariolibre_sitemap": {
-      "descartados": 454,
-      "leidos": 458,
+      "descartados": 400,
+      "leidos": 404,
       "nuevos": 0,
       "repetidos": 4
     },
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 76,
-      "leidos": 76,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -113,14 +113,14 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 98,
-      "leidos": 99,
+      "descartados": 99,
+      "leidos": 100,
       "nuevos": 0,
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 223,
-      "leidos": 224,
+      "descartados": 193,
+      "leidos": 194,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -176,8 +176,8 @@
       "error": "SSLError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
     }
   },
-  "inicio": "2026-10-31T17:40:47-04:00",
-  "nuevas": 2,
-  "repetidas": 99,
+  "inicio": "2026-11-01T02:15:15-04:00",
+  "nuevas": 0,
+  "repetidas": 101,
   "total_historial": 163
 }
