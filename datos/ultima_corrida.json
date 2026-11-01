@@ -1,20 +1,17 @@
 {
   "corregidas": 0,
   "descartadas": 1106,
-  "errores": 1,
-  "fin": "2026-11-01T02:15:41-04:00",
+  "errores": 2,
+  "fin": "2026-11-01T09:39:10-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 1,
-      "leidos": 1,
+      "descartados": 24,
+      "leidos": 24,
       "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.arecoa.com', port=443): Read timed out. (read timeout=30)"
     },
     "cnss_normativas": {
       "descartados": 0,
@@ -47,14 +44,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 40,
-      "leidos": 42,
+      "descartados": 41,
+      "leidos": 43,
       "nuevos": 0,
       "repetidos": 2
     },
     "diariolibre_sitemap": {
-      "descartados": 400,
-      "leidos": 404,
+      "descartados": 401,
+      "leidos": 405,
       "nuevos": 0,
       "repetidos": 4
     },
@@ -101,8 +98,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 74,
-      "leidos": 74,
+      "descartados": 75,
+      "leidos": 75,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -119,8 +116,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 193,
-      "leidos": 194,
+      "descartados": 177,
+      "leidos": 178,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -176,7 +173,7 @@
       "error": "SSLError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
     }
   },
-  "inicio": "2026-11-01T02:15:15-04:00",
+  "inicio": "2026-11-01T09:37:05-04:00",
   "nuevas": 0,
   "repetidas": 101,
   "total_historial": 163
