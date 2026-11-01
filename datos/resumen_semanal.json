@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-10-25T00:00:00-04:00",
-    "fin": "2026-11-01T09:39:12-04:00",
+    "fin": "2026-11-01T18:07:03-04:00",
     "texto": "del 25 de octubre de 2026 al 1 de noviembre de 2026"
   },
-  "total": 47,
-  "de_medios": 38,
+  "total": 48,
+  "de_medios": 39,
   "de_organismos": 9,
   "por_prioridad": {
-    "alta": 1,
+    "alta": 2,
     "media": 35,
     "baja": 11
   },
   "alta": [
+    {
+      "id": "06508d6225a7",
+      "titulo": "Damac impulsa actualización de herramientas para mejorar acceso a medicamentos de alto costo",
+      "medio": "El Nuevo Diario",
+      "enlace": "https://elnuevodiario.com.do/damac-impulsa-actualizacion-de-herramientas-para-mejorar-acceso-a-medicamentos-de-alto-costo/",
+      "fecha": "2026-11-01T17:25:02-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «medicamentos de alto costo»"
+    },
     {
       "id": "69e166e79afc",
       "titulo": "Black Friday 2026 en RD: cuándo es, qué derechos tienes y cómo saber si el descuento es real",
@@ -28,12 +40,12 @@
   ],
   "por_sector": {
     "Regulación y gobierno": 24,
-    "Seguros de salud (ARS)": 15,
-    "Laboratorios": 13,
+    "Seguros de salud (ARS)": 16,
+    "Laboratorios": 14,
     "Farmacia": 8
   },
   "por_tema": {
-    "Otros": 36,
+    "Otros": 37,
     "Precios": 6,
     "Regulación": 5
   },
@@ -113,11 +125,11 @@
       3
     ],
     [
-      "El Día",
+      "El Nuevo Diario",
       2
     ],
     [
-      "N Digital",
+      "El Día",
       2
     ]
   ],

@@ -1,17 +1,20 @@
 {
   "corregidas": 0,
-  "descartadas": 1106,
-  "errores": 2,
-  "fin": "2026-11-01T09:39:10-04:00",
+  "descartadas": 1099,
+  "errores": 0,
+  "fin": "2026-11-01T18:07:01-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 24,
-      "leidos": 24,
+      "descartados": 43,
+      "leidos": 43,
       "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.arecoa.com', port=443): Read timed out. (read timeout=30)"
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "cnss_normativas": {
       "descartados": 0,
@@ -44,14 +47,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 41,
-      "leidos": 43,
+      "descartados": 36,
+      "leidos": 36,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 401,
-      "leidos": 405,
+      "descartados": 362,
+      "leidos": 366,
       "nuevos": 0,
       "repetidos": 4
     },
@@ -86,9 +89,9 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -116,10 +119,10 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 177,
-      "leidos": 178,
+      "descartados": 186,
+      "leidos": 186,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "ndigital": {
       "descartados": 14,
@@ -170,11 +173,14 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "error": "SSLError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-11-01T09:37:05-04:00",
-  "nuevas": 0,
-  "repetidas": 101,
-  "total_historial": 163
+  "inicio": "2026-11-01T18:06:42-04:00",
+  "nuevas": 1,
+  "repetidas": 108,
+  "total_historial": 164
 }
