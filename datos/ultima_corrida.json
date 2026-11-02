@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1037,
+  "descartadas": 1083,
   "errores": 0,
-  "fin": "2026-11-02T02:16:49-04:00",
+  "fin": "2026-11-02T12:18:16-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 1,
-      "leidos": 1,
+      "descartados": 42,
+      "leidos": 42,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,14 +47,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 34,
-      "leidos": 34,
+      "descartados": 41,
+      "leidos": 41,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 321,
-      "leidos": 325,
+      "descartados": 317,
+      "leidos": 321,
       "nuevos": 0,
       "repetidos": 4
     },
@@ -77,9 +77,9 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 15,
+      "descartados": 14,
       "leidos": 15,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "eldinero": {
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 73,
+      "descartados": 72,
+      "leidos": 72,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 209,
-      "leidos": 209,
+      "descartados": 212,
+      "leidos": 212,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -131,9 +131,9 @@
       "repetidos": 0
     },
     "noticiassin": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "panorama": {
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-02T02:16:26-04:00",
+  "inicio": "2026-11-02T12:17:53-04:00",
   "nuevas": 1,
   "repetidas": 106,
-  "total_historial": 165
+  "total_historial": 166
 }

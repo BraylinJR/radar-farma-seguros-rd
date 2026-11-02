@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02T02:16:49-04:00",
+  "actualizado": "2026-11-02T12:18:16-04:00",
   "fuente": "Banco Central de la República Dominicana",
   "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
   "tarjetas": [
@@ -150,13 +150,9 @@
       "decimales": 2,
       "texto_valor": "5.50 %",
       "periodo": "vigente desde octubre 2026",
-      "comparacion": "Antes: 5.25 % · oct 2025: 5.50 %",
-      "direccion": "sube",
+      "comparacion": "Antes: 5.25 % · nov 2025: 5.25 %",
+      "direccion": "igual",
       "serie": [
-        {
-          "etiqueta": "oct 2025",
-          "valor": 5.5
-        },
         {
           "etiqueta": "nov 2025",
           "valor": 5.25
@@ -203,6 +199,10 @@
         },
         {
           "etiqueta": "oct 2026",
+          "valor": 5.5
+        },
+        {
+          "etiqueta": "nov 2026",
           "valor": 5.5
         }
       ],
