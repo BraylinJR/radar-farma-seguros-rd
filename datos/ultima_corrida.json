@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1099,
+  "descartadas": 1037,
   "errores": 0,
-  "fin": "2026-11-01T18:07:01-04:00",
+  "fin": "2026-11-02T02:16:49-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 43,
-      "leidos": 43,
+      "descartados": 1,
+      "leidos": 1,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,10 +35,10 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 28,
+      "descartados": 30,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 0
     },
     "diariolibre_economia": {
       "descartados": 30,
@@ -47,14 +47,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 36,
-      "leidos": 36,
+      "descartados": 34,
+      "leidos": 34,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 362,
-      "leidos": 366,
+      "descartados": 321,
+      "leidos": 325,
       "nuevos": 0,
       "repetidos": 4
     },
@@ -89,9 +89,9 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
+      "descartados": 73,
+      "leidos": 73,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 186,
-      "leidos": 186,
+      "descartados": 209,
+      "leidos": 209,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -131,9 +131,9 @@
       "repetidos": 0
     },
     "noticiassin": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "panorama": {
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-01T18:06:42-04:00",
+  "inicio": "2026-11-02T02:16:26-04:00",
   "nuevas": 1,
-  "repetidas": 108,
-  "total_historial": 164
+  "repetidas": 106,
+  "total_historial": 165
 }

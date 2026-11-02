@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-25T00:00:00-04:00",
-    "fin": "2026-11-01T18:07:03-04:00",
-    "texto": "del 25 de octubre de 2026 al 1 de noviembre de 2026"
+    "inicio": "2026-10-26T00:00:00-04:00",
+    "fin": "2026-11-02T02:16:51-04:00",
+    "texto": "del 26 de octubre de 2026 al 2 de noviembre de 2026"
   },
-  "total": 48,
-  "de_medios": 39,
+  "total": 47,
+  "de_medios": 38,
   "de_organismos": 9,
   "por_prioridad": {
     "alta": 2,
-    "media": 35,
-    "baja": 11
+    "media": 36,
+    "baja": 9
   },
   "alta": [
     {
@@ -41,11 +41,12 @@
   "por_sector": {
     "Regulación y gobierno": 24,
     "Seguros de salud (ARS)": 16,
-    "Laboratorios": 14,
-    "Farmacia": 8
+    "Laboratorios": 12,
+    "Farmacia": 8,
+    "Seguros generales": 1
   },
   "por_tema": {
-    "Otros": 37,
+    "Otros": 36,
     "Precios": 6,
     "Regulación": 5
   },
@@ -87,7 +88,7 @@
       2
     ],
     [
-      "Roche",
+      "Seguros Reservas",
       1
     ]
   ],
@@ -98,11 +99,7 @@
     ],
     [
       "Diario Salud",
-      7
-    ],
-    [
-      "Listín Diario",
-      4
+      6
     ],
     [
       "Acento",
@@ -110,6 +107,10 @@
     ],
     [
       "Revista Mercado",
+      3
+    ],
+    [
+      "Listín Diario",
       3
     ],
     [
