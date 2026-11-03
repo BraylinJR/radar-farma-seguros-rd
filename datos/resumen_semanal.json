@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-26T00:00:00-04:00",
-    "fin": "2026-11-02T12:18:19-04:00",
+    "fin": "2026-11-02T21:02:47-04:00",
     "texto": "del 26 de octubre de 2026 al 2 de noviembre de 2026"
   },
-  "total": 48,
-  "de_medios": 39,
-  "de_organismos": 9,
+  "total": 51,
+  "de_medios": 40,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 36,
-    "baja": 10
+    "media": 38,
+    "baja": 11
   },
   "alta": [
     {
@@ -39,16 +39,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 24,
+    "Regulación y gobierno": 26,
     "Seguros de salud (ARS)": 16,
-    "Laboratorios": 12,
+    "Laboratorios": 13,
     "Farmacia": 9,
     "Seguros generales": 1
   },
   "por_tema": {
-    "Otros": 37,
-    "Precios": 6,
-    "Regulación": 5
+    "Otros": 39,
+    "Regulación": 6,
+    "Precios": 6
   },
   "empresas_mas_mencionadas": [
     [
@@ -60,16 +60,16 @@
       8
     ],
     [
+      "CNSS",
+      5
+    ],
+    [
       "Farmacias del Pueblo",
       5
     ],
     [
       "Promese/Cal",
       4
-    ],
-    [
-      "CNSS",
-      3
     ],
     [
       "SISALRIL",
@@ -95,11 +95,15 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      9
+      10
     ],
     [
       "Diario Salud",
       6
+    ],
+    [
+      "CNSS",
+      5
     ],
     [
       "Acento",
@@ -122,10 +126,6 @@
       3
     ],
     [
-      "CNSS",
-      3
-    ],
-    [
       "elDinero",
       3
     ],
@@ -135,6 +135,18 @@
     ]
   ],
   "regulatorias": [
+    {
+      "id": "d1ed9c4ab5a2",
+      "titulo": "CNSS firma compromiso estratégico de integridad y prevención de la corrupción administrativa",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-firma-compromiso-estrategico-de-integridad-y-prevencion-de-la-corrupcion-administrativa/",
+      "fecha": "2026-11-02T14:28:21-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "4177ad54b469",
       "titulo": "Protección del consumidor ante la publicidad engañosa",
