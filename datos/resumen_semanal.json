@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-27T00:00:00-04:00",
-    "fin": "2026-11-03T10:24:55-04:00",
+    "fin": "2026-11-03T19:27:58-04:00",
     "texto": "del 27 de octubre de 2026 al 3 de noviembre de 2026"
   },
-  "total": 40,
-  "de_medios": 30,
+  "total": 45,
+  "de_medios": 35,
   "de_organismos": 10,
   "por_prioridad": {
     "alta": 2,
-    "media": 28,
-    "baja": 10
+    "media": 32,
+    "baja": 11
   },
   "alta": [
     {
@@ -39,16 +39,17 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 20,
-    "Seguros de salud (ARS)": 10,
+    "Regulación y gobierno": 22,
+    "Seguros de salud (ARS)": 13,
     "Laboratorios": 10,
-    "Farmacia": 5,
-    "Seguros generales": 2
+    "Farmacia": 6,
+    "Seguros generales": 3
   },
   "por_tema": {
-    "Otros": 29,
+    "Otros": 33,
     "Precios": 7,
-    "Regulación": 4
+    "Regulación": 4,
+    "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
@@ -56,12 +57,20 @@
       10
     ],
     [
+      "SeNaSa",
+      6
+    ],
+    [
       "CNSS",
       5
     ],
     [
-      "SeNaSa",
-      5
+      "SISALRIL",
+      3
+    ],
+    [
+      "DIDA",
+      2
     ],
     [
       "Ministerio de Salud Pública",
@@ -80,22 +89,14 @@
       2
     ],
     [
-      "SISALRIL",
-      1
-    ],
-    [
-      "Seguros Reservas",
-      1
-    ],
-    [
-      "Roche",
+      "Farmacia Carol",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      6
+      7
     ],
     [
       "Diario Salud",
@@ -104,6 +105,14 @@
     [
       "CNSS",
       5
+    ],
+    [
+      "N Digital",
+      3
+    ],
+    [
+      "Listín Diario",
+      3
     ],
     [
       "Revista Mercado",
@@ -123,14 +132,6 @@
     ],
     [
       "El Nuevo Diario",
-      2
-    ],
-    [
-      "Listín Diario",
-      2
-    ],
-    [
-      "Acento",
       2
     ]
   ],
