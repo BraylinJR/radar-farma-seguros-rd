@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1072,
+  "descartadas": 1210,
   "errores": 0,
-  "fin": "2026-11-02T21:02:45-04:00",
+  "fin": "2026-11-03T10:24:52-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 0,
-      "leidos": 0,
+      "descartados": 50,
+      "leidos": 50,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -25,8 +25,8 @@
     "cnss_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 2,
-      "repetidos": 8
+      "nuevos": 0,
+      "repetidos": 10
     },
     "deultimominuto": {
       "descartados": 10,
@@ -47,21 +47,21 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 40,
-      "leidos": 41,
-      "nuevos": 1,
+      "descartados": 34,
+      "leidos": 34,
+      "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 327,
-      "leidos": 330,
+      "descartados": 372,
+      "leidos": 375,
       "nuevos": 0,
       "repetidos": 3
     },
     "diariosalud": {
-      "descartados": 16,
+      "descartados": 15,
       "leidos": 16,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "digemaps_alertas": {
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 73,
+      "descartados": 75,
+      "leidos": 75,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 231,
-      "leidos": 231,
+      "descartados": 280,
+      "leidos": 280,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -155,9 +155,9 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -175,12 +175,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     }
   },
-  "inicio": "2026-11-02T21:02:26-04:00",
+  "inicio": "2026-11-03T10:24:28-04:00",
   "nuevas": 3,
-  "repetidas": 102,
-  "total_historial": 169
+  "repetidas": 103,
+  "total_historial": 172
 }

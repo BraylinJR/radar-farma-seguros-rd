@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-26T00:00:00-04:00",
-    "fin": "2026-11-02T21:02:47-04:00",
-    "texto": "del 26 de octubre de 2026 al 2 de noviembre de 2026"
+    "inicio": "2026-10-27T00:00:00-04:00",
+    "fin": "2026-11-03T10:24:55-04:00",
+    "texto": "del 27 de octubre de 2026 al 3 de noviembre de 2026"
   },
-  "total": 51,
-  "de_medios": 40,
-  "de_organismos": 11,
+  "total": 40,
+  "de_medios": 30,
+  "de_organismos": 10,
   "por_prioridad": {
     "alta": 2,
-    "media": 38,
-    "baja": 11
+    "media": 28,
+    "baja": 10
   },
   "alta": [
     {
@@ -39,16 +39,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 26,
-    "Seguros de salud (ARS)": 16,
-    "Laboratorios": 13,
-    "Farmacia": 9,
-    "Seguros generales": 1
+    "Regulación y gobierno": 20,
+    "Seguros de salud (ARS)": 10,
+    "Laboratorios": 10,
+    "Farmacia": 5,
+    "Seguros generales": 2
   },
   "por_tema": {
-    "Otros": 39,
-    "Regulación": 6,
-    "Precios": 6
+    "Otros": 29,
+    "Precios": 7,
+    "Regulación": 4
   },
   "empresas_mas_mencionadas": [
     [
@@ -56,24 +56,12 @@
       10
     ],
     [
-      "SeNaSa",
-      8
-    ],
-    [
       "CNSS",
       5
     ],
     [
-      "Farmacias del Pueblo",
+      "SeNaSa",
       5
-    ],
-    [
-      "Promese/Cal",
-      4
-    ],
-    [
-      "SISALRIL",
-      3
     ],
     [
       "Ministerio de Salud Pública",
@@ -84,18 +72,30 @@
       2
     ],
     [
-      "DIDA",
+      "Farmacias del Pueblo",
       2
     ],
     [
+      "Promese/Cal",
+      2
+    ],
+    [
+      "SISALRIL",
+      1
+    ],
+    [
       "Seguros Reservas",
+      1
+    ],
+    [
+      "Roche",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      10
+      6
     ],
     [
       "Diario Salud",
@@ -106,19 +106,11 @@
       5
     ],
     [
-      "Acento",
-      4
-    ],
-    [
-      "El Día",
-      3
-    ],
-    [
       "Revista Mercado",
       3
     ],
     [
-      "Listín Diario",
+      "El Día",
       3
     ],
     [
@@ -132,9 +124,29 @@
     [
       "El Nuevo Diario",
       2
+    ],
+    [
+      "Listín Diario",
+      2
+    ],
+    [
+      "Acento",
+      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "0a1246696c60",
+      "titulo": "SISALRIL firma compromiso para fortalecer la integridad y prevenir la corrupción administrativa en el sector salud",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud",
+      "fecha": "2026-11-03T10:07:50-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "d1ed9c4ab5a2",
       "titulo": "CNSS firma compromiso estratégico de integridad y prevención de la corrupción administrativa",
@@ -191,30 +203,6 @@
       "fecha": "2026-10-28T10:30:54-04:00",
       "precision": "dia",
       "tema": "Precios",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "0b9972776bfa",
-      "titulo": "Seguro Familiar de Salud destinó más de RD$3,352 millones en atención cáncer de mama en 2025",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/seguro-familiar-de-salud-destino-mas-de-rd3352-millones-en-atencion-cancer-de-mama-en-2025/?utm_source=rss&utm_medium=rss&utm_campaign=seguro-familiar-de-salud-destino-mas-de-rd3352-millones-en-atencion-cancer-de-mama-en-2025",
-      "fecha": "2026-10-26T14:57:35-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "17b3e9b2d2d2",
-      "titulo": "PROMESE/CAL anuncia distribución de 34 millones de unidades de medicamentos para reforzar Farmacias del Pueblo",
-      "medio": "Promese/Cal",
-      "enlace": "https://promesecal.gob.do/noticias/promese-cal-anuncia-distribucion-de-34-millones-de-unidades-de-medicamentos-para-reforzar-farmacias-del-pueblo/",
-      "fecha": "2026-10-26T14:26:24-04:00",
-      "precision": "dia",
-      "tema": "Otros",
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
