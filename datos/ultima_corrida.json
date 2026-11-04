@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1311,
+  "descartadas": 1336,
   "errores": 0,
-  "fin": "2026-11-03T19:27:56-04:00",
+  "fin": "2026-11-04T02:33:52-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 95,
-      "leidos": 95,
+      "descartados": 17,
+      "leidos": 17,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,16 +47,16 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 37,
-      "leidos": 37,
+      "descartados": 58,
+      "leidos": 58,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 421,
-      "leidos": 423,
-      "nuevos": 1,
-      "repetidos": 1
+      "descartados": 468,
+      "leidos": 470,
+      "nuevos": 0,
+      "repetidos": 2
     },
     "diariosalud": {
       "descartados": 16,
@@ -89,9 +89,9 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -101,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 74,
+      "descartados": 72,
+      "leidos": 73,
       "nuevos": 1,
       "repetidos": 0
     },
@@ -113,21 +113,21 @@
       "repetidos": 2
     },
     "listin_la_republica": {
-      "descartados": 98,
+      "descartados": 99,
       "leidos": 100,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 286,
-      "leidos": 287,
+      "descartados": 320,
+      "leidos": 321,
       "nuevos": 0,
       "repetidos": 1
     },
     "ndigital": {
-      "descartados": 13,
+      "descartados": 14,
       "leidos": 14,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "noticiassin": {
@@ -137,9 +137,9 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "proconsumidor_noticias": {
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-03T19:27:37-04:00",
-  "nuevas": 5,
-  "repetidas": 102,
-  "total_historial": 177
+  "inicio": "2026-11-04T02:33:33-04:00",
+  "nuevas": 2,
+  "repetidas": 103,
+  "total_historial": 179
 }
