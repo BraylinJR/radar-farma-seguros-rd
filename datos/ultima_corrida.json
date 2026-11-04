@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1336,
+  "descartadas": 1399,
   "errores": 0,
-  "fin": "2026-11-04T02:33:52-04:00",
+  "fin": "2026-11-04T15:50:02-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 17,
-      "leidos": 17,
+      "descartados": 82,
+      "leidos": 82,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,14 +47,14 @@
       "repetidos": 0
     },
     "diariolibre_portada": {
-      "descartados": 58,
-      "leidos": 58,
+      "descartados": 44,
+      "leidos": 44,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 468,
-      "leidos": 470,
+      "descartados": 479,
+      "leidos": 481,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -89,9 +89,9 @@
       "repetidos": 0
     },
     "elnuevodiario": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "hoy_economia": {
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 72,
-      "leidos": 73,
-      "nuevos": 1,
-      "repetidos": 0
+      "descartados": 74,
+      "leidos": 75,
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_economia": {
       "descartados": 98,
@@ -113,16 +113,16 @@
       "repetidos": 2
     },
     "listin_la_republica": {
-      "descartados": 99,
+      "descartados": 98,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 320,
-      "leidos": 321,
+      "descartados": 321,
+      "leidos": 323,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 2
     },
     "ndigital": {
       "descartados": 14,
@@ -131,9 +131,9 @@
       "repetidos": 0
     },
     "noticiassin": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "panorama": {
@@ -155,9 +155,9 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -175,12 +175,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     }
   },
-  "inicio": "2026-11-04T02:33:33-04:00",
-  "nuevas": 2,
-  "repetidas": 103,
-  "total_historial": 179
+  "inicio": "2026-11-04T15:49:39-04:00",
+  "nuevas": 4,
+  "repetidas": 104,
+  "total_historial": 183
 }

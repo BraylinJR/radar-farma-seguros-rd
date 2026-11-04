@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-28T00:00:00-04:00",
-    "fin": "2026-11-04T02:33:54-04:00",
+    "fin": "2026-11-04T15:50:04-04:00",
     "texto": "del 28 de octubre de 2026 al 4 de noviembre de 2026"
   },
-  "total": 42,
-  "de_medios": 32,
-  "de_organismos": 10,
+  "total": 46,
+  "de_medios": 35,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 30,
-    "baja": 10
+    "media": 32,
+    "baja": 12
   },
   "alta": [
     {
@@ -39,16 +39,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 20,
-    "Seguros de salud (ARS)": 14,
-    "Laboratorios": 8,
+    "Regulación y gobierno": 21,
+    "Seguros de salud (ARS)": 16,
+    "Laboratorios": 10,
     "Farmacia": 4,
     "Seguros generales": 3
   },
   "por_tema": {
-    "Otros": 31,
+    "Otros": 34,
     "Precios": 6,
-    "Regulación": 4,
+    "Regulación": 5,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
@@ -58,23 +58,27 @@
     ],
     [
       "SeNaSa",
-      6
+      7
     ],
     [
       "CNSS",
       5
     ],
     [
-      "DIDA",
-      3
+      "SISALRIL",
+      4
     ],
     [
-      "SISALRIL",
+      "DIDA",
       3
     ],
     [
       "DIGEMAPS",
       2
+    ],
+    [
+      "Eli Lilly",
+      1
     ],
     [
       "Farmacias del Pueblo",
@@ -86,10 +90,6 @@
     ],
     [
       "Seguros Reservas",
-      1
-    ],
-    [
-      "Ministerio de Salud Pública",
       1
     ]
   ],
@@ -105,6 +105,14 @@
     [
       "Diario Salud",
       5
+    ],
+    [
+      "Revista Mercado",
+      3
+    ],
+    [
+      "Listín Diario",
+      3
     ],
     [
       "El Nuevo Diario",
@@ -123,15 +131,7 @@
       3
     ],
     [
-      "Hoy",
-      2
-    ],
-    [
-      "Listín Diario",
-      2
-    ],
-    [
-      "Revista Mercado",
+      "Noticias SIN",
       2
     ]
   ],
