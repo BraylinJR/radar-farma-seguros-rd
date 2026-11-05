@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-28T00:00:00-04:00",
-    "fin": "2026-11-04T15:50:04-04:00",
-    "texto": "del 28 de octubre de 2026 al 4 de noviembre de 2026"
+    "inicio": "2026-10-29T00:00:00-04:00",
+    "fin": "2026-11-05T02:55:47-04:00",
+    "texto": "del 29 de octubre de 2026 al 5 de noviembre de 2026"
   },
-  "total": 46,
-  "de_medios": 35,
-  "de_organismos": 11,
+  "total": 48,
+  "de_medios": 40,
+  "de_organismos": 8,
   "por_prioridad": {
     "alta": 2,
-    "media": 32,
-    "baja": 12
+    "media": 33,
+    "baja": 13
   },
   "alta": [
     {
@@ -39,33 +39,33 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 21,
-    "Seguros de salud (ARS)": 16,
-    "Laboratorios": 10,
-    "Farmacia": 4,
-    "Seguros generales": 3
+    "Seguros de salud (ARS)": 20,
+    "Regulación y gobierno": 17,
+    "Laboratorios": 12,
+    "Farmacia": 5,
+    "Seguros generales": 4
   },
   "por_tema": {
-    "Otros": 34,
-    "Precios": 6,
-    "Regulación": 5,
+    "Otros": 39,
+    "Regulación": 4,
+    "Precios": 4,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
-      "Pro Consumidor",
-      9
-    ],
-    [
       "SeNaSa",
-      7
+      11
     ],
     [
-      "CNSS",
-      5
+      "Pro Consumidor",
+      6
     ],
     [
       "SISALRIL",
+      4
+    ],
+    [
+      "CNSS",
       4
     ],
     [
@@ -73,8 +73,8 @@
       3
     ],
     [
-      "DIGEMAPS",
-      2
+      "Promese/Cal",
+      1
     ],
     [
       "Eli Lilly",
@@ -96,22 +96,30 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      6
-    ],
-    [
-      "CNSS",
-      5
-    ],
-    [
-      "Diario Salud",
-      5
-    ],
-    [
-      "Revista Mercado",
-      3
+      8
     ],
     [
       "Listín Diario",
+      6
+    ],
+    [
+      "N Digital",
+      5
+    ],
+    [
+      "CNSS",
+      4
+    ],
+    [
+      "Hoy",
+      3
+    ],
+    [
+      "Noticias SIN",
+      3
+    ],
+    [
+      "Revista Mercado",
       3
     ],
     [
@@ -119,19 +127,11 @@
       3
     ],
     [
-      "N Digital",
-      3
-    ],
-    [
-      "Pro Consumidor",
-      3
-    ],
-    [
       "elDinero",
-      3
+      2
     ],
     [
-      "Noticias SIN",
+      "SISALRIL",
       2
     ]
   ],
@@ -192,18 +192,6 @@
       "fecha": "2026-10-29T16:46:37-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "bd701141b64f",
-      "titulo": "Pro Consumidor asegura que habrá pollo suficiente en Navidad y destaca precios estables",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/pro-consumidor-asegura-que-habra-pollo-suficiente-en-navidad-y-destaca-precios-estables/",
-      "fecha": "2026-10-28T10:30:54-04:00",
-      "precision": "dia",
-      "tema": "Precios",
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
