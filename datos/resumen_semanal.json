@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-10-29T00:00:00-04:00",
-    "fin": "2026-11-05T02:55:47-04:00",
+    "fin": "2026-11-05T16:01:24-04:00",
     "texto": "del 29 de octubre de 2026 al 5 de noviembre de 2026"
   },
-  "total": 48,
-  "de_medios": 40,
-  "de_organismos": 8,
+  "total": 56,
+  "de_medios": 46,
+  "de_organismos": 10,
   "por_prioridad": {
-    "alta": 2,
-    "media": 33,
+    "alta": 3,
+    "media": 40,
     "baja": 13
   },
   "alta": [
+    {
+      "id": "9e98b71ab191",
+      "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales",
+      "fecha": "2026-11-05T14:45:01-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    },
     {
       "id": "06508d6225a7",
       "titulo": "Damac impulsa actualización de herramientas para mejorar acceso a medicamentos de alto costo",
@@ -39,30 +51,31 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 20,
-    "Regulación y gobierno": 17,
+    "Seguros de salud (ARS)": 27,
+    "Regulación y gobierno": 19,
     "Laboratorios": 12,
     "Farmacia": 5,
     "Seguros generales": 4
   },
   "por_tema": {
-    "Otros": 39,
-    "Regulación": 4,
+    "Otros": 44,
+    "Regulación": 6,
     "Precios": 4,
+    "Alertas sanitarias": 1,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      11
+      17
     ],
     [
       "Pro Consumidor",
-      6
+      7
     ],
     [
       "SISALRIL",
-      4
+      5
     ],
     [
       "CNSS",
@@ -71,6 +84,10 @@
     [
       "DIDA",
       3
+    ],
+    [
+      "Servicio Nacional de Salud",
+      1
     ],
     [
       "Promese/Cal",
@@ -87,28 +104,36 @@
     [
       "Farmacia Carol",
       1
-    ],
-    [
-      "Seguros Reservas",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      8
+      10
     ],
     [
       "Listín Diario",
-      6
+      7
     ],
     [
       "N Digital",
-      5
+      6
     ],
     [
       "CNSS",
       4
+    ],
+    [
+      "SISALRIL",
+      3
+    ],
+    [
+      "Acento",
+      3
+    ],
+    [
+      "Pro Consumidor",
+      3
     ],
     [
       "Hoy",
@@ -121,21 +146,33 @@
     [
       "Revista Mercado",
       3
-    ],
-    [
-      "El Nuevo Diario",
-      3
-    ],
-    [
-      "elDinero",
-      2
-    ],
-    [
-      "SISALRIL",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "9e98b71ab191",
+      "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales",
+      "fecha": "2026-11-05T14:45:01-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    },
+    {
+      "id": "15d436aa1146",
+      "titulo": "Pro Consumidor clausura ocho negocios chinos por incumplimientos que afectan a los consumidores",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-clausura-ocho-negocios-chinos-por-incumplimientos-que-afectan-a-los-consumidores/",
+      "fecha": "2026-11-05T11:22:45-04:00",
+      "precision": "dia",
+      "tema": "Alertas sanitarias",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "0a1246696c60",
       "titulo": "SISALRIL firma compromiso para fortalecer la integridad y prevenir la corrupción administrativa en el sector salud",
