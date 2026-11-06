@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-10-30T00:00:00-04:00",
-    "fin": "2026-11-06T02:55:07-04:00",
+    "fin": "2026-11-06T15:29:05-04:00",
     "texto": "del 30 de octubre de 2026 al 6 de noviembre de 2026"
   },
-  "total": 67,
-  "de_medios": 59,
-  "de_organismos": 8,
+  "total": 71,
+  "de_medios": 61,
+  "de_organismos": 10,
   "por_prioridad": {
     "alta": 4,
-    "media": 46,
-    "baja": 17
+    "media": 48,
+    "baja": 19
   },
   "alta": [
     {
@@ -63,17 +63,17 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 36,
-    "Regulación y gobierno": 18,
+    "Seguros de salud (ARS)": 37,
+    "Regulación y gobierno": 21,
     "Laboratorios": 15,
-    "Seguros generales": 6,
+    "Seguros generales": 7,
     "Farmacia": 4
   },
   "por_tema": {
-    "Otros": 55,
+    "Otros": 58,
     "Regulación": 6,
+    "Alertas sanitarias": 3,
     "Precios": 3,
-    "Alertas sanitarias": 2,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
@@ -83,19 +83,23 @@
     ],
     [
       "Pro Consumidor",
-      8
+      10
     ],
     [
       "SISALRIL",
       5
     ],
     [
+      "CNSS",
+      3
+    ],
+    [
       "DIDA",
       3
     ],
     [
-      "CNSS",
-      2
+      "ARS Humano",
+      1
     ],
     [
       "Abbott",
@@ -111,10 +115,6 @@
     ],
     [
       "Eli Lilly",
-      1
-    ],
-    [
-      "Farmacias del Pueblo",
       1
     ]
   ],
@@ -132,6 +132,14 @@
       7
     ],
     [
+      "Revista Mercado",
+      4
+    ],
+    [
+      "Pro Consumidor",
+      4
+    ],
+    [
       "Hoy",
       4
     ],
@@ -140,27 +148,31 @@
       4
     ],
     [
-      "SISALRIL",
+      "CNSS",
       3
     ],
     [
-      "Pro Consumidor",
+      "SISALRIL",
       3
     ],
     [
       "Noticias SIN",
       3
-    ],
-    [
-      "Revista Mercado",
-      3
-    ],
-    [
-      "Diario Salud",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "80edac9049f2",
+      "titulo": "CNSS da inicio a la Semana de la Calidad 2026",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-da-inicio-a-la-semana-de-la-calidad-2026/",
+      "fecha": "2026-11-06T14:11:17-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "9e98b71ab191",
       "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
