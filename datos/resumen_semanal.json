@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-29T00:00:00-04:00",
-    "fin": "2026-11-05T16:01:24-04:00",
-    "texto": "del 29 de octubre de 2026 al 5 de noviembre de 2026"
+    "inicio": "2026-10-30T00:00:00-04:00",
+    "fin": "2026-11-06T02:55:07-04:00",
+    "texto": "del 30 de octubre de 2026 al 6 de noviembre de 2026"
   },
-  "total": 56,
-  "de_medios": 46,
-  "de_organismos": 10,
+  "total": 67,
+  "de_medios": 59,
+  "de_organismos": 8,
   "por_prioridad": {
-    "alta": 3,
-    "media": 40,
-    "baja": 13
+    "alta": 4,
+    "media": 46,
+    "baja": 17
   },
   "alta": [
     {
@@ -24,6 +24,18 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «cuadro de enfermedades profesionales»"
+    },
+    {
+      "id": "4b8c074bb2b3",
+      "titulo": "Pro Consumidor clausura tiendas",
+      "medio": "Diario Libre",
+      "enlace": "https://www.diariolibre.com/economia/negocios/2026/11/05/pro-consumidor-clausura-tiendas/3712019",
+      "fecha": "2026-11-05T09:30:00-04:00",
+      "precision": "dia",
+      "tema": "Alertas sanitarias",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «registro sanitario»"
     },
     {
       "id": "06508d6225a7",
@@ -51,39 +63,43 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 27,
-    "Regulación y gobierno": 19,
-    "Laboratorios": 12,
-    "Farmacia": 5,
-    "Seguros generales": 4
+    "Seguros de salud (ARS)": 36,
+    "Regulación y gobierno": 18,
+    "Laboratorios": 15,
+    "Seguros generales": 6,
+    "Farmacia": 4
   },
   "por_tema": {
-    "Otros": 44,
+    "Otros": 55,
     "Regulación": 6,
-    "Precios": 4,
-    "Alertas sanitarias": 1,
+    "Precios": 3,
+    "Alertas sanitarias": 2,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      17
+      23
     ],
     [
       "Pro Consumidor",
-      7
+      8
     ],
     [
       "SISALRIL",
       5
     ],
     [
-      "CNSS",
-      4
-    ],
-    [
       "DIDA",
       3
+    ],
+    [
+      "CNSS",
+      2
+    ],
+    [
+      "Abbott",
+      1
     ],
     [
       "Servicio Nacional de Salud",
@@ -100,27 +116,27 @@
     [
       "Farmacias del Pueblo",
       1
-    ],
-    [
-      "Farmacia Carol",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      10
+      17
     ],
     [
       "Listín Diario",
-      7
+      11
     ],
     [
       "N Digital",
-      6
+      7
     ],
     [
-      "CNSS",
+      "Hoy",
+      4
+    ],
+    [
+      "Acento",
       4
     ],
     [
@@ -128,15 +144,7 @@
       3
     ],
     [
-      "Acento",
-      3
-    ],
-    [
       "Pro Consumidor",
-      3
-    ],
-    [
-      "Hoy",
       3
     ],
     [
@@ -146,6 +154,10 @@
     [
       "Revista Mercado",
       3
+    ],
+    [
+      "Diario Salud",
+      2
     ]
   ],
   "regulatorias": [
@@ -215,18 +227,6 @@
       "medio": "Pro Consumidor",
       "enlace": "https://proconsumidor.gob.do/higiene-y-cuidado-personal-de-los-deliverys-y-que-debe-tener-en-cuenta-el-consumidor-a-la-hora-de-recibir-el-pedido/",
       "fecha": "2026-10-30T10:26:16-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "9cf4ddae0e21",
-      "titulo": "CNSS presenta borrador del Manual de Evaluación y Calificación del Grado de Discapacidad",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-presenta-borrador-del-manual-de-evaluacion-y-calificacion-del-grado-de-discapacidad/",
-      "fecha": "2026-10-29T16:46:37-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
