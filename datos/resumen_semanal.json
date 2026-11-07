@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-10-31T00:00:00-04:00",
-    "fin": "2026-11-07T02:06:25-04:00",
+    "fin": "2026-11-07T09:11:47-04:00",
     "texto": "del 31 de octubre de 2026 al 7 de noviembre de 2026"
   },
-  "total": 63,
-  "de_medios": 55,
+  "total": 64,
+  "de_medios": 56,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 3,
-    "media": 40,
+    "media": 41,
     "baja": 20
   },
   "alta": [
@@ -53,12 +53,12 @@
   "por_sector": {
     "Seguros de salud (ARS)": 34,
     "Regulación y gobierno": 17,
-    "Laboratorios": 14,
+    "Laboratorios": 15,
     "Seguros generales": 7,
-    "Farmacia": 4
+    "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 52,
+    "Otros": 53,
     "Regulación": 6,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
@@ -86,6 +86,10 @@
       3
     ],
     [
+      "Eli Lilly",
+      2
+    ],
+    [
       "ARS Humano",
       1
     ],
@@ -99,10 +103,6 @@
     ],
     [
       "Promese/Cal",
-      1
-    ],
-    [
-      "Eli Lilly",
       1
     ]
   ],
@@ -120,15 +120,15 @@
       6
     ],
     [
+      "Revista Mercado",
+      4
+    ],
+    [
       "Hoy",
       4
     ],
     [
       "CNSS",
-      3
-    ],
-    [
-      "Revista Mercado",
       3
     ],
     [
