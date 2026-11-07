@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-10-30T00:00:00-04:00",
-    "fin": "2026-11-06T15:29:05-04:00",
-    "texto": "del 30 de octubre de 2026 al 6 de noviembre de 2026"
+    "inicio": "2026-10-31T00:00:00-04:00",
+    "fin": "2026-11-07T02:06:25-04:00",
+    "texto": "del 31 de octubre de 2026 al 7 de noviembre de 2026"
   },
-  "total": 71,
-  "de_medios": 61,
-  "de_organismos": 10,
+  "total": 63,
+  "de_medios": 55,
+  "de_organismos": 8,
   "por_prioridad": {
-    "alta": 4,
-    "media": 48,
-    "baja": 19
+    "alta": 3,
+    "media": 40,
+    "baja": 20
   },
   "alta": [
     {
@@ -48,42 +48,30 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «medicamentos de alto costo»"
-    },
-    {
-      "id": "69e166e79afc",
-      "titulo": "Black Friday 2026 en RD: cuándo es, qué derechos tienes y cómo saber si el descuento es real",
-      "medio": "Revista Mercado",
-      "enlace": "https://revistamercado.do/money-invest/daily-news/black-friday-2026-rd/?utm_source=rss&utm_medium=rss&utm_campaign=black-friday-2026-rd",
-      "fecha": "2026-10-30T13:36:59-04:00",
-      "precision": "dia",
-      "tema": "Precios",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona Ley 358-05"
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 37,
-    "Regulación y gobierno": 21,
-    "Laboratorios": 15,
+    "Seguros de salud (ARS)": 34,
+    "Regulación y gobierno": 17,
+    "Laboratorios": 14,
     "Seguros generales": 7,
     "Farmacia": 4
   },
   "por_tema": {
-    "Otros": 58,
+    "Otros": 52,
     "Regulación": 6,
     "Alertas sanitarias": 3,
-    "Precios": 3,
-    "Lanzamientos": 1
+    "Lanzamientos": 1,
+    "Precios": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      23
+      19
     ],
     [
       "Pro Consumidor",
-      10
+      6
     ],
     [
       "SISALRIL",
@@ -121,7 +109,7 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      17
+      15
     ],
     [
       "Listín Diario",
@@ -129,26 +117,22 @@
     ],
     [
       "N Digital",
-      7
-    ],
-    [
-      "Revista Mercado",
-      4
-    ],
-    [
-      "Pro Consumidor",
-      4
+      6
     ],
     [
       "Hoy",
       4
     ],
     [
-      "Acento",
-      4
+      "CNSS",
+      3
     ],
     [
-      "CNSS",
+      "Revista Mercado",
+      3
+    ],
+    [
+      "Acento",
       3
     ],
     [
@@ -158,6 +142,10 @@
     [
       "Noticias SIN",
       3
+    ],
+    [
+      "elDinero",
+      2
     ]
   ],
   "regulatorias": [
@@ -215,30 +203,6 @@
       "medio": "CNSS",
       "enlace": "https://cnss.gob.do/noticias/cnss-firma-compromiso-estrategico-de-integridad-y-prevencion-de-la-corrupcion-administrativa/",
       "fecha": "2026-11-02T14:28:21-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "4177ad54b469",
-      "titulo": "Protección del consumidor ante la publicidad engañosa",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/proteccion-del-consumidor-ante-la-publicidad-enganosa/",
-      "fecha": "2026-10-30T10:30:16-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "7f5dd14e75f2",
-      "titulo": "Higiene y cuidado personal de los deliverys y que debe tener en cuenta el consumidor a la hora de recibir el pedido",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/higiene-y-cuidado-personal-de-los-deliverys-y-que-debe-tener-en-cuenta-el-consumidor-a-la-hora-de-recibir-el-pedido/",
-      "fecha": "2026-10-30T10:26:16-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
