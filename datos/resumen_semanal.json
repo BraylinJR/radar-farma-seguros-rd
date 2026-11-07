@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-10-31T00:00:00-04:00",
-    "fin": "2026-11-07T09:11:47-04:00",
+    "fin": "2026-11-07T17:56:07-04:00",
     "texto": "del 31 de octubre de 2026 al 7 de noviembre de 2026"
   },
-  "total": 64,
-  "de_medios": 56,
+  "total": 65,
+  "de_medios": 57,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 3,
-    "media": 41,
+    "media": 42,
     "baja": 20
   },
   "alta": [
@@ -55,10 +55,10 @@
     "Regulación y gobierno": 17,
     "Laboratorios": 15,
     "Seguros generales": 7,
-    "Farmacia": 5
+    "Farmacia": 6
   },
   "por_tema": {
-    "Otros": 53,
+    "Otros": 54,
     "Regulación": 6,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
@@ -86,6 +86,10 @@
       3
     ],
     [
+      "Farmacia Carol",
+      2
+    ],
+    [
       "Eli Lilly",
       2
     ],
@@ -100,16 +104,12 @@
     [
       "Servicio Nacional de Salud",
       1
-    ],
-    [
-      "Promese/Cal",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      15
+      16
     ],
     [
       "Listín Diario",
