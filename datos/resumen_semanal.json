@@ -1,15 +1,15 @@
 {
   "periodo": {
-    "inicio": "2026-10-31T00:00:00-04:00",
-    "fin": "2026-11-07T17:56:07-04:00",
-    "texto": "del 31 de octubre de 2026 al 7 de noviembre de 2026"
+    "inicio": "2026-11-01T00:00:00-04:00",
+    "fin": "2026-11-08T02:10:47-04:00",
+    "texto": "del 1 de noviembre de 2026 al 8 de noviembre de 2026"
   },
-  "total": 65,
-  "de_medios": 57,
+  "total": 63,
+  "de_medios": 55,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 3,
-    "media": 42,
+    "media": 40,
     "baja": 20
   },
   "alta": [
@@ -51,14 +51,14 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 34,
+    "Seguros de salud (ARS)": 33,
     "Regulación y gobierno": 17,
-    "Laboratorios": 15,
+    "Laboratorios": 14,
     "Seguros generales": 7,
     "Farmacia": 6
   },
   "por_tema": {
-    "Otros": 54,
+    "Otros": 52,
     "Regulación": 6,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
@@ -67,7 +67,7 @@
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      19
+      18
     ],
     [
       "Pro Consumidor",
@@ -109,7 +109,7 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      16
+      14
     ],
     [
       "Listín Diario",
