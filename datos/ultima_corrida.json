@@ -1,13 +1,13 @@
 {
   "corregidas": 0,
-  "descartadas": 1071,
+  "descartadas": 1055,
   "errores": 0,
-  "fin": "2026-11-08T09:31:51-04:00",
+  "fin": "2026-11-08T18:12:30-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 17,
-      "leidos": 17,
-      "nuevos": 0,
+      "descartados": 38,
+      "leidos": 39,
+      "nuevos": 1,
       "repetidos": 0
     },
     "arecoa": {
@@ -47,16 +47,16 @@
       "repetidos": 2
     },
     "diariolibre_portada": {
-      "descartados": 28,
-      "leidos": 28,
+      "descartados": 32,
+      "leidos": 32,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 370,
-      "leidos": 380,
+      "descartados": 329,
+      "leidos": 334,
       "nuevos": 0,
-      "repetidos": 10
+      "repetidos": 5
     },
     "diariosalud": {
       "descartados": 15,
@@ -101,8 +101,8 @@
       "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 73,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -113,16 +113,16 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 95,
+      "descartados": 94,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 5
     },
     "listin_sitemap": {
-      "descartados": 191,
+      "descartados": 190,
       "leidos": 192,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 2
     },
     "ndigital": {
       "descartados": 14,
@@ -155,10 +155,10 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "sis_documentos": {
       "descartados": 0,
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-08T09:31:33-04:00",
-  "nuevas": 0,
-  "repetidas": 121,
-  "total_historial": 226
+  "inicio": "2026-11-08T18:12:09-04:00",
+  "nuevas": 2,
+  "repetidas": 116,
+  "total_historial": 228
 }

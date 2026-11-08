@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-01T00:00:00-04:00",
-    "fin": "2026-11-08T09:31:53-04:00",
+    "fin": "2026-11-08T18:12:33-04:00",
     "texto": "del 1 de noviembre de 2026 al 8 de noviembre de 2026"
   },
-  "total": 63,
-  "de_medios": 55,
+  "total": 65,
+  "de_medios": 57,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 3,
-    "media": 40,
-    "baja": 20
+    "media": 41,
+    "baja": 21
   },
   "alta": [
     {
@@ -51,15 +51,15 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 33,
+    "Seguros de salud (ARS)": 34,
     "Regulación y gobierno": 17,
-    "Laboratorios": 14,
+    "Laboratorios": 15,
     "Seguros generales": 7,
     "Farmacia": 6
   },
   "por_tema": {
-    "Otros": 52,
-    "Regulación": 6,
+    "Otros": 53,
+    "Regulación": 7,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
     "Precios": 1
@@ -86,6 +86,10 @@
       3
     ],
     [
+      "Servicio Nacional de Salud",
+      2
+    ],
+    [
       "Farmacia Carol",
       2
     ],
@@ -100,10 +104,6 @@
     [
       "Abbott",
       1
-    ],
-    [
-      "Servicio Nacional de Salud",
-      1
     ]
   ],
   "medios_mas_activos": [
@@ -113,11 +113,15 @@
     ],
     [
       "Listín Diario",
-      11
+      12
     ],
     [
       "N Digital",
       6
+    ],
+    [
+      "Acento",
+      4
     ],
     [
       "Revista Mercado",
@@ -129,10 +133,6 @@
     ],
     [
       "CNSS",
-      3
-    ],
-    [
-      "Acento",
       3
     ],
     [
