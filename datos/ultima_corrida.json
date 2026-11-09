@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1006,
+  "descartadas": 1066,
   "errores": 0,
-  "fin": "2026-11-09T02:44:44-04:00",
+  "fin": "2026-11-09T18:26:23-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 15,
-      "leidos": 15,
+      "descartados": 74,
+      "leidos": 74,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,10 +35,10 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 30,
+      "descartados": 29,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 0
+      "repetidos": 1
     },
     "diariolibre_economia": {
       "descartados": 28,
@@ -47,21 +47,21 @@
       "repetidos": 2
     },
     "diariolibre_portada": {
-      "descartados": 40,
-      "leidos": 40,
-      "nuevos": 0,
+      "descartados": 49,
+      "leidos": 50,
+      "nuevos": 1,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 300,
-      "leidos": 301,
+      "descartados": 270,
+      "leidos": 272,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 2
     },
     "diariosalud": {
-      "descartados": 15,
+      "descartados": 14,
       "leidos": 16,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 1
     },
     "digemaps_alertas": {
@@ -95,16 +95,16 @@
       "repetidos": 0
     },
     "hoy_economia": {
-      "descartados": 18,
+      "descartados": 19,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 73,
-      "leidos": 74,
-      "nuevos": 1,
-      "repetidos": 0
+      "descartados": 70,
+      "leidos": 71,
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_economia": {
       "descartados": 97,
@@ -115,19 +115,19 @@
     "listin_la_republica": {
       "descartados": 93,
       "leidos": 100,
-      "nuevos": 1,
-      "repetidos": 6
+      "nuevos": 0,
+      "repetidos": 7
     },
     "listin_sitemap": {
-      "descartados": 188,
-      "leidos": 190,
+      "descartados": 215,
+      "leidos": 217,
       "nuevos": 0,
       "repetidos": 2
     },
     "ndigital": {
-      "descartados": 14,
+      "descartados": 13,
       "leidos": 14,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "noticiassin": {
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-09T02:44:24-04:00",
-  "nuevas": 2,
-  "repetidas": 114,
-  "total_historial": 230
+  "inicio": "2026-11-09T18:26:05-04:00",
+  "nuevas": 3,
+  "repetidas": 117,
+  "total_historial": 233
 }

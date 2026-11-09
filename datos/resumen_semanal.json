@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-02T00:00:00-04:00",
-    "fin": "2026-11-09T02:44:47-04:00",
+    "fin": "2026-11-09T18:26:26-04:00",
     "texto": "del 2 de noviembre de 2026 al 9 de noviembre de 2026"
   },
-  "total": 64,
-  "de_medios": 56,
+  "total": 67,
+  "de_medios": 59,
   "de_organismos": 8,
   "por_prioridad": {
     "alta": 2,
-    "media": 40,
-    "baja": 22
+    "media": 42,
+    "baja": 23
   },
   "alta": [
     {
@@ -39,14 +39,14 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 34,
+    "Seguros de salud (ARS)": 35,
     "Regulación y gobierno": 17,
-    "Laboratorios": 13,
+    "Laboratorios": 15,
     "Seguros generales": 7,
     "Farmacia": 6
   },
   "por_tema": {
-    "Otros": 53,
+    "Otros": 56,
     "Regulación": 6,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
@@ -67,7 +67,7 @@
     ],
     [
       "Servicio Nacional de Salud",
-      3
+      4
     ],
     [
       "CNSS",
@@ -86,18 +86,18 @@
       2
     ],
     [
-      "ARS Humano",
+      "Novo Nordisk",
       1
     ],
     [
-      "Abbott",
+      "ARS Humano",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      14
+      15
     ],
     [
       "Listín Diario",
@@ -105,7 +105,7 @@
     ],
     [
       "N Digital",
-      6
+      7
     ],
     [
       "Hoy",
@@ -128,11 +128,11 @@
       3
     ],
     [
-      "elDinero",
+      "Diario Salud",
       2
     ],
     [
-      "Pro Consumidor",
+      "elDinero",
       2
     ]
   ],
