@@ -1,22 +1,18 @@
 {
-  "actualizado": "2026-11-10T03:26:07-04:00",
+  "actualizado": "2026-11-10T15:48:11-04:00",
   "fuente": "Banco Central de la República Dominicana",
   "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
   "tarjetas": [
     {
       "id": "inflacion_interanual",
       "nombre": "Inflación interanual",
-      "valor": 5.12,
+      "valor": 5.14,
       "decimales": 2,
-      "texto_valor": "5.12 %",
-      "periodo": "septiembre 2026",
-      "comparacion": "Agosto: 5.13 % · Meta del BCRD: 4 % ± 1 %",
-      "direccion": "baja",
+      "texto_valor": "5.14 %",
+      "periodo": "octubre 2026",
+      "comparacion": "Septiembre: 5.12 % · Meta del BCRD: 4 % ± 1 %",
+      "direccion": "sube",
       "serie": [
-        {
-          "etiqueta": "sep 2025",
-          "valor": 3.76
-        },
         {
           "etiqueta": "oct 2025",
           "valor": 4.23
@@ -64,6 +60,10 @@
         {
           "etiqueta": "sep 2026",
           "valor": 5.12
+        },
+        {
+          "etiqueta": "oct 2026",
+          "valor": 5.14
         }
       ],
       "fuente": {
@@ -76,17 +76,13 @@
     {
       "id": "inflacion_acumulada",
       "nombre": "Inflación acumulada",
-      "valor": 2.93,
+      "valor": 3.53,
       "decimales": 2,
-      "texto_valor": "2.93 %",
-      "periodo": "enero–septiembre 2026",
-      "comparacion": "Mismo período de 2025: 2.77 %",
+      "texto_valor": "3.53 %",
+      "periodo": "enero–octubre 2026",
+      "comparacion": "Mismo período de 2025: 3.34 %",
       "direccion": "sube",
       "serie": [
-        {
-          "etiqueta": "sep 2025",
-          "valor": 2.77
-        },
         {
           "etiqueta": "oct 2025",
           "valor": 3.34
@@ -134,6 +130,10 @@
         {
           "etiqueta": "sep 2026",
           "valor": 2.93
+        },
+        {
+          "etiqueta": "oct 2026",
+          "valor": 3.53
         }
       ],
       "fuente": {
@@ -337,17 +337,13 @@
     {
       "id": "inflacion_salud",
       "nombre": "Inflación salud",
-      "valor": 5.02,
+      "valor": 5.03,
       "decimales": 2,
-      "texto_valor": "5.02 %",
-      "periodo": "septiembre 2026 · interanual",
-      "comparacion": "Agosto: 4.98 % · mensual: 0.28 %",
+      "texto_valor": "5.03 %",
+      "periodo": "octubre 2026 · interanual",
+      "comparacion": "Septiembre: 5.02 % · mensual: 0.35 %",
       "direccion": "sube",
       "serie": [
-        {
-          "etiqueta": "sep 2025",
-          "valor": 4.88
-        },
         {
           "etiqueta": "oct 2025",
           "valor": 5.03
@@ -395,6 +391,10 @@
         {
           "etiqueta": "sep 2026",
           "valor": 5.02
+        },
+        {
+          "etiqueta": "oct 2026",
+          "valor": 5.03
         }
       ],
       "fuente": {
