@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-02T00:00:00-04:00",
-    "fin": "2026-11-09T18:26:26-04:00",
-    "texto": "del 2 de noviembre de 2026 al 9 de noviembre de 2026"
+    "inicio": "2026-11-03T00:00:00-04:00",
+    "fin": "2026-11-10T03:26:09-04:00",
+    "texto": "del 3 de noviembre de 2026 al 10 de noviembre de 2026"
   },
-  "total": 67,
-  "de_medios": 59,
-  "de_organismos": 8,
+  "total": 63,
+  "de_medios": 57,
+  "de_organismos": 6,
   "por_prioridad": {
     "alta": 2,
-    "media": 42,
-    "baja": 23
+    "media": 40,
+    "baja": 21
   },
   "alta": [
     {
@@ -40,14 +40,14 @@
   ],
   "por_sector": {
     "Seguros de salud (ARS)": 35,
-    "Regulación y gobierno": 17,
-    "Laboratorios": 15,
+    "Regulación y gobierno": 15,
+    "Laboratorios": 14,
     "Seguros generales": 7,
-    "Farmacia": 6
+    "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 56,
-    "Regulación": 6,
+    "Otros": 53,
+    "Regulación": 5,
     "Alertas sanitarias": 3,
     "Lanzamientos": 1,
     "Precios": 1
@@ -70,10 +70,6 @@
       4
     ],
     [
-      "CNSS",
-      3
-    ],
-    [
       "DIDA",
       3
     ],
@@ -92,12 +88,16 @@
     [
       "ARS Humano",
       1
+    ],
+    [
+      "CNSS",
+      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      15
+      14
     ],
     [
       "Listín Diario",
@@ -120,10 +120,6 @@
       4
     ],
     [
-      "CNSS",
-      3
-    ],
-    [
       "SISALRIL",
       3
     ],
@@ -133,6 +129,10 @@
     ],
     [
       "elDinero",
+      2
+    ],
+    [
+      "Pro Consumidor",
       2
     ]
   ],
@@ -179,18 +179,6 @@
       "medio": "SISALRIL",
       "enlace": "https://www.sisalril.gob.do/sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud",
       "fecha": "2026-11-03T10:07:50-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "d1ed9c4ab5a2",
-      "titulo": "CNSS firma compromiso estratégico de integridad y prevención de la corrupción administrativa",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-firma-compromiso-estrategico-de-integridad-y-prevencion-de-la-corrupcion-administrativa/",
-      "fecha": "2026-11-02T14:28:21-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
