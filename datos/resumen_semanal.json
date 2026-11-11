@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-04T00:00:00-04:00",
-    "fin": "2026-11-11T02:35:19-04:00",
+    "fin": "2026-11-11T15:40:21-04:00",
     "texto": "del 4 de noviembre de 2026 al 11 de noviembre de 2026"
   },
-  "total": 69,
-  "de_medios": 63,
-  "de_organismos": 6,
+  "total": 75,
+  "de_medios": 67,
+  "de_organismos": 8,
   "por_prioridad": {
     "alta": 3,
-    "media": 43,
-    "baja": 23
+    "media": 47,
+    "baja": 25
   },
   "alta": [
     {
@@ -51,15 +51,15 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 34,
-    "Regulación y gobierno": 20,
-    "Laboratorios": 16,
-    "Seguros generales": 5,
-    "Farmacia": 4
+    "Seguros de salud (ARS)": 35,
+    "Regulación y gobierno": 24,
+    "Laboratorios": 17,
+    "Seguros generales": 6,
+    "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 60,
-    "Regulación": 5,
+    "Otros": 65,
+    "Regulación": 6,
     "Alertas sanitarias": 3,
     "Precios": 1
   },
@@ -70,15 +70,19 @@
     ],
     [
       "SIPEN",
-      7
+      8
     ],
     [
       "Pro Consumidor",
-      6
+      7
     ],
     [
       "Servicio Nacional de Salud",
       4
+    ],
+    [
+      "SISALRIL",
+      3
     ],
     [
       "CNSS",
@@ -89,8 +93,8 @@
       2
     ],
     [
-      "SISALRIL",
-      2
+      "TSS",
+      1
     ],
     [
       "Novo Nordisk",
@@ -98,10 +102,6 @@
     ],
     [
       "Farmacia Carol",
-      1
-    ],
-    [
-      "ARS Humano",
       1
     ]
   ],
@@ -113,6 +113,10 @@
     [
       "Listín Diario",
       13
+    ],
+    [
+      "Revista Mercado",
+      6
     ],
     [
       "Acento",
@@ -127,27 +131,47 @@
       5
     ],
     [
-      "Revista Mercado",
-      5
-    ],
-    [
-      "elDinero",
+      "SISALRIL",
       3
     ],
     [
       "El Día",
-      2
+      3
     ],
     [
-      "CNSS",
-      2
+      "Pro Consumidor",
+      3
     ],
     [
       "Diario Salud",
-      2
+      3
     ]
   ],
   "regulatorias": [
+    {
+      "id": "2e9fe1303ecf",
+      "titulo": "SISALRIL aboga por inversión en salud aumente protección para los afiliados",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-aboga-por-inversion-en-salud-aumente-proteccion-para-los-afiliados/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-aboga-por-inversion-en-salud-aumente-proteccion-para-los-afiliados",
+      "fecha": "2026-11-11T15:26:38-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "a87a62c8caac",
+      "titulo": "Pro Consumidor ha incinerado 7 millones de productos no aptos para el consumo en los últimos seis años",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-ha-incinerado-7-millones-de-productos-no-aptos-para-el-consumo-en-los-ultimos-seis-anos/",
+      "fecha": "2026-11-11T12:53:53-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "2f37ceb0be9e",
       "titulo": "CNSS presenta los avances y retos del Sistema Dominicano de Seguridad Social a delegación de Bélgica",
