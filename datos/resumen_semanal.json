@@ -1,18 +1,30 @@
 {
   "periodo": {
-    "inicio": "2026-11-03T00:00:00-04:00",
-    "fin": "2026-11-10T15:48:14-04:00",
-    "texto": "del 3 de noviembre de 2026 al 10 de noviembre de 2026"
+    "inicio": "2026-11-04T00:00:00-04:00",
+    "fin": "2026-11-11T02:35:19-04:00",
+    "texto": "del 4 de noviembre de 2026 al 11 de noviembre de 2026"
   },
   "total": 69,
-  "de_medios": 62,
-  "de_organismos": 7,
+  "de_medios": 63,
+  "de_organismos": 6,
   "por_prioridad": {
-    "alta": 2,
-    "media": 44,
+    "alta": 3,
+    "media": 43,
     "baja": 23
   },
   "alta": [
+    {
+      "id": "ca59dc698b69",
+      "titulo": "Países más ricos del mundo en 2026: el top 10 del FMI por PIB per cápita y en qué puesto queda RD",
+      "medio": "Revista Mercado",
+      "enlace": "https://revistamercado.do/market-brief/finanzas/paises-mas-ricos-del-mundo-2026-fmi/?utm_source=rss&utm_medium=rss&utm_campaign=paises-mas-ricos-del-mundo-2026-fmi",
+      "fecha": "2026-11-10T19:29:40-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «per cápita»"
+    },
     {
       "id": "9e98b71ab191",
       "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
@@ -39,50 +51,37 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 36,
-    "Regulación y gobierno": 19,
-    "Laboratorios": 15,
-    "Seguros generales": 7,
-    "Farmacia": 5
+    "Seguros de salud (ARS)": 34,
+    "Regulación y gobierno": 20,
+    "Laboratorios": 16,
+    "Seguros generales": 5,
+    "Farmacia": 4
   },
   "por_tema": {
-    "Otros": 59,
+    "Otros": 60,
     "Regulación": 5,
     "Alertas sanitarias": 3,
-    "Lanzamientos": 1,
     "Precios": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      18
+      17
+    ],
+    [
+      "SIPEN",
+      7
     ],
     [
       "Pro Consumidor",
       6
     ],
     [
-      "SISALRIL",
-      5
-    ],
-    [
       "Servicio Nacional de Salud",
       4
     ],
     [
-      "SIPEN",
-      3
-    ],
-    [
-      "DIDA",
-      3
-    ],
-    [
       "CNSS",
-      2
-    ],
-    [
-      "Farmacia Carol",
       2
     ],
     [
@@ -90,25 +89,37 @@
       2
     ],
     [
+      "SISALRIL",
+      2
+    ],
+    [
       "Novo Nordisk",
+      1
+    ],
+    [
+      "Farmacia Carol",
+      1
+    ],
+    [
+      "ARS Humano",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      15
+      16
     ],
     [
       "Listín Diario",
       13
     ],
     [
-      "N Digital",
-      7
+      "Acento",
+      6
     ],
     [
-      "Acento",
+      "N Digital",
       6
     ],
     [
@@ -117,15 +128,15 @@
     ],
     [
       "Revista Mercado",
-      4
+      5
     ],
     [
       "elDinero",
       3
     ],
     [
-      "SISALRIL",
-      3
+      "El Día",
+      2
     ],
     [
       "CNSS",
@@ -181,18 +192,6 @@
       "fecha": "2026-11-05T11:22:45-04:00",
       "precision": "dia",
       "tema": "Alertas sanitarias",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "0a1246696c60",
-      "titulo": "SISALRIL firma compromiso para fortalecer la integridad y prevenir la corrupción administrativa en el sector salud",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-firma-compromiso-para-fortalecer-la-integridad-y-prevenir-la-corrupcion-administrativa-en-el-sector-salud",
-      "fecha": "2026-11-03T10:07:50-04:00",
-      "precision": "dia",
-      "tema": "Otros",
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"
