@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-04T00:00:00-04:00",
-    "fin": "2026-11-11T15:40:21-04:00",
-    "texto": "del 4 de noviembre de 2026 al 11 de noviembre de 2026"
+    "inicio": "2026-11-05T00:00:00-04:00",
+    "fin": "2026-11-12T03:18:43-04:00",
+    "texto": "del 5 de noviembre de 2026 al 12 de noviembre de 2026"
   },
-  "total": 75,
-  "de_medios": 67,
-  "de_organismos": 8,
+  "total": 65,
+  "de_medios": 58,
+  "de_organismos": 7,
   "por_prioridad": {
     "alta": 3,
-    "media": 47,
-    "baja": 25
+    "media": 40,
+    "baja": 22
   },
   "alta": [
     {
@@ -51,22 +51,22 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 35,
-    "Regulación y gobierno": 24,
-    "Laboratorios": 17,
-    "Seguros generales": 6,
+    "Seguros de salud (ARS)": 29,
+    "Regulación y gobierno": 22,
+    "Laboratorios": 12,
+    "Seguros generales": 7,
     "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 65,
-    "Regulación": 6,
-    "Alertas sanitarias": 3,
+    "Otros": 55,
+    "Regulación": 5,
+    "Alertas sanitarias": 4,
     "Precios": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      17
+      12
     ],
     [
       "SIPEN",
@@ -82,14 +82,10 @@
     ],
     [
       "SISALRIL",
-      3
-    ],
-    [
-      "CNSS",
       2
     ],
     [
-      "Eli Lilly",
+      "CNSS",
       2
     ],
     [
@@ -103,6 +99,10 @@
     [
       "Farmacia Carol",
       1
+    ],
+    [
+      "Eli Lilly",
+      1
     ]
   ],
   "medios_mas_activos": [
@@ -112,27 +112,27 @@
     ],
     [
       "Listín Diario",
-      13
-    ],
-    [
-      "Revista Mercado",
-      6
+      11
     ],
     [
       "Acento",
       6
     ],
     [
-      "N Digital",
-      6
-    ],
-    [
-      "Hoy",
+      "Revista Mercado",
       5
     ],
     [
-      "SISALRIL",
-      3
+      "elDinero",
+      4
+    ],
+    [
+      "Hoy",
+      4
+    ],
+    [
+      "N Digital",
+      4
     ],
     [
       "El Día",
