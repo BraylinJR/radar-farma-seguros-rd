@@ -1,15 +1,15 @@
 {
   "periodo": {
     "inicio": "2026-11-05T00:00:00-04:00",
-    "fin": "2026-11-12T03:18:43-04:00",
+    "fin": "2026-11-12T16:00:12-04:00",
     "texto": "del 5 de noviembre de 2026 al 12 de noviembre de 2026"
   },
-  "total": 65,
-  "de_medios": 58,
+  "total": 67,
+  "de_medios": 60,
   "de_organismos": 7,
   "por_prioridad": {
     "alta": 3,
-    "media": 40,
+    "media": 42,
     "baja": 22
   },
   "alta": [
@@ -52,13 +52,13 @@
   ],
   "por_sector": {
     "Seguros de salud (ARS)": 29,
-    "Regulación y gobierno": 22,
+    "Regulación y gobierno": 24,
     "Laboratorios": 12,
     "Seguros generales": 7,
     "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 55,
+    "Otros": 57,
     "Regulación": 5,
     "Alertas sanitarias": 4,
     "Precios": 1
@@ -69,12 +69,12 @@
       12
     ],
     [
-      "SIPEN",
-      8
+      "Pro Consumidor",
+      9
     ],
     [
-      "Pro Consumidor",
-      7
+      "SIPEN",
+      8
     ],
     [
       "Servicio Nacional de Salud",
@@ -112,7 +112,7 @@
     ],
     [
       "Listín Diario",
-      11
+      13
     ],
     [
       "Acento",
