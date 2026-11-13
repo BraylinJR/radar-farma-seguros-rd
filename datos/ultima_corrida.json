@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1306,
-  "errores": 1,
-  "fin": "2026-11-13T02:53:46-04:00",
+  "descartadas": 1373,
+  "errores": 0,
+  "fin": "2026-11-13T15:48:19-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 8,
-      "leidos": 8,
+      "descartados": 72,
+      "leidos": 72,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,28 +35,28 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 30,
+      "descartados": 29,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 0
+      "repetidos": 1
     },
     "diariolibre_economia": {
       "descartados": 27,
       "leidos": 30,
-      "nuevos": 1,
-      "repetidos": 2
+      "nuevos": 0,
+      "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 79,
-      "leidos": 80,
+      "descartados": 99,
+      "leidos": 101,
       "nuevos": 1,
-      "repetidos": 0
+      "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 484,
-      "leidos": 491,
+      "descartados": 465,
+      "leidos": 471,
       "nuevos": 0,
-      "repetidos": 7
+      "repetidos": 6
     },
     "diariosalud": {
       "descartados": 16,
@@ -83,9 +83,9 @@
       "repetidos": 0
     },
     "eldinero": {
-      "descartados": 20,
+      "descartados": 19,
       "leidos": 20,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "elnuevodiario": {
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 70,
-      "leidos": 71,
-      "nuevos": 1,
-      "repetidos": 0
+      "descartados": 69,
+      "leidos": 72,
+      "nuevos": 2,
+      "repetidos": 1
     },
     "listin_economia": {
       "descartados": 97,
@@ -119,13 +119,16 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 282,
-      "leidos": 284,
+      "descartados": 272,
+      "leidos": 274,
       "nuevos": 0,
       "repetidos": 2
     },
     "ndigital": {
-      "error": "ReadTimeout: HTTPSConnectionPool(host='n.com.do', port=443): Read timed out. (read timeout=30)"
+      "descartados": 14,
+      "leidos": 14,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "noticiassin": {
       "descartados": 10,
@@ -152,9 +155,9 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -172,12 +175,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     }
   },
-  "inicio": "2026-11-13T02:51:49-04:00",
-  "nuevas": 4,
-  "repetidas": 112,
-  "total_historial": 261
+  "inicio": "2026-11-13T15:47:55-04:00",
+  "nuevas": 5,
+  "repetidas": 114,
+  "total_historial": 266
 }

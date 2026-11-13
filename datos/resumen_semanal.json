@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-06T00:00:00-04:00",
-    "fin": "2026-11-13T02:53:48-04:00",
+    "fin": "2026-11-13T15:48:23-04:00",
     "texto": "del 6 de noviembre de 2026 al 13 de noviembre de 2026"
   },
-  "total": 47,
-  "de_medios": 42,
-  "de_organismos": 5,
+  "total": 52,
+  "de_medios": 46,
+  "de_organismos": 6,
   "por_prioridad": {
     "alta": 1,
-    "media": 27,
-    "baja": 19
+    "media": 30,
+    "baja": 21
   },
   "alta": [
     {
@@ -27,38 +27,43 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 21,
-    "Seguros de salud (ARS)": 14,
-    "Laboratorios": 9,
+    "Regulación y gobierno": 23,
+    "Seguros de salud (ARS)": 16,
+    "Laboratorios": 11,
     "Seguros generales": 6,
-    "Farmacia": 4
+    "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 39,
+    "Otros": 43,
     "Regulación": 4,
     "Alertas sanitarias": 3,
+    "Lanzamientos": 1,
     "Precios": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SIPEN",
-      8
+      9
     ],
     [
       "Pro Consumidor",
       7
     ],
     [
+      "SISALRIL",
+      3
+    ],
+    [
       "Servicio Nacional de Salud",
       3
     ],
     [
-      "SISALRIL",
+      "CNSS",
       2
     ],
     [
-      "CNSS",
-      2
+      "SeNaSa",
+      1
     ],
     [
       "TSS",
@@ -75,32 +80,28 @@
     [
       "Eli Lilly",
       1
-    ],
-    [
-      "ARS Humano",
-      1
     ]
   ],
   "medios_mas_activos": [
+    [
+      "Diario Libre",
+      10
+    ],
     [
       "Listín Diario",
       9
     ],
     [
-      "Diario Libre",
-      9
+      "Hoy",
+      6
     ],
     [
       "Revista Mercado",
       6
     ],
     [
-      "Hoy",
-      4
-    ],
-    [
       "elDinero",
-      3
+      4
     ],
     [
       "El Día",
@@ -115,15 +116,27 @@
       3
     ],
     [
-      "Pro Consumidor",
+      "SISALRIL",
       2
     ],
     [
-      "CNSS",
+      "Pro Consumidor",
       2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "265e38b707b0",
+      "titulo": "República Dominicana presenta en México el mecanismo de financiamiento de medicamentos prioritarios sin romper la solidaridad de la seguridad social",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social/?utm_source=rss&utm_medium=rss&utm_campaign=republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social",
+      "fecha": "2026-11-13T15:34:17-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "2e9fe1303ecf",
       "titulo": "SISALRIL aboga por inversión en salud aumente protección para los afiliados",
