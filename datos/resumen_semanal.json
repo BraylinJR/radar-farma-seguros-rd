@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-05T00:00:00-04:00",
-    "fin": "2026-11-12T16:00:12-04:00",
-    "texto": "del 5 de noviembre de 2026 al 12 de noviembre de 2026"
+    "inicio": "2026-11-06T00:00:00-04:00",
+    "fin": "2026-11-13T02:53:48-04:00",
+    "texto": "del 6 de noviembre de 2026 al 13 de noviembre de 2026"
   },
-  "total": 67,
-  "de_medios": 60,
-  "de_organismos": 7,
+  "total": 47,
+  "de_medios": 42,
+  "de_organismos": 5,
   "por_prioridad": {
-    "alta": 3,
-    "media": 42,
-    "baja": 22
+    "alta": 1,
+    "media": 27,
+    "baja": 19
   },
   "alta": [
     {
@@ -24,61 +24,33 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «per cápita»"
-    },
-    {
-      "id": "9e98b71ab191",
-      "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales",
-      "fecha": "2026-11-05T14:45:01-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
-    },
-    {
-      "id": "4b8c074bb2b3",
-      "titulo": "Pro Consumidor clausura tiendas",
-      "medio": "Diario Libre",
-      "enlace": "https://www.diariolibre.com/economia/negocios/2026/11/05/pro-consumidor-clausura-tiendas/3712019",
-      "fecha": "2026-11-05T09:30:00-04:00",
-      "precision": "dia",
-      "tema": "Alertas sanitarias",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «registro sanitario»"
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 29,
-    "Regulación y gobierno": 24,
-    "Laboratorios": 12,
-    "Seguros generales": 7,
-    "Farmacia": 5
+    "Regulación y gobierno": 21,
+    "Seguros de salud (ARS)": 14,
+    "Laboratorios": 9,
+    "Seguros generales": 6,
+    "Farmacia": 4
   },
   "por_tema": {
-    "Otros": 57,
-    "Regulación": 5,
-    "Alertas sanitarias": 4,
+    "Otros": 39,
+    "Regulación": 4,
+    "Alertas sanitarias": 3,
     "Precios": 1
   },
   "empresas_mas_mencionadas": [
-    [
-      "SeNaSa",
-      12
-    ],
-    [
-      "Pro Consumidor",
-      9
-    ],
     [
       "SIPEN",
       8
     ],
     [
+      "Pro Consumidor",
+      7
+    ],
+    [
       "Servicio Nacional de Salud",
-      4
+      3
     ],
     [
       "SISALRIL",
@@ -103,48 +75,52 @@
     [
       "Eli Lilly",
       1
+    ],
+    [
+      "ARS Humano",
+      1
     ]
   ],
   "medios_mas_activos": [
     [
-      "Diario Libre",
-      16
-    ],
-    [
       "Listín Diario",
-      13
+      9
     ],
     [
-      "Acento",
-      6
+      "Diario Libre",
+      9
     ],
     [
       "Revista Mercado",
-      5
-    ],
-    [
-      "elDinero",
-      4
+      6
     ],
     [
       "Hoy",
       4
     ],
     [
-      "N Digital",
-      4
+      "elDinero",
+      3
     ],
     [
       "El Día",
       3
     ],
     [
-      "Pro Consumidor",
+      "Diario Salud",
       3
     ],
     [
-      "Diario Salud",
+      "Acento",
       3
+    ],
+    [
+      "Pro Consumidor",
+      2
+    ],
+    [
+      "CNSS",
+      2
     ]
   ],
   "regulatorias": [
@@ -192,30 +168,6 @@
       "fecha": "2026-11-06T14:11:17-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "9e98b71ab191",
-      "titulo": "SISALRIL y SNS articulan acciones sobre el nuevo Cuadro de Enfermedades Profesionales",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-y-sns-articulan-acciones-sobre-el-nuevo-cuadro-de-enfermedades-profesionales",
-      "fecha": "2026-11-05T14:45:01-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «cuadro de enfermedades profesionales»"
-    },
-    {
-      "id": "15d436aa1146",
-      "titulo": "Pro Consumidor clausura ocho negocios chinos por incumplimientos que afectan a los consumidores",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/pro-consumidor-clausura-ocho-negocios-chinos-por-incumplimientos-que-afectan-a-los-consumidores/",
-      "fecha": "2026-11-05T11:22:45-04:00",
-      "precision": "dia",
-      "tema": "Alertas sanitarias",
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"

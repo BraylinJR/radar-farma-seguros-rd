@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1304,
+  "descartadas": 1306,
   "errores": 1,
-  "fin": "2026-11-12T16:00:09-04:00",
+  "fin": "2026-11-13T02:53:46-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 64,
-      "leidos": 64,
+      "descartados": 8,
+      "leidos": 8,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -41,28 +41,28 @@
       "repetidos": 0
     },
     "diariolibre_economia": {
-      "descartados": 28,
+      "descartados": 27,
       "leidos": 30,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 2
     },
     "diariolibre_portada": {
-      "descartados": 49,
-      "leidos": 49,
-      "nuevos": 0,
+      "descartados": 79,
+      "leidos": 80,
+      "nuevos": 1,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 436,
-      "leidos": 441,
+      "descartados": 484,
+      "leidos": 491,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 7
     },
     "diariosalud": {
-      "descartados": 15,
+      "descartados": 16,
       "leidos": 16,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -101,9 +101,9 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 72,
-      "leidos": 72,
-      "nuevos": 0,
+      "descartados": 70,
+      "leidos": 71,
+      "nuevos": 1,
       "repetidos": 0
     },
     "listin_economia": {
@@ -113,22 +113,19 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 97,
+      "descartados": 99,
       "leidos": 100,
-      "nuevos": 1,
-      "repetidos": 2
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 297,
-      "leidos": 300,
-      "nuevos": 1,
+      "descartados": 282,
+      "leidos": 284,
+      "nuevos": 0,
       "repetidos": 2
     },
     "ndigital": {
-      "descartados": 14,
-      "leidos": 14,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "ReadTimeout: HTTPSConnectionPool(host='n.com.do', port=443): Read timed out. (read timeout=30)"
     },
     "noticiassin": {
       "descartados": 10,
@@ -137,7 +134,10 @@
       "repetidos": 0
     },
     "panorama": {
-      "error": "feed ilegible: <unknown>:94:2: mismatched tag"
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "proconsumidor_noticias": {
       "descartados": 0,
@@ -152,9 +152,9 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -176,8 +176,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-12T15:59:48-04:00",
-  "nuevas": 2,
+  "inicio": "2026-11-13T02:51:49-04:00",
+  "nuevas": 4,
   "repetidas": 112,
-  "total_historial": 257
+  "total_historial": 261
 }
