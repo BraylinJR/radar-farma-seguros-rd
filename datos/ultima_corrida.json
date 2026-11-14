@@ -1,17 +1,20 @@
 {
   "corregidas": 0,
-  "descartadas": 1166,
-  "errores": 2,
-  "fin": "2026-11-14T14:13:46-04:00",
+  "descartadas": 1157,
+  "errores": 0,
+  "fin": "2026-11-14T18:30:29-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 30,
-      "leidos": 30,
+      "descartados": 45,
+      "leidos": 45,
       "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.arecoa.com', port=443): Read timed out. (read timeout=30)"
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "cnss_normativas": {
       "descartados": 0,
@@ -32,10 +35,10 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 29,
+      "descartados": 30,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "diariolibre_economia": {
       "descartados": 27,
@@ -44,14 +47,14 @@
       "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 39,
-      "leidos": 39,
+      "descartados": 48,
+      "leidos": 48,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 422,
-      "leidos": 428,
+      "descartados": 397,
+      "leidos": 403,
       "nuevos": 0,
       "repetidos": 6
     },
@@ -98,8 +101,8 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
+      "descartados": 73,
+      "leidos": 73,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -116,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 213,
-      "leidos": 213,
+      "descartados": 196,
+      "leidos": 196,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -170,11 +173,14 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.sisalril.gob.do', port=443): Failed to resolve 'www.sisalril.gob.do' ([Errno -2] Name or service not known)\"))"
+      "descartados": 0,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-11-14T14:11:33-04:00",
+  "inicio": "2026-11-14T18:30:11-04:00",
   "nuevas": 0,
-  "repetidas": 101,
+  "repetidas": 110,
   "total_historial": 267
 }
