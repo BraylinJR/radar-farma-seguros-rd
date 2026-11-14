@@ -1,20 +1,17 @@
 {
   "corregidas": 0,
-  "descartadas": 1185,
-  "errores": 0,
-  "fin": "2026-11-14T02:34:00-04:00",
+  "descartadas": 1166,
+  "errores": 2,
+  "fin": "2026-11-14T14:13:46-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 0,
-      "leidos": 0,
+      "descartados": 30,
+      "leidos": 30,
       "nuevos": 0,
       "repetidos": 0
     },
     "arecoa": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.arecoa.com', port=443): Read timed out. (read timeout=30)"
     },
     "cnss_normativas": {
       "descartados": 0,
@@ -47,16 +44,16 @@
       "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 29,
-      "leidos": 29,
+      "descartados": 39,
+      "leidos": 39,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 447,
-      "leidos": 453,
-      "nuevos": 1,
-      "repetidos": 5
+      "descartados": 422,
+      "leidos": 428,
+      "nuevos": 0,
+      "repetidos": 6
     },
     "diariosalud": {
       "descartados": 16,
@@ -83,10 +80,10 @@
       "repetidos": 0
     },
     "eldinero": {
-      "descartados": 19,
+      "descartados": 20,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -119,10 +116,10 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 238,
-      "leidos": 240,
+      "descartados": 213,
+      "leidos": 213,
       "nuevos": 0,
-      "repetidos": 2
+      "repetidos": 0
     },
     "ndigital": {
       "descartados": 14,
@@ -173,14 +170,11 @@
       "repetidos": 10
     },
     "sisalril_noticias": {
-      "descartados": 0,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.sisalril.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.sisalril.gob.do', port=443): Failed to resolve 'www.sisalril.gob.do' ([Errno -2] Name or service not known)\"))"
     }
   },
-  "inicio": "2026-11-14T02:33:38-04:00",
-  "nuevas": 1,
-  "repetidas": 113,
+  "inicio": "2026-11-14T14:11:33-04:00",
+  "nuevas": 0,
+  "repetidas": 101,
   "total_historial": 267
 }
