@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-06T00:00:00-04:00",
-    "fin": "2026-11-13T15:48:23-04:00",
-    "texto": "del 6 de noviembre de 2026 al 13 de noviembre de 2026"
+    "inicio": "2026-11-07T00:00:00-04:00",
+    "fin": "2026-11-14T02:34:03-04:00",
+    "texto": "del 7 de noviembre de 2026 al 14 de noviembre de 2026"
   },
-  "total": 52,
-  "de_medios": 46,
-  "de_organismos": 6,
+  "total": 44,
+  "de_medios": 40,
+  "de_organismos": 4,
   "por_prioridad": {
     "alta": 1,
-    "media": 30,
-    "baja": 21
+    "media": 28,
+    "baja": 15
   },
   "alta": [
     {
@@ -27,16 +27,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 23,
-    "Seguros de salud (ARS)": 16,
+    "Regulación y gobierno": 19,
+    "Seguros de salud (ARS)": 12,
     "Laboratorios": 11,
-    "Seguros generales": 6,
-    "Farmacia": 5
+    "Farmacia": 5,
+    "Seguros generales": 4
   },
   "por_tema": {
-    "Otros": 43,
+    "Otros": 36,
     "Regulación": 4,
-    "Alertas sanitarias": 3,
+    "Alertas sanitarias": 2,
     "Lanzamientos": 1,
     "Precios": 1
   },
@@ -47,7 +47,7 @@
     ],
     [
       "Pro Consumidor",
-      7
+      5
     ],
     [
       "SISALRIL",
@@ -58,15 +58,15 @@
       3
     ],
     [
-      "CNSS",
-      2
-    ],
-    [
       "SeNaSa",
       1
     ],
     [
       "TSS",
+      1
+    ],
+    [
+      "CNSS",
       1
     ],
     [
@@ -85,30 +85,26 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      10
+      11
     ],
     [
       "Listín Diario",
-      9
+      6
     ],
     [
       "Hoy",
-      6
+      5
     ],
     [
       "Revista Mercado",
-      6
+      5
     ],
     [
       "elDinero",
-      4
-    ],
-    [
-      "El Día",
       3
     ],
     [
-      "Diario Salud",
+      "El Día",
       3
     ],
     [
@@ -120,8 +116,12 @@
       2
     ],
     [
-      "Pro Consumidor",
+      "Diario Salud",
       2
+    ],
+    [
+      "Panorama",
+      1
     ]
   ],
   "regulatorias": [
@@ -167,18 +167,6 @@
       "medio": "CNSS",
       "enlace": "https://cnss.gob.do/noticias/cnss-presenta-los-avances-y-retos-del-sistema-dominicano-de-seguridad-social-a-delegacion-de-belgica/",
       "fecha": "2026-11-10T10:16:17-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "80edac9049f2",
-      "titulo": "CNSS da inicio a la Semana de la Calidad 2026",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-da-inicio-a-la-semana-de-la-calidad-2026/",
-      "fecha": "2026-11-06T14:11:17-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",

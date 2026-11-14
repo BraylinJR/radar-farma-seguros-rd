@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1373,
+  "descartadas": 1185,
   "errores": 0,
-  "fin": "2026-11-13T15:48:19-04:00",
+  "fin": "2026-11-14T02:34:00-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 72,
-      "leidos": 72,
+      "descartados": 0,
+      "leidos": 0,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,16 +47,16 @@
       "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 99,
-      "leidos": 101,
-      "nuevos": 1,
-      "repetidos": 1
+      "descartados": 29,
+      "leidos": 29,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 465,
-      "leidos": 471,
-      "nuevos": 0,
-      "repetidos": 6
+      "descartados": 447,
+      "leidos": 453,
+      "nuevos": 1,
+      "repetidos": 5
     },
     "diariosalud": {
       "descartados": 16,
@@ -85,8 +85,8 @@
     "eldinero": {
       "descartados": 19,
       "leidos": 20,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 69,
-      "leidos": 72,
-      "nuevos": 2,
-      "repetidos": 1
+      "descartados": 75,
+      "leidos": 75,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "listin_economia": {
       "descartados": 97,
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 272,
-      "leidos": 274,
+      "descartados": 238,
+      "leidos": 240,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -175,12 +175,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 9
+      "nuevos": 0,
+      "repetidos": 10
     }
   },
-  "inicio": "2026-11-13T15:47:55-04:00",
-  "nuevas": 5,
-  "repetidas": 114,
-  "total_historial": 266
+  "inicio": "2026-11-14T02:33:38-04:00",
+  "nuevas": 1,
+  "repetidas": 113,
+  "total_historial": 267
 }
