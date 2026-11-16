@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1041,
-  "errores": 0,
-  "fin": "2026-11-15T14:55:22-04:00",
+  "descartadas": 973,
+  "errores": 1,
+  "fin": "2026-11-16T02:39:28-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 52,
-      "leidos": 52,
+      "descartados": 4,
+      "leidos": 4,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -35,28 +35,28 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 30,
+      "descartados": 29,
       "leidos": 30,
       "nuevos": 0,
-      "repetidos": 0
+      "repetidos": 1
     },
     "diariolibre_economia": {
-      "descartados": 27,
+      "descartados": 26,
       "leidos": 30,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 27,
-      "leidos": 28,
+      "descartados": 48,
+      "leidos": 50,
       "nuevos": 1,
-      "repetidos": 0
+      "repetidos": 1
     },
     "diariolibre_sitemap": {
-      "descartados": 330,
-      "leidos": 335,
+      "descartados": 286,
+      "leidos": 290,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 4
     },
     "diariosalud": {
       "descartados": 16,
@@ -95,15 +95,15 @@
       "repetidos": 0
     },
     "hoy_economia": {
-      "descartados": 20,
+      "descartados": 19,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 0
+      "repetidos": 1
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
-      "nuevos": 0,
+      "descartados": 71,
+      "leidos": 72,
+      "nuevos": 1,
       "repetidos": 0
     },
     "listin_economia": {
@@ -119,8 +119,8 @@
       "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 159,
-      "leidos": 160,
+      "descartados": 179,
+      "leidos": 180,
       "nuevos": 0,
       "repetidos": 1
     },
@@ -137,10 +137,7 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 10,
-      "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 0
+      "error": "feed ilegible: <unknown>:94:2: mismatched tag"
     },
     "proconsumidor_noticias": {
       "descartados": 0,
@@ -179,8 +176,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-15T14:55:00-04:00",
-  "nuevas": 1,
-  "repetidas": 110,
-  "total_historial": 270
+  "inicio": "2026-11-16T02:39:11-04:00",
+  "nuevas": 3,
+  "repetidas": 112,
+  "total_historial": 273
 }
