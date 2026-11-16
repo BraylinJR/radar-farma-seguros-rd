@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-11-09T00:00:00-04:00",
-    "fin": "2026-11-16T02:39:31-04:00",
+    "fin": "2026-11-16T18:12:51-04:00",
     "texto": "del 9 de noviembre de 2026 al 16 de noviembre de 2026"
   },
-  "total": 45,
-  "de_medios": 41,
-  "de_organismos": 4,
+  "total": 59,
+  "de_medios": 51,
+  "de_organismos": 8,
   "por_prioridad": {
-    "alta": 1,
-    "media": 30,
-    "baja": 14
+    "alta": 2,
+    "media": 38,
+    "baja": 19
   },
   "alta": [
+    {
+      "id": "0930d34a2201",
+      "titulo": "Comisión bicameral estudia ocho propuestas para reformar la Seguridad Social",
+      "medio": "Noticias SIN",
+      "enlace": "https://noticiassin.com/pais/nacional/2026/11/16/comision-bicameral-estudia-reformas-a-la-seguridad-social-y-afp-2171236/",
+      "fecha": "2026-11-16T17:53:16-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «medicamentos de alto costo»"
+    },
     {
       "id": "ca59dc698b69",
       "titulo": "Países más ricos del mundo en 2026: el top 10 del FMI por PIB per cápita y en qué puesto queda RD",
@@ -27,18 +39,18 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 24,
-    "Laboratorios": 12,
-    "Seguros de salud (ARS)": 11,
-    "Seguros generales": 4,
-    "Farmacia": 3
+    "Regulación y gobierno": 32,
+    "Laboratorios": 14,
+    "Seguros de salud (ARS)": 14,
+    "Farmacia": 7,
+    "Seguros generales": 6
   },
   "por_tema": {
-    "Otros": 37,
+    "Otros": 49,
+    "Regulación": 4,
     "Alertas sanitarias": 3,
-    "Regulación": 3,
-    "Lanzamientos": 1,
-    "Precios": 1
+    "Precios": 2,
+    "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
@@ -47,84 +59,120 @@
     ],
     [
       "Pro Consumidor",
-      5
+      8
     ],
     [
       "SISALRIL",
-      4
+      5
+    ],
+    [
+      "Farmacias del Pueblo",
+      3
+    ],
+    [
+      "Promese/Cal",
+      3
+    ],
+    [
+      "SeNaSa",
+      2
+    ],
+    [
+      "CNSS",
+      2
     ],
     [
       "Servicio Nacional de Salud",
       2
     ],
     [
+      "Eli Lilly",
+      1
+    ],
+    [
       "DIDA",
-      1
-    ],
-    [
-      "DIGEMAPS",
-      1
-    ],
-    [
-      "Ministerio de Salud Pública",
-      1
-    ],
-    [
-      "SeNaSa",
-      1
-    ],
-    [
-      "TSS",
-      1
-    ],
-    [
-      "CNSS",
       1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      13
+      15
     ],
     [
       "Hoy",
       6
     ],
     [
+      "Revista Mercado",
+      5
+    ],
+    [
       "Listín Diario",
       5
     ],
     [
-      "Revista Mercado",
+      "Acento",
       4
     ],
     [
       "elDinero",
+      4
+    ],
+    [
+      "Diario Salud",
+      3
+    ],
+    [
+      "N Digital",
+      3
+    ],
+    [
+      "SISALRIL",
       3
     ],
     [
       "El Día",
       3
-    ],
-    [
-      "N Digital",
-      2
-    ],
-    [
-      "SISALRIL",
-      2
-    ],
-    [
-      "Diario Salud",
-      2
-    ],
-    [
-      "Acento",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "5f8648de6d1b",
+      "titulo": "PROMESE/CAL licita RD$1,251 millones para cubrir necesidades de hospitales y Farmacias del Pueblo hasta junio de 2027",
+      "medio": "Promese/Cal",
+      "enlace": "https://promesecal.gob.do/noticias/promese-cal-licita-rd1251-millones-para-cubrir-necesidades-de-hospitales-y-farmacias-del-pueblo-hasta-junio-de-2027/",
+      "fecha": "2026-11-16T15:38:40-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "dd212f547bd4",
+      "titulo": "Pro Consumidor redobla la vigilancia contra las ofertas engañosas del Viernes Negro",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-redobla-la-vigilancia-contra-las-ofertas-enganosas-del-viernes-negro/",
+      "fecha": "2026-11-16T10:08:47-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "e21b1176394d",
+      "titulo": "SISALRIL destaca la protección de datos de salud como garantía de los derechos de los afiliados",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados",
+      "fecha": "2026-11-16T10:01:04-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "265e38b707b0",
       "titulo": "República Dominicana presenta en México el mecanismo de financiamiento de medicamentos prioritarios sin romper la solidaridad de la seguridad social",
