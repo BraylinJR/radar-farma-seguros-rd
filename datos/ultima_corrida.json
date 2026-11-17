@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1106,
-  "errores": 0,
-  "fin": "2026-11-17T04:01:14-04:00",
+  "descartadas": 1224,
+  "errores": 1,
+  "fin": "2026-11-17T17:01:29-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 6,
-      "leidos": 7,
+      "descartados": 74,
+      "leidos": 75,
       "nuevos": 1,
       "repetidos": 0
     },
@@ -37,8 +37,8 @@
     "diariolibre_actualidad": {
       "descartados": 29,
       "leidos": 30,
-      "nuevos": 0,
-      "repetidos": 1
+      "nuevos": 1,
+      "repetidos": 0
     },
     "diariolibre_economia": {
       "descartados": 27,
@@ -47,16 +47,16 @@
       "repetidos": 3
     },
     "diariolibre_portada": {
-      "descartados": 40,
-      "leidos": 40,
+      "descartados": 36,
+      "leidos": 36,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 330,
-      "leidos": 337,
-      "nuevos": 2,
-      "repetidos": 5
+      "descartados": 376,
+      "leidos": 384,
+      "nuevos": 0,
+      "repetidos": 8
     },
     "diariosalud": {
       "descartados": 15,
@@ -85,8 +85,8 @@
     "eldinero": {
       "descartados": 19,
       "leidos": 20,
-      "nuevos": 0,
-      "repetidos": 1
+      "nuevos": 1,
+      "repetidos": 0
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -95,15 +95,15 @@
       "repetidos": 0
     },
     "hoy_economia": {
-      "descartados": 19,
+      "descartados": 20,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 71,
-      "leidos": 71,
-      "nuevos": 0,
+      "descartados": 70,
+      "leidos": 72,
+      "nuevos": 2,
       "repetidos": 0
     },
     "listin_economia": {
@@ -115,19 +115,19 @@
     "listin_la_republica": {
       "descartados": 99,
       "leidos": 100,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "listin_sitemap": {
-      "descartados": 266,
-      "leidos": 268,
+      "descartados": 274,
+      "leidos": 276,
       "nuevos": 0,
       "repetidos": 2
     },
     "ndigital": {
-      "descartados": 13,
+      "descartados": 14,
       "leidos": 14,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "noticiassin": {
@@ -137,16 +137,13 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "proconsumidor_noticias": {
-      "descartados": 0,
-      "leidos": 5,
-      "nuevos": 0,
-      "repetidos": 5
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='proconsumidor.gob.do', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='proconsumidor.gob.do', port=443) at 0x72c4bb5d6ad0>, 'Connection to proconsumidor.gob.do timed out. (connect timeout=30)'))"
     },
     "promesecal_noticias": {
       "descartados": 0,
@@ -175,12 +172,12 @@
     "sisalril_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     }
   },
-  "inicio": "2026-11-17T03:59:59-04:00",
-  "nuevas": 5,
-  "repetidas": 114,
-  "total_historial": 292
+  "inicio": "2026-11-17T16:59:34-04:00",
+  "nuevas": 7,
+  "repetidas": 109,
+  "total_historial": 299
 }
