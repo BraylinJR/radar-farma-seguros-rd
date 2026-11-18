@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-11T00:00:00-04:00",
-    "fin": "2026-11-18T03:37:12-04:00",
+    "fin": "2026-11-18T16:37:57-04:00",
     "texto": "del 11 de noviembre de 2026 al 18 de noviembre de 2026"
   },
-  "total": 60,
-  "de_medios": 52,
-  "de_organismos": 8,
+  "total": 68,
+  "de_medios": 56,
+  "de_organismos": 12,
   "por_prioridad": {
     "alta": 1,
-    "media": 41,
-    "baja": 18
+    "media": 48,
+    "baja": 19
   },
   "alta": [
     {
@@ -27,35 +27,39 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 29,
-    "Seguros de salud (ARS)": 19,
+    "Regulación y gobierno": 33,
+    "Seguros de salud (ARS)": 22,
     "Laboratorios": 12,
-    "Farmacia": 9,
+    "Farmacia": 11,
     "Seguros generales": 7
   },
   "por_tema": {
-    "Otros": 46,
+    "Otros": 53,
     "Regulación": 8,
     "Alertas sanitarias": 4,
-    "Precios": 1,
-    "Lanzamientos": 1
+    "Lanzamientos": 2,
+    "Precios": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      10
+      12
     ],
     [
       "Pro Consumidor",
       9
     ],
     [
+      "SISALRIL",
+      7
+    ],
+    [
       "SIPEN",
       7
     ],
     [
-      "SISALRIL",
-      6
+      "CNSS",
+      4
     ],
     [
       "Farmacias del Pueblo",
@@ -66,8 +70,8 @@
       3
     ],
     [
-      "CNSS",
-      1
+      "Farmacia Carol",
+      2
     ],
     [
       "Eli Lilly",
@@ -76,24 +80,28 @@
     [
       "DIDA",
       1
-    ],
-    [
-      "DIGEMAPS",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      16
+      17
+    ],
+    [
+      "Listín Diario",
+      8
     ],
     [
       "Hoy",
       8
     ],
     [
-      "Listín Diario",
+      "SISALRIL",
       5
+    ],
+    [
+      "CNSS",
+      4
     ],
     [
       "elDinero",
@@ -101,10 +109,6 @@
     ],
     [
       "Acento",
-      4
-    ],
-    [
-      "SISALRIL",
       4
     ],
     [
@@ -118,13 +122,33 @@
     [
       "Revista Mercado",
       3
-    ],
-    [
-      "Panorama",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "465069f5f98e",
+      "titulo": "CNSS recibe misión del Fondo Monetario Internacional",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-recibe-mision-del-fondo-monetario-internacional/",
+      "fecha": "2026-11-18T11:17:53-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "6150638b9d3c",
+      "titulo": "SISALRIL lanza nuevo sistema de gestión de peticiones y reclamos de usuarios en tiempo real",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-lanza-nuevo-sistema-de-gestion-de-peticiones-y-reclamos-de-usuarios-en-tiempo-real/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-lanza-nuevo-sistema-de-gestion-de-peticiones-y-reclamos-de-usuarios-en-tiempo-real",
+      "fecha": "2026-11-18T10:07:06-04:00",
+      "precision": "dia",
+      "tema": "Lanzamientos",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "2febe20be657",
       "titulo": "SISALRIL da la bienvenida a la Navidad con un llamado a mantener el compromiso con la salud del pueblo dominicano",
@@ -167,6 +191,18 @@
       "medio": "SISALRIL",
       "enlace": "https://www.sisalril.gob.do/sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados",
       "fecha": "2026-11-16T10:01:04-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "7ad5e8de6cf3",
+      "titulo": "CNSS concluye Semana de la Calidad 2026 con actividades para fortalecer la excelencia institucional",
+      "medio": "CNSS",
+      "enlace": "https://cnss.gob.do/noticias/cnss-concluye-semana-de-la-calidad-2026-con-actividades-para-fortalecer-la-excelencia-institucional/",
+      "fecha": "2026-11-16T08:16:37-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
