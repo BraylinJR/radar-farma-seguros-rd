@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-10T00:00:00-04:00",
-    "fin": "2026-11-17T17:01:32-04:00",
-    "texto": "del 10 de noviembre de 2026 al 17 de noviembre de 2026"
+    "inicio": "2026-11-11T00:00:00-04:00",
+    "fin": "2026-11-18T03:37:12-04:00",
+    "texto": "del 11 de noviembre de 2026 al 18 de noviembre de 2026"
   },
-  "total": 66,
-  "de_medios": 57,
-  "de_organismos": 9,
+  "total": 60,
+  "de_medios": 52,
+  "de_organismos": 8,
   "por_prioridad": {
-    "alta": 2,
-    "media": 45,
-    "baja": 19
+    "alta": 1,
+    "media": 41,
+    "baja": 18
   },
   "alta": [
     {
@@ -24,46 +24,34 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «medicamentos de alto costo»"
-    },
-    {
-      "id": "ca59dc698b69",
-      "titulo": "Países más ricos del mundo en 2026: el top 10 del FMI por PIB per cápita y en qué puesto queda RD",
-      "medio": "Revista Mercado",
-      "enlace": "https://revistamercado.do/market-brief/finanzas/paises-mas-ricos-del-mundo-2026-fmi/?utm_source=rss&utm_medium=rss&utm_campaign=paises-mas-ricos-del-mundo-2026-fmi",
-      "fecha": "2026-11-10T19:29:40-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «per cápita»"
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 33,
-    "Seguros de salud (ARS)": 21,
-    "Laboratorios": 13,
-    "Farmacia": 8,
+    "Regulación y gobierno": 29,
+    "Seguros de salud (ARS)": 19,
+    "Laboratorios": 12,
+    "Farmacia": 9,
     "Seguros generales": 7
   },
   "por_tema": {
-    "Otros": 52,
-    "Regulación": 7,
+    "Otros": 46,
+    "Regulación": 8,
     "Alertas sanitarias": 4,
-    "Precios": 2,
+    "Precios": 1,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
-      "SIPEN",
-      11
-    ],
-    [
       "SeNaSa",
-      9
+      10
     ],
     [
       "Pro Consumidor",
-      8
+      9
+    ],
+    [
+      "SIPEN",
+      7
     ],
     [
       "SISALRIL",
@@ -79,7 +67,7 @@
     ],
     [
       "CNSS",
-      2
+      1
     ],
     [
       "Eli Lilly",
@@ -97,38 +85,38 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      17
+      16
     ],
     [
       "Hoy",
-      7
-    ],
-    [
-      "Acento",
-      6
-    ],
-    [
-      "elDinero",
-      5
+      8
     ],
     [
       "Listín Diario",
       5
     ],
     [
-      "Revista Mercado",
-      5
+      "elDinero",
+      4
+    ],
+    [
+      "Acento",
+      4
     ],
     [
       "SISALRIL",
       4
     ],
     [
+      "Diario Salud",
+      3
+    ],
+    [
       "N Digital",
       3
     ],
     [
-      "El Día",
+      "Revista Mercado",
       3
     ],
     [
@@ -215,18 +203,6 @@
       "medio": "Pro Consumidor",
       "enlace": "https://proconsumidor.gob.do/pro-consumidor-ha-incinerado-7-millones-de-productos-no-aptos-para-el-consumo-en-los-ultimos-seis-anos/",
       "fecha": "2026-11-11T12:53:53-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "2f37ceb0be9e",
-      "titulo": "CNSS presenta los avances y retos del Sistema Dominicano de Seguridad Social a delegación de Bélgica",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-presenta-los-avances-y-retos-del-sistema-dominicano-de-seguridad-social-a-delegacion-de-belgica/",
-      "fecha": "2026-11-10T10:16:17-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
