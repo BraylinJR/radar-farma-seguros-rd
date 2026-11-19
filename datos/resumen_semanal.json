@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-12T00:00:00-04:00",
-    "fin": "2026-11-19T03:32:21-04:00",
+    "fin": "2026-11-19T16:43:39-04:00",
     "texto": "del 12 de noviembre de 2026 al 19 de noviembre de 2026"
   },
-  "total": 65,
-  "de_medios": 55,
-  "de_organismos": 10,
+  "total": 78,
+  "de_medios": 67,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 1,
-    "media": 43,
-    "baja": 21
+    "media": 55,
+    "baja": 22
   },
   "alta": [
     {
@@ -27,35 +27,39 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 29,
-    "Seguros de salud (ARS)": 21,
-    "Laboratorios": 11,
-    "Seguros generales": 9,
-    "Farmacia": 9
+    "Regulación y gobierno": 31,
+    "Seguros de salud (ARS)": 29,
+    "Laboratorios": 15,
+    "Farmacia": 12,
+    "Seguros generales": 9
   },
   "por_tema": {
-    "Otros": 52,
-    "Regulación": 7,
+    "Otros": 62,
+    "Regulación": 8,
+    "Lanzamientos": 3,
     "Alertas sanitarias": 3,
-    "Lanzamientos": 2,
-    "Precios": 1
+    "Precios": 2
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      12
+      17
     ],
     [
       "Pro Consumidor",
-      9
+      10
     ],
     [
       "SISALRIL",
-      6
+      7
     ],
     [
       "CNSS",
       4
+    ],
+    [
+      "INFADOMI",
+      3
     ],
     [
       "DIDA",
@@ -76,27 +80,31 @@
     [
       "Colegio Médico Dominicano",
       2
-    ],
-    [
-      "Farmacia Carol",
-      2
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      20
+      22
     ],
     [
       "Listín Diario",
+      10
+    ],
+    [
+      "Acento",
       8
     ],
     [
       "Hoy",
-      7
+      8
     ],
     [
       "elDinero",
+      6
+    ],
+    [
+      "SISALRIL",
       5
     ],
     [
@@ -108,16 +116,8 @@
       4
     ],
     [
-      "SISALRIL",
-      4
-    ],
-    [
-      "Acento",
-      4
-    ],
-    [
       "Diario Salud",
-      2
+      3
     ],
     [
       "Revista Mercado",
@@ -125,6 +125,18 @@
     ]
   ],
   "regulatorias": [
+    {
+      "id": "3d8fdf3f88dd",
+      "titulo": "SISALRIL presenta avances en Evaluación de Tecnologías Sanitarias en Perú",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-avances-en-evaluacion-de-tecnologias-sanitarias-en-peru/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-avances-en-evaluacion-de-tecnologias-sanitarias-en-peru",
+      "fecha": "2026-11-19T14:24:11-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "465069f5f98e",
       "titulo": "CNSS recibe misión del Fondo Monetario Internacional",
