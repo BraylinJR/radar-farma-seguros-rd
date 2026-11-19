@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-11T00:00:00-04:00",
-    "fin": "2026-11-18T16:37:57-04:00",
-    "texto": "del 11 de noviembre de 2026 al 18 de noviembre de 2026"
+    "inicio": "2026-11-12T00:00:00-04:00",
+    "fin": "2026-11-19T03:32:21-04:00",
+    "texto": "del 12 de noviembre de 2026 al 19 de noviembre de 2026"
   },
-  "total": 68,
-  "de_medios": 56,
-  "de_organismos": 12,
+  "total": 65,
+  "de_medios": 55,
+  "de_organismos": 10,
   "por_prioridad": {
     "alta": 1,
-    "media": 48,
-    "baja": 19
+    "media": 43,
+    "baja": 21
   },
   "alta": [
     {
@@ -27,16 +27,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 33,
-    "Seguros de salud (ARS)": 22,
-    "Laboratorios": 12,
-    "Farmacia": 11,
-    "Seguros generales": 7
+    "Regulación y gobierno": 29,
+    "Seguros de salud (ARS)": 21,
+    "Laboratorios": 11,
+    "Seguros generales": 9,
+    "Farmacia": 9
   },
   "por_tema": {
-    "Otros": 53,
-    "Regulación": 8,
-    "Alertas sanitarias": 4,
+    "Otros": 52,
+    "Regulación": 7,
+    "Alertas sanitarias": 3,
     "Lanzamientos": 2,
     "Precios": 1
   },
@@ -51,15 +51,15 @@
     ],
     [
       "SISALRIL",
-      7
-    ],
-    [
-      "SIPEN",
-      7
+      6
     ],
     [
       "CNSS",
       4
+    ],
+    [
+      "DIDA",
+      3
     ],
     [
       "Farmacias del Pueblo",
@@ -70,22 +70,22 @@
       3
     ],
     [
-      "Farmacia Carol",
+      "SIPEN",
+      3
+    ],
+    [
+      "Colegio Médico Dominicano",
       2
     ],
     [
-      "Eli Lilly",
-      1
-    ],
-    [
-      "DIDA",
-      1
+      "Farmacia Carol",
+      2
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      17
+      20
     ],
     [
       "Listín Diario",
@@ -93,18 +93,22 @@
     ],
     [
       "Hoy",
-      8
+      7
     ],
     [
-      "SISALRIL",
+      "elDinero",
       5
+    ],
+    [
+      "N Digital",
+      4
     ],
     [
       "CNSS",
       4
     ],
     [
-      "elDinero",
+      "SISALRIL",
       4
     ],
     [
@@ -113,15 +117,11 @@
     ],
     [
       "Diario Salud",
-      3
-    ],
-    [
-      "N Digital",
-      3
+      2
     ],
     [
       "Revista Mercado",
-      3
+      2
     ]
   ],
   "regulatorias": [
@@ -215,30 +215,6 @@
       "medio": "SISALRIL",
       "enlace": "https://www.sisalril.gob.do/republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social/?utm_source=rss&utm_medium=rss&utm_campaign=republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social",
       "fecha": "2026-11-13T15:34:17-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "2e9fe1303ecf",
-      "titulo": "SISALRIL aboga por inversión en salud aumente protección para los afiliados",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-aboga-por-inversion-en-salud-aumente-proteccion-para-los-afiliados/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-aboga-por-inversion-en-salud-aumente-proteccion-para-los-afiliados",
-      "fecha": "2026-11-11T15:26:38-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "a87a62c8caac",
-      "titulo": "Pro Consumidor ha incinerado 7 millones de productos no aptos para el consumo en los últimos seis años",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/pro-consumidor-ha-incinerado-7-millones-de-productos-no-aptos-para-el-consumo-en-los-ultimos-seis-anos/",
-      "fecha": "2026-11-11T12:53:53-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
