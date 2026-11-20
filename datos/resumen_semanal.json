@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-12T00:00:00-04:00",
-    "fin": "2026-11-19T16:43:39-04:00",
-    "texto": "del 12 de noviembre de 2026 al 19 de noviembre de 2026"
+    "inicio": "2026-11-13T00:00:00-04:00",
+    "fin": "2026-11-20T03:24:37-04:00",
+    "texto": "del 13 de noviembre de 2026 al 20 de noviembre de 2026"
   },
-  "total": 78,
-  "de_medios": 67,
+  "total": 77,
+  "de_medios": 66,
   "de_organismos": 11,
   "por_prioridad": {
     "alta": 1,
-    "media": 55,
-    "baja": 22
+    "media": 52,
+    "baja": 24
   },
   "alta": [
     {
@@ -27,31 +27,35 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 31,
-    "Seguros de salud (ARS)": 29,
-    "Laboratorios": 15,
-    "Farmacia": 12,
-    "Seguros generales": 9
+    "Seguros de salud (ARS)": 30,
+    "Regulación y gobierno": 27,
+    "Laboratorios": 17,
+    "Farmacia": 13,
+    "Seguros generales": 8
   },
   "por_tema": {
-    "Otros": 62,
-    "Regulación": 8,
+    "Otros": 64,
+    "Regulación": 6,
     "Lanzamientos": 3,
-    "Alertas sanitarias": 3,
-    "Precios": 2
+    "Precios": 2,
+    "Alertas sanitarias": 2
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      17
-    ],
-    [
-      "Pro Consumidor",
-      10
+      18
     ],
     [
       "SISALRIL",
-      7
+      6
+    ],
+    [
+      "Pro Consumidor",
+      6
+    ],
+    [
+      "DIDA",
+      4
     ],
     [
       "CNSS",
@@ -59,10 +63,6 @@
     ],
     [
       "INFADOMI",
-      3
-    ],
-    [
-      "DIDA",
       3
     ],
     [
@@ -85,7 +85,7 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      22
+      20
     ],
     [
       "Listín Diario",
@@ -93,18 +93,18 @@
     ],
     [
       "Acento",
-      8
+      9
     ],
     [
       "Hoy",
       8
     ],
     [
-      "elDinero",
-      6
+      "SISALRIL",
+      5
     ],
     [
-      "SISALRIL",
+      "elDinero",
       5
     ],
     [
@@ -120,7 +120,7 @@
       3
     ],
     [
-      "Revista Mercado",
+      "Panorama",
       2
     ]
   ],
