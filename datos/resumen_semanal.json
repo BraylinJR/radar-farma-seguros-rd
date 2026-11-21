@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-14T00:00:00-04:00",
-    "fin": "2026-11-21T03:17:32-04:00",
+    "fin": "2026-11-21T15:22:52-04:00",
     "texto": "del 14 de noviembre de 2026 al 21 de noviembre de 2026"
   },
-  "total": 82,
-  "de_medios": 71,
+  "total": 86,
+  "de_medios": 75,
   "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 60,
-    "baja": 20
+    "media": 61,
+    "baja": 23
   },
   "alta": [
     {
@@ -40,17 +40,17 @@
   ],
   "por_sector": {
     "Regulación y gobierno": 32,
-    "Seguros de salud (ARS)": 30,
-    "Laboratorios": 18,
+    "Seguros de salud (ARS)": 31,
+    "Laboratorios": 21,
     "Farmacia": 14,
     "Seguros generales": 8
   },
   "por_tema": {
-    "Otros": 69,
+    "Otros": 72,
     "Regulación": 7,
+    "Alertas sanitarias": 3,
     "Lanzamientos": 2,
-    "Precios": 2,
-    "Alertas sanitarias": 2
+    "Precios": 2
   },
   "empresas_mas_mencionadas": [
     [
@@ -97,7 +97,7 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      21
+      23
     ],
     [
       "Listín Diario",
@@ -108,11 +108,11 @@
       9
     ],
     [
-      "elDinero",
-      5
+      "Hoy",
+      6
     ],
     [
-      "Hoy",
+      "elDinero",
       5
     ],
     [
@@ -132,7 +132,7 @@
       4
     ],
     [
-      "Revista Mercado",
+      "Panorama",
       3
     ]
   ],
