@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-13T00:00:00-04:00",
-    "fin": "2026-11-20T16:27:43-04:00",
-    "texto": "del 13 de noviembre de 2026 al 20 de noviembre de 2026"
+    "inicio": "2026-11-14T00:00:00-04:00",
+    "fin": "2026-11-21T03:17:32-04:00",
+    "texto": "del 14 de noviembre de 2026 al 21 de noviembre de 2026"
   },
-  "total": 84,
-  "de_medios": 72,
-  "de_organismos": 12,
+  "total": 82,
+  "de_medios": 71,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 58,
-    "baja": 24
+    "media": 60,
+    "baja": 20
   },
   "alta": [
     {
@@ -39,16 +39,16 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 31,
-    "Seguros de salud (ARS)": 31,
-    "Laboratorios": 20,
-    "Farmacia": 15,
-    "Seguros generales": 9
+    "Regulación y gobierno": 32,
+    "Seguros de salud (ARS)": 30,
+    "Laboratorios": 18,
+    "Farmacia": 14,
+    "Seguros generales": 8
   },
   "por_tema": {
-    "Otros": 71,
-    "Regulación": 6,
-    "Lanzamientos": 3,
+    "Otros": 69,
+    "Regulación": 7,
+    "Lanzamientos": 2,
     "Precios": 2,
     "Alertas sanitarias": 2
   },
@@ -58,15 +58,15 @@
       18
     ],
     [
-      "SISALRIL",
-      6
+      "DIDA",
+      7
     ],
     [
       "Pro Consumidor",
       6
     ],
     [
-      "DIDA",
+      "SIPEN",
       5
     ],
     [
@@ -74,12 +74,16 @@
       5
     ],
     [
-      "SIPEN",
+      "SISALRIL",
       5
     ],
     [
       "CNSS",
       4
+    ],
+    [
+      "Colegio Médico Dominicano",
+      3
     ],
     [
       "Farmacias del Pueblo",
@@ -88,36 +92,36 @@
     [
       "Promese/Cal",
       3
-    ],
-    [
-      "Colegio Médico Dominicano",
-      2
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      22
+      21
     ],
     [
       "Listín Diario",
-      10
+      12
     ],
     [
       "Acento",
       9
     ],
     [
-      "Hoy",
-      8
+      "elDinero",
+      5
     ],
     [
-      "elDinero",
-      6
+      "Hoy",
+      5
+    ],
+    [
+      "Diario Salud",
+      4
     ],
     [
       "SISALRIL",
-      5
+      4
     ],
     [
       "N Digital",
@@ -128,12 +132,8 @@
       4
     ],
     [
-      "Diario Salud",
+      "Revista Mercado",
       3
-    ],
-    [
-      "El Nuevo Diario",
-      2
     ]
   ],
   "regulatorias": [
@@ -239,18 +239,6 @@
       "medio": "CNSS",
       "enlace": "https://cnss.gob.do/noticias/cnss-concluye-semana-de-la-calidad-2026-con-actividades-para-fortalecer-la-excelencia-institucional/",
       "fecha": "2026-11-16T08:16:37-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "265e38b707b0",
-      "titulo": "República Dominicana presenta en México el mecanismo de financiamiento de medicamentos prioritarios sin romper la solidaridad de la seguridad social",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social/?utm_source=rss&utm_medium=rss&utm_campaign=republica-dominicana-presenta-en-mexico-el-mecanismo-de-financiamiento-de-medicamentos-prioritarios-sin-romper-la-solidaridad-de-la-seguridad-social",
-      "fecha": "2026-11-13T15:34:17-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
