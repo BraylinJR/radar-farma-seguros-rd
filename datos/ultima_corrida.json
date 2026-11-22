@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1010,
+  "descartadas": 1033,
   "errores": 0,
-  "fin": "2026-11-22T02:57:54-04:00",
+  "fin": "2026-11-22T15:46:28-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 3,
-      "leidos": 3,
+      "descartados": 45,
+      "leidos": 45,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -47,16 +47,16 @@
       "repetidos": 2
     },
     "diariolibre_portada": {
-      "descartados": 30,
-      "leidos": 30,
+      "descartados": 45,
+      "leidos": 45,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 330,
-      "leidos": 337,
+      "descartados": 287,
+      "leidos": 292,
       "nuevos": 0,
-      "repetidos": 7
+      "repetidos": 5
     },
     "diariosalud": {
       "descartados": 14,
@@ -83,10 +83,10 @@
       "repetidos": 0
     },
     "eldinero": {
-      "descartados": 19,
+      "descartados": 20,
       "leidos": 20,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "elnuevodiario": {
       "descartados": 10,
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 71,
-      "leidos": 72,
+      "descartados": 75,
+      "leidos": 75,
       "nuevos": 0,
-      "repetidos": 1
+      "repetidos": 0
     },
     "listin_economia": {
       "descartados": 97,
@@ -113,14 +113,14 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 94,
+      "descartados": 95,
       "leidos": 100,
       "nuevos": 0,
-      "repetidos": 6
+      "repetidos": 5
     },
     "listin_sitemap": {
-      "descartados": 186,
-      "leidos": 188,
+      "descartados": 190,
+      "leidos": 192,
       "nuevos": 0,
       "repetidos": 2
     },
@@ -155,9 +155,9 @@
       "repetidos": 10
     },
     "revistamercado": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "sis_documentos": {
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-22T02:57:37-04:00",
-  "nuevas": 0,
-  "repetidas": 122,
-  "total_historial": 353
+  "inicio": "2026-11-22T15:46:15-04:00",
+  "nuevas": 1,
+  "repetidas": 117,
+  "total_historial": 354
 }
