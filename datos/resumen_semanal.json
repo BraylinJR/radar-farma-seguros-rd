@@ -1,15 +1,15 @@
 {
   "periodo": {
-    "inicio": "2026-11-14T00:00:00-04:00",
-    "fin": "2026-11-21T15:22:52-04:00",
-    "texto": "del 14 de noviembre de 2026 al 21 de noviembre de 2026"
+    "inicio": "2026-11-15T00:00:00-04:00",
+    "fin": "2026-11-22T02:57:56-04:00",
+    "texto": "del 15 de noviembre de 2026 al 22 de noviembre de 2026"
   },
-  "total": 86,
-  "de_medios": 75,
+  "total": 85,
+  "de_medios": 74,
   "de_organismos": 11,
   "por_prioridad": {
     "alta": 2,
-    "media": 61,
+    "media": 60,
     "baja": 23
   },
   "alta": [
@@ -39,14 +39,14 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 32,
     "Seguros de salud (ARS)": 31,
-    "Laboratorios": 21,
+    "Regulación y gobierno": 31,
+    "Laboratorios": 20,
     "Farmacia": 14,
     "Seguros generales": 8
   },
   "por_tema": {
-    "Otros": 72,
+    "Otros": 71,
     "Regulación": 7,
     "Alertas sanitarias": 3,
     "Lanzamientos": 2,
@@ -124,15 +124,15 @@
       4
     ],
     [
-      "N Digital",
-      4
-    ],
-    [
       "CNSS",
       4
     ],
     [
       "Panorama",
+      3
+    ],
+    [
+      "Revista Mercado",
       3
     ]
   ],
