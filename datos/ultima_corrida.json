@@ -1,12 +1,12 @@
 {
   "corregidas": 0,
-  "descartadas": 1033,
+  "descartadas": 937,
   "errores": 0,
-  "fin": "2026-11-22T15:46:28-04:00",
+  "fin": "2026-11-23T03:47:06-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 45,
-      "leidos": 45,
+      "descartados": 8,
+      "leidos": 8,
       "nuevos": 0,
       "repetidos": 0
     },
@@ -29,34 +29,34 @@
       "repetidos": 10
     },
     "deultimominuto": {
-      "descartados": 10,
+      "descartados": 9,
       "leidos": 10,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "diariolibre_actualidad": {
+      "descartados": 30,
+      "leidos": 30,
+      "nuevos": 0,
+      "repetidos": 0
+    },
+    "diariolibre_economia": {
       "descartados": 29,
       "leidos": 30,
       "nuevos": 0,
       "repetidos": 1
     },
-    "diariolibre_economia": {
-      "descartados": 28,
-      "leidos": 30,
-      "nuevos": 0,
-      "repetidos": 2
-    },
     "diariolibre_portada": {
-      "descartados": 45,
-      "leidos": 45,
+      "descartados": 36,
+      "leidos": 36,
       "nuevos": 0,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 287,
-      "leidos": 292,
+      "descartados": 250,
+      "leidos": 254,
       "nuevos": 0,
-      "repetidos": 5
+      "repetidos": 4
     },
     "diariosalud": {
       "descartados": 14,
@@ -101,10 +101,10 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
-      "nuevos": 0,
-      "repetidos": 0
+      "descartados": 71,
+      "leidos": 73,
+      "nuevos": 1,
+      "repetidos": 1
     },
     "listin_economia": {
       "descartados": 97,
@@ -113,16 +113,16 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 95,
+      "descartados": 94,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 5
     },
     "listin_sitemap": {
-      "descartados": 190,
-      "leidos": 192,
-      "nuevos": 0,
-      "repetidos": 2
+      "descartados": 181,
+      "leidos": 183,
+      "nuevos": 1,
+      "repetidos": 1
     },
     "ndigital": {
       "descartados": 14,
@@ -157,8 +157,8 @@
     "revistamercado": {
       "descartados": 9,
       "leidos": 10,
-      "nuevos": 1,
-      "repetidos": 0
+      "nuevos": 0,
+      "repetidos": 1
     },
     "sis_documentos": {
       "descartados": 0,
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-22T15:46:15-04:00",
-  "nuevas": 1,
-  "repetidas": 117,
-  "total_historial": 354
+  "inicio": "2026-11-23T03:46:46-04:00",
+  "nuevas": 4,
+  "repetidas": 115,
+  "total_historial": 358
 }
