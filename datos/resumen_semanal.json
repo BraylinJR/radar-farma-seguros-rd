@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-11-16T00:00:00-04:00",
-    "fin": "2026-11-23T03:47:09-04:00",
+    "fin": "2026-11-23T19:58:37-04:00",
     "texto": "del 16 de noviembre de 2026 al 23 de noviembre de 2026"
   },
-  "total": 86,
-  "de_medios": 75,
-  "de_organismos": 11,
+  "total": 92,
+  "de_medios": 80,
+  "de_organismos": 12,
   "por_prioridad": {
-    "alta": 2,
-    "media": 60,
+    "alta": 3,
+    "media": 65,
     "baja": 24
   },
   "alta": [
+    {
+      "id": "cf137fb973dc",
+      "titulo": "Pro Consumidor decomisa productos peligrosos en negocios chinos",
+      "medio": "Diario Libre",
+      "enlace": "https://www.diariolibre.com/economia/negocios/2026/11/23/pro-consumidor-decomisa-productos-peligrosos-en-negocios-chinos/3729174",
+      "fecha": "2026-11-23T09:05:00-04:00",
+      "precision": "dia",
+      "tema": "Alertas sanitarias",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «registro sanitario»"
+    },
     {
       "id": "ed3b12ef0f32",
       "titulo": "Inician programa de profilaxis para niños con hemofilia en Santiago",
@@ -39,27 +51,27 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 32,
-    "Regulación y gobierno": 29,
-    "Laboratorios": 19,
+    "Seguros de salud (ARS)": 35,
+    "Regulación y gobierno": 31,
+    "Laboratorios": 20,
     "Farmacia": 14,
-    "Seguros generales": 9
+    "Seguros generales": 10
   },
   "por_tema": {
-    "Otros": 73,
+    "Otros": 76,
     "Regulación": 7,
-    "Alertas sanitarias": 2,
-    "Lanzamientos": 2,
-    "Precios": 2
+    "Alertas sanitarias": 4,
+    "Precios": 3,
+    "Lanzamientos": 2
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      19
+      22
     ],
     [
       "Pro Consumidor",
-      7
+      9
     ],
     [
       "DIDA",
@@ -97,27 +109,27 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      20
+      21
     ],
     [
       "Listín Diario",
-      13
+      14
     ],
     [
       "Acento",
-      9
+      11
     ],
     [
       "Hoy",
       7
     ],
     [
-      "elDinero",
+      "Revista Mercado",
       5
     ],
     [
-      "Revista Mercado",
-      4
+      "elDinero",
+      5
     ],
     [
       "Diario Salud",
@@ -137,6 +149,18 @@
     ]
   ],
   "regulatorias": [
+    {
+      "id": "123d832ea54f",
+      "titulo": "Pro Consumidor destruye más de 35 mil productos ilícitos decomisados en negocios chinos que ponían en riesgo la salud",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-destruye-mas-de-35-mil-productos-ilicitos-decomisados-en-negocios-chinos-que-ponian-en-riesgo-la-salud/",
+      "fecha": "2026-11-23T11:10:57-04:00",
+      "precision": "dia",
+      "tema": "Alertas sanitarias",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "6279810cb419",
       "titulo": "Superintendencia de Seguros y UNIBE ofrecerán curso internacional especializado en Ciencias Actuariales para No Actuarios",
