@@ -1,18 +1,30 @@
 {
   "periodo": {
-    "inicio": "2026-11-16T00:00:00-04:00",
-    "fin": "2026-11-23T19:58:37-04:00",
-    "texto": "del 16 de noviembre de 2026 al 23 de noviembre de 2026"
+    "inicio": "2026-11-17T00:00:00-04:00",
+    "fin": "2026-11-24T05:59:50-04:00",
+    "texto": "del 17 de noviembre de 2026 al 24 de noviembre de 2026"
   },
-  "total": 92,
-  "de_medios": 80,
-  "de_organismos": 12,
+  "total": 76,
+  "de_medios": 69,
+  "de_organismos": 7,
   "por_prioridad": {
     "alta": 3,
-    "media": 65,
-    "baja": 24
+    "media": 54,
+    "baja": 19
   },
   "alta": [
+    {
+      "id": "666e2e5e5581",
+      "titulo": "Accidentes de tránsito presionan la Seguridad Social con cuantiosas sumas",
+      "medio": "Listín Diario",
+      "enlace": "https://listindiario.com/la-republica/sector-salud/20261124/accidentes-transito-presionan-seguridad-social-cuantiosas-sumas_931233.html",
+      "fecha": "2026-11-24T00:00:00-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «FONAMAT»"
+    },
     {
       "id": "cf137fb973dc",
       "titulo": "Pro Consumidor decomisa productos peligrosos en negocios chinos",
@@ -36,42 +48,30 @@
       "tipo": "noticia",
       "prioridad": "alta",
       "motivo": "Menciona «medicamentos de alto costo»"
-    },
-    {
-      "id": "0930d34a2201",
-      "titulo": "Comisión bicameral estudia ocho propuestas para reformar la Seguridad Social",
-      "medio": "Noticias SIN",
-      "enlace": "https://noticiassin.com/pais/nacional/2026/11/16/comision-bicameral-estudia-reformas-a-la-seguridad-social-y-afp-2171236/",
-      "fecha": "2026-11-16T17:53:16-04:00",
-      "precision": "dia",
-      "tema": "Regulación",
-      "tipo": "noticia",
-      "prioridad": "alta",
-      "motivo": "Menciona «medicamentos de alto costo»"
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 35,
-    "Regulación y gobierno": 31,
-    "Laboratorios": 20,
-    "Farmacia": 14,
-    "Seguros generales": 10
+    "Seguros de salud (ARS)": 32,
+    "Regulación y gobierno": 22,
+    "Laboratorios": 19,
+    "Farmacia": 10,
+    "Seguros generales": 7
   },
   "por_tema": {
-    "Otros": 76,
-    "Regulación": 7,
+    "Otros": 62,
+    "Regulación": 6,
     "Alertas sanitarias": 4,
-    "Precios": 3,
+    "Precios": 2,
     "Lanzamientos": 2
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      22
+      20
     ],
     [
       "Pro Consumidor",
-      9
+      6
     ],
     [
       "DIDA",
@@ -82,15 +82,7 @@
       5
     ],
     [
-      "SIPEN",
-      4
-    ],
-    [
       "SISALRIL",
-      4
-    ],
-    [
-      "CNSS",
       4
     ],
     [
@@ -98,18 +90,26 @@
       3
     ],
     [
-      "Farmacias del Pueblo",
+      "SIPEN",
       3
     ],
     [
-      "Promese/Cal",
-      3
+      "Ministerio de Salud Pública",
+      2
+    ],
+    [
+      "Farmacia Carol",
+      2
+    ],
+    [
+      "CNSS",
+      2
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      21
+      20
     ],
     [
       "Listín Diario",
@@ -117,35 +117,35 @@
     ],
     [
       "Acento",
-      11
+      8
     ],
     [
       "Hoy",
-      7
-    ],
-    [
-      "Revista Mercado",
-      5
-    ],
-    [
-      "elDinero",
-      5
+      6
     ],
     [
       "Diario Salud",
       4
     ],
     [
-      "SISALRIL",
+      "Revista Mercado",
       4
     ],
     [
-      "CNSS",
+      "elDinero",
       4
     ],
     [
       "Panorama",
       3
+    ],
+    [
+      "SISALRIL",
+      3
+    ],
+    [
+      "El Nuevo Diario",
+      2
     ]
   ],
   "regulatorias": [
@@ -215,54 +215,6 @@
       "medio": "SISALRIL",
       "enlace": "https://www.sisalril.gob.do/sisalril-da-la-bienvenida-a-la-navidad-con-un-llamado-a-mantener-el-compromiso-con-la-salud-del-pueblo-dominicano/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-da-la-bienvenida-a-la-navidad-con-un-llamado-a-mantener-el-compromiso-con-la-salud-del-pueblo-dominicano",
       "fecha": "2026-11-17T11:14:19-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "5f8648de6d1b",
-      "titulo": "PROMESE/CAL licita RD$1,251 millones para cubrir necesidades de hospitales y Farmacias del Pueblo hasta junio de 2027",
-      "medio": "Promese/Cal",
-      "enlace": "https://promesecal.gob.do/noticias/promese-cal-licita-rd1251-millones-para-cubrir-necesidades-de-hospitales-y-farmacias-del-pueblo-hasta-junio-de-2027/",
-      "fecha": "2026-11-16T15:38:40-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "dd212f547bd4",
-      "titulo": "Pro Consumidor redobla la vigilancia contra las ofertas engañosas del Viernes Negro",
-      "medio": "Pro Consumidor",
-      "enlace": "https://proconsumidor.gob.do/pro-consumidor-redobla-la-vigilancia-contra-las-ofertas-enganosas-del-viernes-negro/",
-      "fecha": "2026-11-16T10:08:47-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "e21b1176394d",
-      "titulo": "SISALRIL destaca la protección de datos de salud como garantía de los derechos de los afiliados",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-destaca-la-proteccion-de-datos-de-salud-como-garantia-de-los-derechos-de-los-afiliados",
-      "fecha": "2026-11-16T10:01:04-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "7ad5e8de6cf3",
-      "titulo": "CNSS concluye Semana de la Calidad 2026 con actividades para fortalecer la excelencia institucional",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-concluye-semana-de-la-calidad-2026-con-actividades-para-fortalecer-la-excelencia-institucional/",
-      "fecha": "2026-11-16T08:16:37-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
