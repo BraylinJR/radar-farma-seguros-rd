@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-11-17T00:00:00-04:00",
-    "fin": "2026-11-24T05:59:50-04:00",
+    "fin": "2026-11-24T18:31:55-04:00",
     "texto": "del 17 de noviembre de 2026 al 24 de noviembre de 2026"
   },
-  "total": 76,
-  "de_medios": 69,
-  "de_organismos": 7,
+  "total": 84,
+  "de_medios": 76,
+  "de_organismos": 8,
   "por_prioridad": {
-    "alta": 3,
-    "media": 54,
-    "baja": 19
+    "alta": 4,
+    "media": 59,
+    "baja": 21
   },
   "alta": [
+    {
+      "id": "42d435a17e9f",
+      "titulo": "Megatiendas chinas en RD: por qué los comerciantes dominicanos piden reglas parejas para competir",
+      "medio": "Revista Mercado",
+      "enlace": "https://revistamercado.do/empresas/megatiendas-chinas-rd-comerciantes-reglas-parejas/?utm_source=rss&utm_medium=rss&utm_campaign=megatiendas-chinas-rd-comerciantes-reglas-parejas",
+      "fecha": "2026-11-24T17:02:49-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «registro sanitario»"
+    },
     {
       "id": "666e2e5e5581",
       "titulo": "Accidentes de tránsito presionan la Seguridad Social con cuantiosas sumas",
@@ -51,27 +63,27 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 32,
-    "Regulación y gobierno": 22,
-    "Laboratorios": 19,
+    "Seguros de salud (ARS)": 33,
+    "Regulación y gobierno": 25,
+    "Laboratorios": 23,
     "Farmacia": 10,
-    "Seguros generales": 7
+    "Seguros generales": 9
   },
   "por_tema": {
-    "Otros": 62,
-    "Regulación": 6,
+    "Otros": 67,
+    "Regulación": 8,
     "Alertas sanitarias": 4,
-    "Precios": 2,
+    "Precios": 3,
     "Lanzamientos": 2
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      20
+      21
     ],
     [
       "Pro Consumidor",
-      6
+      8
     ],
     [
       "DIDA",
@@ -80,6 +92,10 @@
     [
       "INFADOMI",
       5
+    ],
+    [
+      "Ministerio de Salud Pública",
+      4
     ],
     [
       "SISALRIL",
@@ -94,15 +110,11 @@
       3
     ],
     [
-      "Ministerio de Salud Pública",
+      "Superintendencia de Seguros",
       2
     ],
     [
       "Farmacia Carol",
-      2
-    ],
-    [
-      "CNSS",
       2
     ]
   ],
@@ -113,27 +125,31 @@
     ],
     [
       "Listín Diario",
-      14
+      15
     ],
     [
       "Acento",
-      8
+      10
     ],
     [
       "Hoy",
       6
     ],
     [
-      "Diario Salud",
-      4
+      "Revista Mercado",
+      5
     ],
     [
-      "Revista Mercado",
-      4
+      "Diario Salud",
+      5
     ],
     [
       "elDinero",
       4
+    ],
+    [
+      "N Digital",
+      3
     ],
     [
       "Panorama",
@@ -142,13 +158,21 @@
     [
       "SISALRIL",
       3
-    ],
-    [
-      "El Nuevo Diario",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "3b841e13d56a",
+      "titulo": "Superintendencia de Seguros formaliza compromiso institucional para prevenir y erradicar las violencias de género",
+      "medio": "Superintendencia de Seguros",
+      "enlace": "https://sis.gob.do/noticias/superintendencia-de-seguros-formaliza-compromiso-institucional-para-prevenir-y-erradicar-las-violencias-de-genero/",
+      "fecha": "2026-11-24T17:13:37-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "123d832ea54f",
       "titulo": "Pro Consumidor destruye más de 35 mil productos ilícitos decomisados en negocios chinos que ponían en riesgo la salud",
