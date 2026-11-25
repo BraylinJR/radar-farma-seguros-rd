@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-18T00:00:00-04:00",
-    "fin": "2026-11-25T04:43:50-04:00",
+    "fin": "2026-11-25T17:46:41-04:00",
     "texto": "del 18 de noviembre de 2026 al 25 de noviembre de 2026"
   },
-  "total": 78,
-  "de_medios": 71,
-  "de_organismos": 7,
+  "total": 82,
+  "de_medios": 74,
+  "de_organismos": 8,
   "por_prioridad": {
     "alta": 4,
-    "media": 54,
-    "baja": 20
+    "media": 57,
+    "baja": 21
   },
   "alta": [
     {
@@ -63,17 +63,17 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 28,
-    "Regulación y gobierno": 25,
-    "Laboratorios": 23,
-    "Farmacia": 9,
-    "Seguros generales": 8
+    "Seguros de salud (ARS)": 30,
+    "Regulación y gobierno": 26,
+    "Laboratorios": 24,
+    "Farmacia": 10,
+    "Seguros generales": 9
   },
   "por_tema": {
-    "Otros": 66,
-    "Regulación": 4,
+    "Otros": 68,
+    "Regulación": 5,
+    "Alertas sanitarias": 4,
     "Precios": 3,
-    "Alertas sanitarias": 3,
     "Lanzamientos": 2
   },
   "empresas_mas_mencionadas": [
@@ -94,16 +94,16 @@
       5
     ],
     [
-      "Ministerio de Salud Pública",
+      "Farmacia Carol",
       4
     ],
     [
-      "Farmacia Carol",
-      3
+      "SISALRIL",
+      4
     ],
     [
-      "SISALRIL",
-      3
+      "Ministerio de Salud Pública",
+      4
     ],
     [
       "Colegio Médico Dominicano",
@@ -129,19 +129,23 @@
     ],
     [
       "Acento",
-      9
+      10
+    ],
+    [
+      "Diario Salud",
+      6
     ],
     [
       "Revista Mercado",
       5
     ],
     [
-      "Diario Salud",
-      5
-    ],
-    [
       "Hoy",
       4
+    ],
+    [
+      "SISALRIL",
+      3
     ],
     [
       "El Día",
@@ -154,13 +158,21 @@
     [
       "elDinero",
       3
-    ],
-    [
-      "Superintendencia de Seguros",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "1c5029b3e6ef",
+      "titulo": "SISALRIL avanza hacia la certificación de sus sistemas de cumplimiento normativo y antisoborno",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-avanza-hacia-la-certificacion-de-sus-sistemas-de-cumplimiento-normativo-y-antisoborno/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-avanza-hacia-la-certificacion-de-sus-sistemas-de-cumplimiento-normativo-y-antisoborno",
+      "fecha": "2026-11-25T09:59:45-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "3b841e13d56a",
       "titulo": "Superintendencia de Seguros formaliza compromiso institucional para prevenir y erradicar las violencias de género",

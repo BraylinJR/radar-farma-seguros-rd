@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T04:43:45-04:00",
+  "actualizado": "2026-11-25T17:46:38-04:00",
   "fuente": "Banco Central de la República Dominicana",
   "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
   "tarjetas": [
@@ -216,17 +216,13 @@
     {
       "id": "imae",
       "nombre": "Actividad económica (IMAE)",
-      "valor": 5.6,
+      "valor": 5.4,
       "decimales": 1,
-      "texto_valor": "5.6 %",
-      "periodo": "septiembre 2026 · preliminar",
-      "comparacion": "Ene–sep: 4.6 % · agosto: 3.8 %",
-      "direccion": "sube",
+      "texto_valor": "5.4 %",
+      "periodo": "octubre 2026 · preliminar",
+      "comparacion": "Septiembre: 5.6 % · ene–sep: 4.6 %",
+      "direccion": "baja",
       "serie": [
-        {
-          "etiqueta": "sep 2025",
-          "valor": 1.1
-        },
         {
           "etiqueta": "oct 2025",
           "valor": 0.2
@@ -274,14 +270,20 @@
         {
           "etiqueta": "sep 2026",
           "valor": 5.6
+        },
+        {
+          "etiqueta": "oct 2026",
+          "valor": 5.4
         }
       ],
       "fuente": {
         "nombre": "BCRD · Indicador Mensual de Actividad Económica (IMAE, base 2018)",
         "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx",
-        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real"
+        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real",
+        "nota": "https://www.bancentral.gov.do/a/d/6727"
       },
-      "desactualizado": false
+      "desactualizado": false,
+      "aclaracion": "Dato de la nota de prensa del BCRD del 2026-11-25; el archivo de datos aún no incluye octubre."
     },
     {
       "id": "salud_actividad",
