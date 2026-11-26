@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-18T00:00:00-04:00",
-    "fin": "2026-11-25T17:46:41-04:00",
-    "texto": "del 18 de noviembre de 2026 al 25 de noviembre de 2026"
+    "inicio": "2026-11-19T00:00:00-04:00",
+    "fin": "2026-11-26T04:29:08-04:00",
+    "texto": "del 19 de noviembre de 2026 al 26 de noviembre de 2026"
   },
-  "total": 82,
-  "de_medios": 74,
-  "de_organismos": 8,
+  "total": 72,
+  "de_medios": 67,
+  "de_organismos": 5,
   "por_prioridad": {
     "alta": 4,
-    "media": 57,
-    "baja": 21
+    "media": 49,
+    "baja": 19
   },
   "alta": [
     {
@@ -63,50 +63,42 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 30,
-    "Regulación y gobierno": 26,
-    "Laboratorios": 24,
-    "Farmacia": 10,
-    "Seguros generales": 9
+    "Seguros de salud (ARS)": 29,
+    "Laboratorios": 23,
+    "Regulación y gobierno": 21,
+    "Seguros generales": 8,
+    "Farmacia": 8
   },
   "por_tema": {
-    "Otros": 68,
+    "Otros": 59,
     "Regulación": 5,
     "Alertas sanitarias": 4,
     "Precios": 3,
-    "Lanzamientos": 2
+    "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      17
+      14
     ],
     [
       "Pro Consumidor",
-      8
+      7
     ],
     [
       "DIDA",
-      6
+      5
     ],
     [
       "INFADOMI",
       5
     ],
     [
-      "Farmacia Carol",
-      4
-    ],
-    [
-      "SISALRIL",
-      4
-    ],
-    [
       "Ministerio de Salud Pública",
       4
     ],
     [
-      "Colegio Médico Dominicano",
+      "SISALRIL",
       3
     ],
     [
@@ -114,18 +106,26 @@
       3
     ],
     [
+      "Farmacia Carol",
+      2
+    ],
+    [
       "Superintendencia de Seguros",
       2
+    ],
+    [
+      "CADOAR",
+      1
     ]
   ],
   "medios_mas_activos": [
     [
       "Listín Diario",
-      17
+      14
     ],
     [
       "Diario Libre",
-      17
+      13
     ],
     [
       "Acento",
@@ -140,11 +140,11 @@
       5
     ],
     [
-      "Hoy",
+      "elDinero",
       4
     ],
     [
-      "SISALRIL",
+      "Panorama",
       3
     ],
     [
@@ -152,12 +152,12 @@
       3
     ],
     [
-      "N Digital",
+      "Hoy",
       3
     ],
     [
-      "elDinero",
-      3
+      "SISALRIL",
+      2
     ]
   ],
   "regulatorias": [
@@ -217,30 +217,6 @@
       "fecha": "2026-11-19T14:24:11-04:00",
       "precision": "dia",
       "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "465069f5f98e",
-      "titulo": "CNSS recibe misión del Fondo Monetario Internacional",
-      "medio": "CNSS",
-      "enlace": "https://cnss.gob.do/noticias/cnss-recibe-mision-del-fondo-monetario-internacional/",
-      "fecha": "2026-11-18T11:17:53-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "6150638b9d3c",
-      "titulo": "SISALRIL lanza nuevo sistema de gestión de peticiones y reclamos de usuarios en tiempo real",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-lanza-nuevo-sistema-de-gestion-de-peticiones-y-reclamos-de-usuarios-en-tiempo-real/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-lanza-nuevo-sistema-de-gestion-de-peticiones-y-reclamos-de-usuarios-en-tiempo-real",
-      "fecha": "2026-11-18T10:07:06-04:00",
-      "precision": "dia",
-      "tema": "Lanzamientos",
       "tipo": "noticia",
       "prioridad": "media",
       "motivo": "Noticia del sector"

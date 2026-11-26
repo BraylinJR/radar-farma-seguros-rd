@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T17:46:38-04:00",
+  "actualizado": "2026-11-26T04:29:05-04:00",
   "fuente": "Banco Central de la República Dominicana",
   "pagina_fuente": "https://www.bancentral.gov.do/a/d/2533-sector-real",
   "tarjetas": [
@@ -220,56 +220,56 @@
       "decimales": 1,
       "texto_valor": "5.4 %",
       "periodo": "octubre 2026 · preliminar",
-      "comparacion": "Septiembre: 5.6 % · ene–sep: 4.6 %",
+      "comparacion": "Ene–oct: 4.7 % · septiembre: 5.7 %",
       "direccion": "baja",
       "serie": [
         {
           "etiqueta": "oct 2025",
-          "valor": 0.2
+          "valor": -0.1
         },
         {
           "etiqueta": "nov 2025",
-          "valor": 3.2
+          "valor": 3.7
         },
         {
           "etiqueta": "dic 2025",
-          "valor": 2.3
+          "valor": 2.7
         },
         {
           "etiqueta": "ene 2026",
-          "valor": 3.5
+          "valor": 3.1
         },
         {
           "etiqueta": "feb 2026",
-          "valor": 3.9
+          "valor": 3.6
         },
         {
           "etiqueta": "mar 2026",
-          "valor": 5.1
+          "valor": 5.4
         },
         {
           "etiqueta": "abr 2026",
-          "valor": 3.8
+          "valor": 3.6
         },
         {
           "etiqueta": "may 2026",
-          "valor": 4.7
-        },
-        {
-          "etiqueta": "jun 2026",
-          "valor": 6.4
-        },
-        {
-          "etiqueta": "jul 2026",
           "valor": 4.6
         },
         {
+          "etiqueta": "jun 2026",
+          "valor": 6.6
+        },
+        {
+          "etiqueta": "jul 2026",
+          "valor": 4.7
+        },
+        {
           "etiqueta": "ago 2026",
-          "valor": 3.8
+          "valor": 4.4
         },
         {
           "etiqueta": "sep 2026",
-          "valor": 5.6
+          "valor": 5.7
         },
         {
           "etiqueta": "oct 2026",
@@ -279,53 +279,51 @@
       "fuente": {
         "nombre": "BCRD · Indicador Mensual de Actividad Económica (IMAE, base 2018)",
         "archivo": "https://cdn.bancentral.gov.do/documents/estadisticas/sector-real/documents/imae_2018.xlsx",
-        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real",
-        "nota": "https://www.bancentral.gov.do/a/d/6727"
+        "pagina": "https://www.bancentral.gov.do/a/d/2533-sector-real"
       },
-      "desactualizado": false,
-      "aclaracion": "Dato de la nota de prensa del BCRD del 2026-11-25; el archivo de datos aún no incluye octubre."
+      "desactualizado": false
     },
     {
       "id": "salud_actividad",
       "nombre": "Actividad salud (PIB real)",
-      "valor": 5.2,
+      "valor": 2.2,
       "decimales": 1,
-      "texto_valor": "5.2 %",
+      "texto_valor": "2.2 %",
       "periodo": "abr–jun 2026 · preliminar",
-      "comparacion": "Ene–mar 2026: 6.1 %",
-      "direccion": "baja",
+      "comparacion": "Ene–mar 2026: 2.0 %",
+      "direccion": "sube",
       "serie": [
         {
           "etiqueta": "T3 2024",
-          "valor": 4.2
+          "valor": 5.0
         },
         {
           "etiqueta": "T4 2024",
-          "valor": 4.2
-        },
-        {
-          "etiqueta": "T1 2025",
           "valor": 2.7
         },
         {
+          "etiqueta": "T1 2025",
+          "valor": 4.7
+        },
+        {
           "etiqueta": "T2 2025",
-          "valor": 0.1
+          "valor": 1.5
         },
         {
           "etiqueta": "T3 2025",
-          "valor": -2.2
+          "valor": 0.6
         },
         {
           "etiqueta": "T4 2025",
-          "valor": -1.5
+          "valor": -0.1
         },
         {
           "etiqueta": "T1 2026",
-          "valor": 6.1
+          "valor": 2.0
         },
         {
           "etiqueta": "T2 2026",
-          "valor": 5.2
+          "valor": 2.2
         }
       ],
       "fuente": {
