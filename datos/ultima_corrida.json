@@ -1,20 +1,20 @@
 {
   "corregidas": 0,
-  "descartadas": 1313,
+  "descartadas": 1339,
   "errores": 0,
-  "fin": "2026-11-26T04:29:05-04:00",
+  "fin": "2026-11-26T17:39:23-04:00",
   "fuentes": {
     "acento_sitemap": {
-      "descartados": 6,
-      "leidos": 6,
-      "nuevos": 0,
-      "repetidos": 0
-    },
-    "arecoa": {
-      "descartados": 9,
-      "leidos": 10,
+      "descartados": 75,
+      "leidos": 76,
       "nuevos": 0,
       "repetidos": 1
+    },
+    "arecoa": {
+      "descartados": 10,
+      "leidos": 10,
+      "nuevos": 0,
+      "repetidos": 0
     },
     "cnss_normativas": {
       "descartados": 0,
@@ -25,8 +25,8 @@
     "cnss_noticias": {
       "descartados": 0,
       "leidos": 10,
-      "nuevos": 0,
-      "repetidos": 10
+      "nuevos": 1,
+      "repetidos": 9
     },
     "deultimominuto": {
       "descartados": 10,
@@ -35,34 +35,34 @@
       "repetidos": 0
     },
     "diariolibre_actualidad": {
-      "descartados": 30,
-      "leidos": 30,
-      "nuevos": 0,
-      "repetidos": 0
-    },
-    "diariolibre_economia": {
-      "descartados": 29,
+      "descartados": 27,
       "leidos": 30,
       "nuevos": 1,
-      "repetidos": 0
+      "repetidos": 2
+    },
+    "diariolibre_economia": {
+      "descartados": 28,
+      "leidos": 30,
+      "nuevos": 1,
+      "repetidos": 1
     },
     "diariolibre_portada": {
-      "descartados": 57,
-      "leidos": 57,
-      "nuevos": 0,
+      "descartados": 44,
+      "leidos": 46,
+      "nuevos": 2,
       "repetidos": 0
     },
     "diariolibre_sitemap": {
-      "descartados": 513,
-      "leidos": 519,
-      "nuevos": 1,
-      "repetidos": 5
+      "descartados": 491,
+      "leidos": 499,
+      "nuevos": 0,
+      "repetidos": 8
     },
     "diariosalud": {
-      "descartados": 13,
+      "descartados": 14,
       "leidos": 16,
       "nuevos": 1,
-      "repetidos": 2
+      "repetidos": 1
     },
     "digemaps_alertas": {
       "descartados": 0,
@@ -77,15 +77,15 @@
       "repetidos": 10
     },
     "eldia": {
-      "descartados": 15,
+      "descartados": 12,
       "leidos": 15,
-      "nuevos": 0,
-      "repetidos": 0
+      "nuevos": 2,
+      "repetidos": 1
     },
     "eldinero": {
-      "descartados": 19,
+      "descartados": 20,
       "leidos": 20,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "elnuevodiario": {
@@ -101,9 +101,9 @@
       "repetidos": 0
     },
     "hoy_portada": {
-      "descartados": 75,
-      "leidos": 75,
-      "nuevos": 0,
+      "descartados": 72,
+      "leidos": 73,
+      "nuevos": 1,
       "repetidos": 0
     },
     "listin_economia": {
@@ -113,9 +113,9 @@
       "repetidos": 3
     },
     "listin_la_republica": {
-      "descartados": 96,
+      "descartados": 95,
       "leidos": 100,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 4
     },
     "listin_sitemap": {
@@ -125,9 +125,9 @@
       "repetidos": 3
     },
     "ndigital": {
-      "descartados": 14,
+      "descartados": 13,
       "leidos": 14,
-      "nuevos": 0,
+      "nuevos": 1,
       "repetidos": 0
     },
     "noticiassin": {
@@ -137,16 +137,16 @@
       "repetidos": 0
     },
     "panorama": {
-      "descartados": 9,
+      "descartados": 10,
       "leidos": 10,
-      "nuevos": 1,
+      "nuevos": 0,
       "repetidos": 0
     },
     "proconsumidor_noticias": {
       "descartados": 0,
       "leidos": 5,
-      "nuevos": 0,
-      "repetidos": 5
+      "nuevos": 1,
+      "repetidos": 4
     },
     "promesecal_noticias": {
       "descartados": 0,
@@ -162,9 +162,9 @@
     },
     "sis_documentos": {
       "descartados": 0,
-      "leidos": 21,
+      "leidos": 19,
       "nuevos": 0,
-      "repetidos": 21
+      "repetidos": 19
     },
     "sis_noticias": {
       "descartados": 0,
@@ -179,8 +179,8 @@
       "repetidos": 10
     }
   },
-  "inicio": "2026-11-26T04:28:43-04:00",
-  "nuevas": 5,
-  "repetidas": 115,
-  "total_historial": 389
+  "inicio": "2026-11-26T17:39:03-04:00",
+  "nuevas": 12,
+  "repetidas": 117,
+  "total_historial": 401
 }

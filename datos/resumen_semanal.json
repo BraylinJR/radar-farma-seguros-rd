@@ -1,18 +1,30 @@
 {
   "periodo": {
     "inicio": "2026-11-19T00:00:00-04:00",
-    "fin": "2026-11-26T04:29:08-04:00",
+    "fin": "2026-11-26T17:39:25-04:00",
     "texto": "del 19 de noviembre de 2026 al 26 de noviembre de 2026"
   },
-  "total": 72,
-  "de_medios": 67,
-  "de_organismos": 5,
+  "total": 84,
+  "de_medios": 77,
+  "de_organismos": 7,
   "por_prioridad": {
-    "alta": 4,
-    "media": 49,
-    "baja": 19
+    "alta": 5,
+    "media": 57,
+    "baja": 22
   },
   "alta": [
+    {
+      "id": "042ff48f15fe",
+      "titulo": "Elías Báez denuncia cobro indebido a paciente accidentado",
+      "medio": "Diario Libre",
+      "enlace": "https://www.diariolibre.com/actualidad/salud/2026/11/26/elias-baez-denuncia-cobro-indebido-a-paciente-accidentado/3732271",
+      "fecha": "2026-11-26T05:07:00-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "alta",
+      "motivo": "Menciona «FONAMAT»"
+    },
     {
       "id": "42d435a17e9f",
       "titulo": "Megatiendas chinas en RD: por qué los comerciantes dominicanos piden reglas parejas para competir",
@@ -63,31 +75,35 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 29,
-    "Laboratorios": 23,
-    "Regulación y gobierno": 21,
+    "Seguros de salud (ARS)": 36,
+    "Regulación y gobierno": 29,
+    "Laboratorios": 24,
     "Seguros generales": 8,
     "Farmacia": 8
   },
   "por_tema": {
-    "Otros": 59,
-    "Regulación": 5,
-    "Alertas sanitarias": 4,
+    "Otros": 68,
+    "Regulación": 7,
+    "Alertas sanitarias": 5,
     "Precios": 3,
     "Lanzamientos": 1
   },
   "empresas_mas_mencionadas": [
     [
       "SeNaSa",
-      14
+      15
     ],
     [
       "Pro Consumidor",
-      7
+      10
+    ],
+    [
+      "SISALRIL",
+      6
     ],
     [
       "DIDA",
-      5
+      6
     ],
     [
       "INFADOMI",
@@ -98,12 +114,12 @@
       4
     ],
     [
-      "SISALRIL",
+      "SIPEN",
       3
     ],
     [
-      "SIPEN",
-      3
+      "ARS Semma",
+      2
     ],
     [
       "Farmacia Carol",
@@ -112,20 +128,16 @@
     [
       "Superintendencia de Seguros",
       2
-    ],
-    [
-      "CADOAR",
-      1
     ]
   ],
   "medios_mas_activos": [
     [
-      "Listín Diario",
-      14
+      "Diario Libre",
+      17
     ],
     [
-      "Diario Libre",
-      13
+      "Listín Diario",
+      15
     ],
     [
       "Acento",
@@ -133,34 +145,46 @@
     ],
     [
       "Diario Salud",
-      6
+      7
+    ],
+    [
+      "El Día",
+      5
     ],
     [
       "Revista Mercado",
       5
     ],
     [
+      "Hoy",
+      4
+    ],
+    [
       "elDinero",
       4
     ],
     [
+      "N Digital",
+      3
+    ],
+    [
       "Panorama",
       3
-    ],
-    [
-      "El Día",
-      3
-    ],
-    [
-      "Hoy",
-      3
-    ],
-    [
-      "SISALRIL",
-      2
     ]
   ],
   "regulatorias": [
+    {
+      "id": "69111facfa60",
+      "titulo": "Pro Consumidor sanciona a otros ocho comercios de capital chino",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-sanciona-a-otros-ocho-comercios-de-capital-chino/",
+      "fecha": "2026-11-26T12:33:35-04:00",
+      "precision": "dia",
+      "tema": "Regulación",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "1c5029b3e6ef",
       "titulo": "SISALRIL avanza hacia la certificación de sus sistemas de cumplimiento normativo y antisoborno",
