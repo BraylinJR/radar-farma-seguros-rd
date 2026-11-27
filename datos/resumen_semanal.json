@@ -1,16 +1,16 @@
 {
   "periodo": {
     "inicio": "2026-11-20T00:00:00-04:00",
-    "fin": "2026-11-27T04:43:03-04:00",
+    "fin": "2026-11-27T17:23:51-04:00",
     "texto": "del 20 de noviembre de 2026 al 27 de noviembre de 2026"
   },
-  "total": 68,
-  "de_medios": 62,
-  "de_organismos": 6,
+  "total": 77,
+  "de_medios": 66,
+  "de_organismos": 11,
   "por_prioridad": {
     "alta": 5,
-    "media": 44,
-    "baja": 19
+    "media": 49,
+    "baja": 23
   },
   "alta": [
     {
@@ -75,30 +75,30 @@
     }
   ],
   "por_sector": {
-    "Regulación y gobierno": 27,
-    "Seguros de salud (ARS)": 25,
-    "Laboratorios": 21,
+    "Regulación y gobierno": 35,
+    "Seguros de salud (ARS)": 29,
+    "Laboratorios": 22,
     "Seguros generales": 7,
     "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 54,
+    "Otros": 62,
     "Regulación": 7,
     "Alertas sanitarias": 5,
-    "Precios": 2
+    "Precios": 3
   },
   "empresas_mas_mencionadas": [
     [
       "Pro Consumidor",
+      13
+    ],
+    [
+      "SISALRIL",
       10
     ],
     [
       "SeNaSa",
       8
-    ],
-    [
-      "SISALRIL",
-      5
     ],
     [
       "DIDA",
@@ -132,7 +132,7 @@
   "medios_mas_activos": [
     [
       "Diario Libre",
-      14
+      15
     ],
     [
       "Listín Diario",
@@ -140,10 +140,14 @@
     ],
     [
       "Diario Salud",
-      6
+      8
     ],
     [
       "Acento",
+      6
+    ],
+    [
+      "SISALRIL",
       5
     ],
     [
@@ -159,19 +163,51 @@
       4
     ],
     [
-      "N Digital",
+      "Pro Consumidor",
       3
     ],
     [
-      "Pro Consumidor",
-      2
-    ],
-    [
-      "elDinero",
-      2
+      "N Digital",
+      3
     ]
   ],
   "regulatorias": [
+    {
+      "id": "f25daa46ddb1",
+      "titulo": "Pro Consumidor moviliza más de 100 inspectores para vigilar las ofertas del Viernes Negro",
+      "medio": "Pro Consumidor",
+      "enlace": "https://proconsumidor.gob.do/pro-consumidor-moviliza-mas-de-100-inspectores-para-vigilar-las-ofertas-del-viernes-negro/",
+      "fecha": "2026-11-27T10:59:48-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "2daca1b01092",
+      "titulo": "SISALRIL Y OGTIC ACERCAN LOS SERVICIOS DE SALUD Y RIESGOS LABORALES A COMUNITARIOS DE SDN",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/sisalril-y-ogtic-acercan-los-servicios-de-salud-y-riesgos-laborales-a-comunitarios-de-sdn/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-y-ogtic-acercan-los-servicios-de-salud-y-riesgos-laborales-a-comunitarios-de-sdn",
+      "fecha": "2026-11-27T10:29:27-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
+    {
+      "id": "5c7ee120273e",
+      "titulo": "Miguel Ceara destaca en la CISS avances en interoperabilidad para evitar que afiliados carguen trámites entre instituciones",
+      "medio": "SISALRIL",
+      "enlace": "https://www.sisalril.gob.do/miguel-ceara-destaca-en-la-ciss-avances-en-interoperabilidad-para-evitar-que-afiliados-carguen-tramites-entre-instituciones/?utm_source=rss&utm_medium=rss&utm_campaign=miguel-ceara-destaca-en-la-ciss-avances-en-interoperabilidad-para-evitar-que-afiliados-carguen-tramites-entre-instituciones",
+      "fecha": "2026-11-27T10:25:14-04:00",
+      "precision": "dia",
+      "tema": "Otros",
+      "tipo": "noticia",
+      "prioridad": "media",
+      "motivo": "Noticia del sector"
+    },
     {
       "id": "69111facfa60",
       "titulo": "Pro Consumidor sanciona a otros ocho comercios de capital chino",
