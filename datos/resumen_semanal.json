@@ -1,16 +1,16 @@
 {
   "periodo": {
-    "inicio": "2026-11-19T00:00:00-04:00",
-    "fin": "2026-11-26T17:39:25-04:00",
-    "texto": "del 19 de noviembre de 2026 al 26 de noviembre de 2026"
+    "inicio": "2026-11-20T00:00:00-04:00",
+    "fin": "2026-11-27T04:43:03-04:00",
+    "texto": "del 20 de noviembre de 2026 al 27 de noviembre de 2026"
   },
-  "total": 84,
-  "de_medios": 77,
-  "de_organismos": 7,
+  "total": 68,
+  "de_medios": 62,
+  "de_organismos": 6,
   "por_prioridad": {
     "alta": 5,
-    "media": 57,
-    "baja": 22
+    "media": 44,
+    "baja": 19
   },
   "alta": [
     {
@@ -75,38 +75,33 @@
     }
   ],
   "por_sector": {
-    "Seguros de salud (ARS)": 36,
-    "Regulación y gobierno": 29,
-    "Laboratorios": 24,
-    "Seguros generales": 8,
-    "Farmacia": 8
+    "Regulación y gobierno": 27,
+    "Seguros de salud (ARS)": 25,
+    "Laboratorios": 21,
+    "Seguros generales": 7,
+    "Farmacia": 5
   },
   "por_tema": {
-    "Otros": 68,
+    "Otros": 54,
     "Regulación": 7,
     "Alertas sanitarias": 5,
-    "Precios": 3,
-    "Lanzamientos": 1
+    "Precios": 2
   },
   "empresas_mas_mencionadas": [
-    [
-      "SeNaSa",
-      15
-    ],
     [
       "Pro Consumidor",
       10
     ],
     [
+      "SeNaSa",
+      8
+    ],
+    [
       "SISALRIL",
-      6
+      5
     ],
     [
       "DIDA",
-      6
-    ],
-    [
-      "INFADOMI",
       5
     ],
     [
@@ -114,12 +109,12 @@
       4
     ],
     [
-      "SIPEN",
+      "ARS Semma",
       3
     ],
     [
-      "ARS Semma",
-      2
+      "SIPEN",
+      3
     ],
     [
       "Farmacia Carol",
@@ -128,27 +123,27 @@
     [
       "Superintendencia de Seguros",
       2
+    ],
+    [
+      "INFADOMI",
+      2
     ]
   ],
   "medios_mas_activos": [
     [
       "Diario Libre",
-      17
+      14
     ],
     [
       "Listín Diario",
-      15
-    ],
-    [
-      "Acento",
-      10
+      13
     ],
     [
       "Diario Salud",
-      7
+      6
     ],
     [
-      "El Día",
+      "Acento",
       5
     ],
     [
@@ -160,7 +155,7 @@
       4
     ],
     [
-      "elDinero",
+      "El Día",
       4
     ],
     [
@@ -168,8 +163,12 @@
       3
     ],
     [
-      "Panorama",
-      3
+      "Pro Consumidor",
+      2
+    ],
+    [
+      "elDinero",
+      2
     ]
   ],
   "regulatorias": [
@@ -227,18 +226,6 @@
       "medio": "Superintendencia de Seguros",
       "enlace": "https://sis.gob.do/noticias/superintendencia-de-seguros-y-unibe-ofreceran-curso-internacional-especializado-en-ciencias-actuariales-para-no-actuarios/",
       "fecha": "2026-11-20T14:50:46-04:00",
-      "precision": "dia",
-      "tema": "Otros",
-      "tipo": "noticia",
-      "prioridad": "media",
-      "motivo": "Noticia del sector"
-    },
-    {
-      "id": "3d8fdf3f88dd",
-      "titulo": "SISALRIL presenta avances en Evaluación de Tecnologías Sanitarias en Perú",
-      "medio": "SISALRIL",
-      "enlace": "https://www.sisalril.gob.do/sisalril-presenta-avances-en-evaluacion-de-tecnologias-sanitarias-en-peru/?utm_source=rss&utm_medium=rss&utm_campaign=sisalril-presenta-avances-en-evaluacion-de-tecnologias-sanitarias-en-peru",
-      "fecha": "2026-11-19T14:24:11-04:00",
       "precision": "dia",
       "tema": "Otros",
       "tipo": "noticia",
